@@ -7,6 +7,6 @@ services:
     startCommand: cd portal && gunicorn app:app --workers 2 --bind 0.0.0.0:$PORT
     envVars:
       - key: PYTHON_VERSION
-        value: "3.10.12"
+        value: "3.9.6"
       - key: STRIPE_SECRET_KEY
         sync: false
