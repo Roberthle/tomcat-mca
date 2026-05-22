@@ -1,0 +1,6 @@
+leads/*.db
+portal/logs/
+__pycache__/
+*.pyc
+.env
+*.db

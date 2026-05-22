@@ -1,0 +1,343 @@
+{
+  "timestamp": "2026-05-12T12:30:45.463116",
+  "total_found": 0,
+  "total_new": 0,
+  "state_totals": {
+    "Connecticut": 0,
+    "Colorado": 0,
+    "Florida": 0,
+    "California": 0
+  },
+  "lender_results": {
+    "Everest Business Funding": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Forward Financing": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Last Chance Funding": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "LCF Group": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Meged": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "AppFundingBeta": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "FDM Capital": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Lendini": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Essential Capital": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "CFG Merchant": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Likety": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "DLP Funding": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Barclay": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Lazarus": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Expansion Capital": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Vader": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Seamless": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Fox Capital": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Zlur": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Bitty Advance": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Mazal": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Stone Funding": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Blue Rock": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Yellowstone": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Greenbox": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Pearl Capital": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Rapid Finance": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "National Funding": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Fundkite": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Credibly": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "OnDeck": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Fora Financial": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    },
+    "Reliant Funding": {
+      "found": 0,
+      "new": 0,
+      "by_state": {
+        "CT": 0,
+        "CO": 0,
+        "FL": 0,
+        "CA": 0
+      }
+    }
+  }
+}

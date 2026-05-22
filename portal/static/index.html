@@ -1,0 +1,2147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Exclusive B2B MCA Leads and Merchant Cash Advance data. Access high-intent businesses actively seeking working capital and consolidation. Advanced signal intelligence and credit analysis.">
+  <meta name="keywords" content="MCA leads, merchant cash advance leads, business loan leads, UCC data, B2B lending, working capital leads, high intent MCA leads, exclusive MCA leads">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tomcat MCA Data Terminal",
+    "description": "Exclusive platform for merchant cash advance (MCA) brokers to purchase highly-qualified, real-time business lending leads.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tomcat Leads",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://tomcat-mca.vercel.app/logo.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tomcat-mca.vercel.app/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Exclusive MCA Lead",
+    "description": "Real-time, enriched merchant cash advance lead with signal intelligence, DTL tracking, and competitor lender identification.",
+    "category": "B2B Lead Generation",
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "USD",
+      "lowPrice": "40.00",
+      "highPrice": "150.00",
+      "offerCount": "100"
+    }
+  }
+  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomcat MCA — Broker Portal</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#1a1d24;--surface:rgba(30,35,48,.9);--surface2:rgba(38,44,60,.92);--border:rgba(255,255,255,.09);
+  --accent:#d4a017;--accent2:#f5c542;--gold:#d4a017;--gold2:#f5c542;
+  --hot:#f87171;--warm:#fbbf24;--cold:#34d399;
+  --text:#f0f4ff;--muted:#8892a4;--card:#1a2236;
+  --shadow-sm:0 2px 8px rgba(0,0,0,.3);
+  --shadow-md:0 8px 32px rgba(0,0,0,.4),0 2px 8px rgba(0,0,0,.2);
+  --shadow-lg:0 20px 60px rgba(0,0,0,.5),0 4px 16px rgba(0,0,0,.3);
+  --shadow-gold:0 8px 32px rgba(212,160,23,.25),0 2px 8px rgba(212,160,23,.15);
+  --glow-hot:0 0 20px rgba(248,113,113,.3);
+  --glow-gold:0 0 30px rgba(212,160,23,.2);
+}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -10%,rgba(212,160,23,.07) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 10%,rgba(248,113,113,.05) 0%,transparent 50%),
+    radial-gradient(ellipse 50% 60% at 50% 100%,rgba(52,211,153,.04) 0%,transparent 60%);
+  background-attachment:fixed}
+.stats-grid{perspective:1200px}
+#login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;
+  background:radial-gradient(ellipse at 50% 0%,#1e2a4a 0%,#13171f 70%)}
+.login-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+  padding:40px;width:360px;box-shadow:var(--shadow-lg)}
+.logo{text-align:center;margin-bottom:32px}
+.logo h1{font-size:28px;font-weight:800;letter-spacing:5px;
+  background:linear-gradient(135deg,#e8c547,#d4a017,#c49000);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 0 12px rgba(212,160,23,.2))}
+.logo p{color:var(--muted);font-size:12px;margin-top:4px;letter-spacing:1px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-bottom:6px;letter-spacing:.5px;text-transform:uppercase}
+.field input{width:100%;background:#161b28;border:1px solid var(--border);border-radius:8px;
+  padding:10px 14px;color:var(--text);font-size:14px;outline:none;transition:.2s}
+.field input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(212,160,23,.15)}
+.btn{width:100%;padding:12px;border:none;border-radius:8px;font-size:14px;font-weight:600;
+  cursor:pointer;transition:.2s;letter-spacing:.5px}
+.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000}
+.btn-primary:hover{opacity:.9;transform:translateY(-1px)}
+.err{color:var(--hot);font-size:13px;margin-top:12px;text-align:center}
+#app{display:flex;flex-direction:column;min-height:100vh}
+header{background:linear-gradient(180deg,rgba(10,14,24,.97),rgba(13,17,27,.92));backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  border-bottom:1px solid transparent;padding:0 32px;height:72px;display:flex;align-items:center;
+  justify-content:space-between;position:sticky;top:0;z-index:100;
+  box-shadow:0 1px 0 rgba(212,160,23,.2),0 4px 32px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.04)}
+.header-logo{display:flex;align-items:center;gap:14px}
+.header-logo .brand-mark{font-size:26px;font-weight:900;letter-spacing:6px;font-family:'Space Grotesk',sans-serif;
+  background:linear-gradient(135deg,#ffe566 0%,#d4a017 40%,#ff9500 80%,#ffe566 100%);
+  background-size:200% auto;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  animation:shimmerText 4s linear infinite;
+  filter:drop-shadow(0 0 20px rgba(212,160,23,.4));line-height:1}
+@keyframes shimmerText{0%{background-position:0%}100%{background-position:200%}}
+.header-logo .brand-sub{font-size:10px;font-weight:600;letter-spacing:4px;color:rgba(212,160,23,.45);text-transform:uppercase;margin-top:3px}
+.header-right{display:flex;align-items:center;gap:16px}
+.broker-badge{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);
+  border-radius:20px;padding:5px 14px;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.3px}
+.btn-sm{padding:6px 14px;font-size:12px;border-radius:6px;border:1px solid rgba(255,255,255,.1);
+  background:rgba(255,255,255,.04);color:var(--muted);cursor:pointer;transition:.2s}
+.btn-sm:hover{border-color:var(--accent);color:var(--accent);background:rgba(212,160,23,.08)}
+main{flex:1;padding:24px;max-width:1400px;margin:0 auto;width:100%}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:24px}
+.stat-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px;
+  box-shadow:var(--shadow-md);transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s ease,border-color .3s;
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);position:relative;overflow:hidden}
+.stat-card::before{content:'';position:absolute;inset:0;border-radius:16px;
+  background:linear-gradient(135deg,rgba(255,255,255,.04) 0%,transparent 60%);pointer-events:none}
+.stat-card:hover{transform:translateY(-5px) scale(1.02);box-shadow:var(--shadow-lg),0 0 40px rgba(212,160,23,.1);
+  border-color:rgba(212,160,23,.25)}
+.stat-label{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.stat-value{font-size:30px;font-weight:800;margin-top:6px;font-family:'Space Grotesk',sans-serif;letter-spacing:-.5px}
+.stat-value.hot{color:var(--hot);text-shadow:0 0 20px rgba(248,113,113,.3)}
+.stat-value.warm{color:var(--warm);text-shadow:0 0 20px rgba(251,191,36,.25)}
+.stat-value.cold{color:var(--cold);text-shadow:0 0 20px rgba(52,211,153,.2)}
+.stat-value.accent{color:var(--gold);text-shadow:0 0 20px rgba(212,160,23,.3)}
+.stat-value.gold{color:var(--gold);text-shadow:0 0 20px rgba(212,160,23,.3)}
+.toolbar{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.search-box{flex:1;min-width:200px;background:var(--surface);border:1px solid var(--border);
+  border-radius:8px;padding:8px 14px;color:var(--text);font-size:14px;outline:none}
+.search-box:focus{border-color:var(--accent)}
+select.filter{background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  padding:8px 14px;color:var(--text);font-size:13px;cursor:pointer}
+.leads-table{background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;
+  box-shadow:var(--shadow-md);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+table{width:100%;border-collapse:collapse}
+th{padding:12px 18px;text-align:left;font-size:10px;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:1px;background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.06)}
+td{padding:14px 18px;border-bottom:1px solid rgba(255,255,255,.04);font-size:13px;vertical-align:middle;transition:background .15s}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(212,160,23,.05)}
+tr:hover td:first-child{box-shadow:inset 3px 0 0 rgba(212,160,23,.6)}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px}
+.badge.hot{background:rgba(248,113,113,.15);color:#f87171;border:1px solid rgba(248,113,113,.3);box-shadow:0 0 12px rgba(248,113,113,.15)}
+.badge.warm{background:rgba(251,191,36,.12);color:#fbbf24;border:1px solid rgba(251,191,36,.3)}
+.badge.cold{background:rgba(52,211,153,.12);color:#34d399;border:1px solid rgba(52,211,153,.25)}
+.badge.claimed{background:rgba(167,139,250,.15);color:#a78bfa;border:1px solid rgba(167,139,250,.3)}
+.company-name{font-weight:700;color:var(--text);font-size:13px;letter-spacing:-.1px}
+.sub-text{font-size:11px;color:var(--muted);margin-top:2px;line-height:1.5}
+.days-badge{font-size:13px;font-weight:800;letter-spacing:-.3px}
+.action-btn{padding:5px 14px;border-radius:8px;font-size:11px;font-weight:700;
+  border:none;cursor:pointer;transition:.2s;letter-spacing:.3px}
+.action-btn.claim{background:linear-gradient(135deg,#d4a017,#f5c542,#d4a017);background-size:200% auto;
+  color:#000;box-shadow:0 4px 16px rgba(212,160,23,.35);animation:shimmerBtn 3s linear infinite}
+@keyframes shimmerBtn{0%{background-position:0%}100%{background-position:200%}}
+.action-btn.claimed{background:rgba(167,139,250,.15);color:#a78bfa;border:1px solid rgba(167,139,250,.3)}
+.action-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,160,23,.4)}
+.pagination{display:flex;gap:8px;justify-content:center;margin-top:20px;align-items:center}
+.page-btn{padding:6px 14px;background:var(--surface);border:1px solid var(--border);
+  border-radius:6px;color:var(--text);cursor:pointer;font-size:13px;transition:.2s}
+.page-btn:hover,.page-btn.active{border-color:var(--gold);color:var(--gold)}
+.page-info{color:var(--muted);font-size:13px}
+.loading{text-align:center;padding:60px;color:var(--muted)}
+.spinner{display:inline-block;width:24px;height:24px;border:2px solid var(--border);
+  border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.empty{text-align:center;padding:60px;color:var(--muted)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.dot.hot{background:var(--hot)} .dot.warm{background:var(--warm)} .dot.cold{background:var(--cold)}
+.signal-pill{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:12px;font-size:10px;font-weight:600;margin-right:4px;letter-spacing:.3px}
+.signal-pill.ucc{background:rgba(212,160,23,.12);color:var(--gold2);border:1px solid rgba(212,160,23,.25)}
+.signal-pill.news{background:rgba(245,158,11,.12);color:#fbbf24;border:1px solid rgba(245,158,11,.25)}
+.signal-pill.hiring{background:rgba(16,185,129,.12);color:#34d399;border:1px solid rgba(16,185,129,.25)}
+.signal-pill.prime{background:rgba(124,58,237,.15);color:#c4b5fd;border:1px solid rgba(124,58,237,.3)}
+/* Deal Score */
+.score-ring{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;
+  border-radius:50%;font-size:12px;font-weight:900;position:relative;font-family:'Space Grotesk',sans-serif;letter-spacing:-.5px}
+.score-ring::before{content:'';position:absolute;inset:-1px;border-radius:50%;border:2.5px solid rgba(255,255,255,.1)}
+.score-ring.s-hot{color:#f87171}
+.score-ring.s-hot::before{border-color:#f87171;box-shadow:0 0 16px rgba(248,113,113,.5),inset 0 0 12px rgba(248,113,113,.1);animation:pulseRing 2s ease-in-out infinite}
+@keyframes pulseRing{0%,100%{box-shadow:0 0 16px rgba(248,113,113,.5),inset 0 0 12px rgba(248,113,113,.1)}50%{box-shadow:0 0 28px rgba(248,113,113,.8),inset 0 0 16px rgba(248,113,113,.2)}}
+.score-ring.s-warm{color:#fbbf24}
+.score-ring.s-warm::before{border-color:#fbbf24;box-shadow:0 0 12px rgba(251,191,36,.4)}
+.score-ring.s-med{color:var(--muted)}
+.score-ring.s-med::before{border-color:rgba(255,255,255,.12)}
+/* Detail panel */
+#detail-panel{position:fixed;right:0;top:0;height:100vh;width:460px;background:var(--surface);
+  border-left:1px solid var(--border);z-index:200;overflow-y:auto;transform:translateX(100%);
+  transition:transform .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;
+  box-shadow:-12px 0 48px rgba(0,0,0,.35)}
+/* Market Intelligence */
+.mi-tabs{display:flex;gap:4px;margin-bottom:12px}
+.mi-tab{flex:1;padding:6px 10px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;
+  text-align:center;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);
+  color:var(--muted);transition:.2s;letter-spacing:.3px}
+.mi-tab.active{background:rgba(212,160,23,.15);border-color:rgba(212,160,23,.4);color:var(--gold)}
+.mi-source-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.mi-source{font-size:9px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.5px}
+.mi-source.gdelt{background:rgba(99,102,241,.15);color:#818cf8;border:1px solid rgba(99,102,241,.3)}
+.mi-source.gnews{background:rgba(234,88,12,.12);color:#fb923c;border:1px solid rgba(234,88,12,.3)}
+.mi-source.reddit{background:rgba(239,68,68,.12);color:#f87171;border:1px solid rgba(239,68,68,.25)}
+.mi-source.bing{background:rgba(14,165,233,.12);color:#38bdf8;border:1px solid rgba(14,165,233,.3)}
+.mi-source.newsapi{background:rgba(52,211,153,.12);color:#34d399;border:1px solid rgba(52,211,153,.3)}
+.mi-article{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;padding:12px;margin-bottom:8px;transition:.15s}
+.mi-article:hover{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.12)}
+.mi-article-headline{font-size:12px;font-weight:600;color:var(--text);line-height:1.5;margin-bottom:6px}
+.mi-article-meta{display:flex;justify-content:space-between;align-items:center}
+.mi-article-source{font-size:10px;color:var(--muted);font-weight:600}
+.mi-article-link{font-size:10px;font-weight:700;color:var(--gold);text-decoration:none;
+  border:1px solid rgba(212,160,23,.3);padding:2px 8px;border-radius:5px;transition:.2s}
+.mi-article-link:hover{background:rgba(212,160,23,.12)}
+.mi-skeleton{height:60px;border-radius:10px;margin-bottom:8px;
+  background:linear-gradient(90deg,rgba(255,255,255,.04) 25%,rgba(255,255,255,.08) 50%,rgba(255,255,255,.04) 75%);
+  background-size:200% 100%;animation:miSkel 1.4s infinite}
+@keyframes miSkel{0%{background-position:200%}100%{background-position:-200%}}
+.mi-sentiment{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;
+  padding:3px 10px;border-radius:8px;margin-bottom:10px}
+.mi-empty{font-size:12px;color:var(--muted);text-align:center;padding:20px 0}
+/* Stack History / Funding Escalation */
+.sh-timeline{position:relative;padding-left:0;margin-top:4px}
+.sh-event{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;position:relative}
+.sh-dot{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:10px;font-weight:900;flex-shrink:0;border:2px solid;letter-spacing:0;z-index:1}
+.sh-line{position:absolute;left:13px;top:28px;width:2px;bottom:-12px;background:rgba(255,255,255,.08)}
+.sh-event:last-child .sh-line{display:none}
+.sh-arrow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.sh-arrow-node{font-size:10px;font-weight:700;padding:3px 9px;border-radius:8px;border:1px solid}
+.sh-arrow-sep{color:var(--muted);font-size:12px;font-weight:300}
+.sh-risk-badge{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:800;
+  padding:3px 10px;border-radius:6px;letter-spacing:.5px;text-transform:uppercase}
+.sh-signal{display:flex;align-items:flex-start;gap:8px;padding:8px 10px;border-radius:8px;
+  margin-bottom:6px;border:1px solid}
+.sh-signal-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:3px}
+.sh-signal-label{font-size:11px;font-weight:700;color:var(--text);margin-bottom:2px}
+.sh-signal-detail{font-size:10px;color:var(--muted);line-height:1.5}
+/* Court & Regulatory Sweep */
+.cr-badge{font-size:9px;font-weight:800;padding:2px 7px;border-radius:5px;letter-spacing:.3px;text-transform:uppercase;display:inline-block}
+.cr-badge.court{background:#7c3aed22;color:#a78bfa;border:1px solid #7c3aed40}
+.cr-badge.cfpb{background:#0ea5e922;color:#38bdf8;border:1px solid #0ea5e940}
+.cr-badge.epa{background:#16a34a22;color:#4ade80;border:1px solid #16a34a40}
+.cr-badge.osha{background:#ea580c22;color:#fb923c;border:1px solid #ea580c40}
+.cr-card{padding:10px 12px;border-radius:8px;margin-bottom:8px;border:1px solid var(--border);background:rgba(255,255,255,.02)}
+.cr-card.sev-high{border-color:rgba(239,68,68,.3);background:rgba(239,68,68,.04)}
+.cr-card.sev-medium{border-color:rgba(251,191,36,.2);background:rgba(251,191,36,.03)}
+.cr-headline{font-size:11px;font-weight:700;color:var(--text);margin:5px 0 3px}
+.cr-detail{font-size:10px;color:var(--muted);line-height:1.5}
+.cr-link{font-size:10px;color:var(--gold);text-decoration:none;font-weight:600}
+.cr-link:hover{text-decoration:underline}
+#detail-panel.open{transform:translateX(0)}
+.detail-header{padding:20px 24px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;background:var(--surface2)}
+.detail-title{font-size:15px;font-weight:700;color:var(--text);line-height:1.3}
+.detail-sub{font-size:11px;color:var(--muted);margin-top:3px}
+.detail-close{background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;padding:0 4px;line-height:1}
+.detail-close:hover{color:var(--text)}
+.detail-body{padding:20px 24px;flex:1}
+.intel-section{margin-bottom:20px}
+.intel-label{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.intel-card{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:14px;
+  box-shadow:var(--shadow-sm)}
+.intel-row{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;font-size:13px}
+.intel-row:last-child{margin-bottom:0}
+.intel-key{color:var(--muted);flex-shrink:0;margin-right:12px;font-size:12px}
+.intel-val{color:var(--text);text-align:right;font-weight:500}
+.call-script{background:rgba(212,160,23,.06);border:1px solid rgba(212,160,23,.2);border-radius:10px;
+  padding:14px;font-size:13px;color:var(--text);line-height:1.6;font-style:italic}
+.urgency-bar{height:6px;border-radius:3px;margin-bottom:16px;background:var(--border)}
+.urgency-fill{height:100%;border-radius:3px;transition:width .5s}
+.detail-actions{display:flex;gap:8px;padding:16px 24px;border-top:1px solid var(--border);background:var(--surface)}
+.detail-action-btn{flex:1;padding:10px;border-radius:8px;font-size:12px;font-weight:600;border:none;cursor:pointer;transition:.2s;text-align:center}
+.detail-action-btn.primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;
+  box-shadow:0 4px 16px rgba(212,160,23,.25)}
+.detail-action-btn.secondary{background:var(--surface2);border:1px solid var(--border);color:var(--muted)}
+.detail-action-btn:hover{opacity:.9;transform:translateY(-1px)}
+tr.selected td{background:rgba(212,160,23,.06)!important}
+.page-btn{box-shadow:var(--shadow-sm)}
+.page-btn:hover,.page-btn.active{box-shadow:0 4px 12px rgba(212,160,23,.15)}
+/* Custom SVG icons */
+.ic{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:5px;background-size:contain;background-repeat:no-repeat}
+.ic-pipeline{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4a017' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 6v12M8 10l4-4 4 4M8 14h8'/%3E%3C/svg%3E")}
+.ic-clock{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f87171' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 6v6l4 2'/%3E%3C/svg%3E")}
+.ic-chart{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2334d399' stroke-width='2'%3E%3Cpath d='M3 20l5-8 4 4 9-12'/%3E%3Cpath d='M17 4h4v4'/%3E%3C/svg%3E")}
+.ic-flame{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f87171' stroke-width='2'%3E%3Cpath d='M12 2c0 6-6 8-6 14a6 6 0 0012 0c0-6-6-8-6-14z'/%3E%3C/svg%3E")}
+.ic-gauge{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fbbf24' stroke-width='2'%3E%3Cpath d='M12 22A10 10 0 012 12h20a10 10 0 01-10 10z'/%3E%3Cpath d='M12 12l-4-6'/%3E%3C/svg%3E")}
+.ic-signal{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fbbf24' stroke-width='2'%3E%3Cpath d='M12 20V10'/%3E%3Cpath d='M18 20V4'/%3E%3Cpath d='M6 20v-4'/%3E%3C/svg%3E")}
+.ic-layers{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a78bfa' stroke-width='2'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5z'/%3E%3Cpath d='M2 17l10 5 10-5'/%3E%3Cpath d='M2 12l10 5 10-5'/%3E%3C/svg%3E")}
+.ic-users{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2334d399' stroke-width='2'%3E%3Cpath d='M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2'/%3E%3Ccircle cx='9' cy='7' r='4'/%3E%3Cpath d='M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75'/%3E%3C/svg%3E")}
+.ic-briefcase{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4a017' stroke-width='2'%3E%3Crect x='2' y='7' width='20' height='14' rx='2'/%3E%3Cpath d='M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2'/%3E%3C/svg%3E")}
+.ic-phone{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Cpath d='M22 16.92v3a2 2 0 01-2.18 2A19.86 19.86 0 013.09 5.18 2 2 0 015.11 3h3a2 2 0 012 1.72c.13.81.36 1.6.68 2.34a2 2 0 01-.45 2.11L8.91 10.6a16 16 0 006.49 6.49l1.43-1.43a2 2 0 012.11-.45c.74.32 1.53.55 2.34.68a2 2 0 011.72 2z'/%3E%3C/svg%3E")}
+.ic-doc{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Cpath d='M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z'/%3E%3Cpath d='M14 2v6h6M16 13H8M16 17H8M10 9H8'/%3E%3C/svg%3E")}
+.ic-building{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Crect x='4' y='2' width='16' height='20' rx='2'/%3E%3Cpath d='M9 22V12h6v10M8 6h.01M16 6h.01M12 6h.01M8 10h.01M16 10h.01M12 10h.01'/%3E%3C/svg%3E")}
+.ic-bolt{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Cpath d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/%3E%3C/svg%3E")}
+.ic-radar{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3b8' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Ccircle cx='12' cy='12' r='6'/%3E%3Ccircle cx='12' cy='12' r='2'/%3E%3Cpath d='M12 2v4M12 18v4'/%3E%3C/svg%3E")}
+.ic-warning{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ef4444' stroke-width='2'%3E%3Cpath d='M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z'/%3E%3Cpath d='M12 9v4M12 17h.01'/%3E%3C/svg%3E")}
+.ic-gavel{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fb923c' stroke-width='2'%3E%3Cpath d='M14.5 2l6 6-8 8-6-6 8-8z'/%3E%3Cpath d='M3 21l5-5'/%3E%3Cpath d='M19 15l2 2'/%3E%3C/svg%3E")}
+.ic-shield{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f87171' stroke-width='2'%3E%3Cpath d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/%3E%3Cpath d='M12 8v4M12 16h.01'/%3E%3C/svg%3E")}
+.ic-dot-r{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:0}
+.ic-dot-r.r{background:#f87171}.ic-dot-r.y{background:#fbbf24}.ic-dot-r.g{background:#34d399}
+.signal-pill.tax{background:rgba(239,68,68,.12);color:#f87171;border:1px solid rgba(239,68,68,.3)}
+.signal-pill.judgment{background:rgba(251,146,60,.12);color:#fb923c;border:1px solid rgba(251,146,60,.3)}
+.signal-pill.distress{background:rgba(248,113,113,.12);color:#fca5a5;border:1px solid rgba(248,113,113,.3)}
+@keyframes pillPulse{0%,100%{opacity:1}50%{opacity:.45}}
+.score-ring{position:relative}
+.score-tooltip{
+  display:none;position:absolute;left:50%;transform:translateX(-50%);
+  bottom:calc(100% + 8px);z-index:9999;
+  background:#1e293b;border:1px solid rgba(255,255,255,.12);
+  border-radius:10px;padding:10px 12px;min-width:200px;max-width:240px;
+  box-shadow:0 8px 32px rgba(0,0,0,.6);pointer-events:none;
+}
+.score-ring:hover .score-tooltip{display:block}
+.status-btn{
+  padding:4px 10px;border-radius:14px;font-size:10px;font-weight:700;
+  cursor:pointer;border:1px solid;background:rgba(0,0,0,.2);transition:.15s;
+  letter-spacing:.3px;
+}
+.status-btn:hover{filter:brightness(1.3);transform:scale(1.05)}
+.ind-tag{display:inline-block;font-size:11px;padding:1px 6px;border-radius:5px;
+  background:rgba(255,255,255,.06);color:var(--muted);margin-top:2px}
+.dotd-card{background:linear-gradient(135deg,rgba(212,160,23,.14),rgba(212,160,23,.04));
+  border:1px solid rgba(212,160,23,.45);border-radius:16px;padding:20px 24px;
+  margin-bottom:20px;position:relative;overflow:hidden;box-shadow:0 0 40px rgba(212,160,23,.08);
+  cursor:pointer;transition:.2s}
+.dotd-card:hover{border-color:rgba(212,160,23,.7);box-shadow:0 0 60px rgba(212,160,23,.15)}
+.dotd-badge{background:linear-gradient(135deg,#d4a017,#b8860b);color:#0a0e1a;font-size:9px;
+  font-weight:800;padding:3px 9px;border-radius:20px;letter-spacing:1px;text-transform:uppercase}
+.countdown-cell{font-family:'SF Mono',monospace;font-size:11px;color:#f87171;font-weight:700;
+  background:rgba(248,113,113,.08);padding:2px 6px;border-radius:5px;letter-spacing:.5px}
+@keyframes dotdPulse{0%,100%{box-shadow:0 0 40px rgba(212,160,23,.08)}50%{box-shadow:0 0 80px rgba(212,160,23,.22)}}
+.dotd-card{animation:dotdPulse 4s ease-in-out infinite}
+</style>
+</head>
+<body>
+
+<!-- PORTAL APP — No login required -->
+<div id="app">
+  <header>
+    <div class="header-logo">
+      <div>
+        <div class="brand-mark">TOMCAT MCA</div>
+        <div class="brand-sub">MCA Revenue Engine</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="broker-badge" id="broker-label">Merchant Cash Advance Intelligence</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="stats-grid" id="stats-grid">
+      <!-- Row 1: Money cards -->
+      <div class="stat-card" style="border-color:rgba(212,160,23,.5);background:linear-gradient(135deg,rgba(212,160,23,.12),rgba(212,160,23,.03));box-shadow:var(--shadow-gold);grid-column:span 2">
+        <div class="stat-label"><span class="ic ic-pipeline"></span>Pipeline Value</div>
+        <div class="stat-value gold" id="s-pipeline-val" style="font-size:32px">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">Hot leads × avg advance size</div>
+      </div>
+      <div class="stat-card" style="border-color:rgba(248,113,113,.3);background:linear-gradient(135deg,rgba(248,113,113,.06),transparent)">
+        <div class="stat-label"><span class="ic ic-clock"></span>Maturing This Week</div>
+        <div class="stat-value hot" id="s-week">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">Advances expiring in 7d</div>
+      </div>
+      <div class="stat-card" style="border-color:rgba(52,211,153,.3);background:linear-gradient(135deg,rgba(52,211,153,.06),transparent)">
+        <div class="stat-label"><span class="ic ic-chart"></span>Est. Broker GM</div>
+        <div class="stat-value" id="s-gm" style="color:#34d399">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px" id="s-gm-sub">Based on avg funder tier</div>
+      </div>
+      <!-- Row 2: Volume cards -->
+      <div class="stat-card" style="border-color:rgba(248,113,113,.3);background:linear-gradient(135deg,rgba(248,113,113,.06),transparent)">
+        <div class="stat-label"><span class="ic ic-flame"></span>Hot (≤30d)</div>
+        <div class="stat-value hot" id="s-hot">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">Lapsed ≤90d · expiring ≤30d</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label"><span class="ic ic-gauge"></span>Warm (≤180d)</div>
+        <div class="stat-value warm" id="s-warm">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">Maturing 31–180d from now</div>
+      </div>
+      <div class="stat-card" id="s-expansion-card" onclick="toggleSignalFilter('expansion')" style="cursor:pointer;border-color:rgba(245,158,11,.3);background:linear-gradient(135deg,rgba(245,158,11,.06),transparent);transition:.2s" title="Click to filter expansion leads">
+        <div class="stat-label"><span class="ic ic-signal"></span>Expansion Signals</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4px">
+            <div class="stat-value" id="s-expansion" style="color:#fbbf24;line-height:1">—</div>
+            <div style="text-align:right">
+                <div style="font-size:16px;font-weight:900;color:var(--text);letter-spacing:-.5px" id="s-osint">—</div>
+                <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;font-weight:700">OSINT Sweeps</div>
+            </div>
+        </div>
+        <div style="font-size:10px;color:var(--muted)" id="s-expansion-sub">Filtered from live intelligence engine</div>
+      </div>
+      <div class="stat-card" id="s-stacked-card" onclick="toggleSignalFilter('stacked')" style="cursor:pointer;border-color:rgba(167,139,250,.3);background:linear-gradient(135deg,rgba(167,139,250,.06),transparent);transition:.2s" title="Click to filter stacked borrowers">
+        <div class="stat-label"><span class="ic ic-layers"></span>Multi-Funder Stacked</div>
+        <div class="stat-value" id="s-multi" style="color:#a78bfa">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">2+ lenders on same borrower</div>
+      </div>
+      <div class="stat-card" style="border-color:rgba(52,211,153,.3);background:linear-gradient(135deg,rgba(52,211,153,.06),transparent)">
+        <div class="stat-label"><span class="ic ic-shield"></span>Uncontested</div>
+        <div class="stat-value" id="s-uncontested" style="color:#34d399">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">Lapsed · no lender protection</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label"><span class="ic ic-briefcase"></span>My Pipeline</div>
+        <div class="stat-value gold" id="s-pipeline">—</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:4px">Claimed leads</div>
+      </div>
+    </div>
+
+
+
+    <!-- Deal of the Day Spotlight -->
+    <div id="dotd-wrap" style="display:none">
+      <div class="dotd-card" id="dotd-card" onclick="dotdOpen()">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+              <span class="dotd-badge">★ Deal of the Day</span>
+              <span style="font-size:10px;color:var(--muted)">Highest-scored unclaimed lead right now</span>
+            </div>
+            <div id="dotd-company" style="font-size:22px;font-weight:800;color:var(--gold);letter-spacing:-.3px">—</div>
+            <div id="dotd-sub" style="font-size:12px;color:var(--muted);margin-top:4px">—</div>
+            <div id="dotd-narrative" style="font-size:12px;color:var(--text);margin-top:10px;line-height:1.6;opacity:.85">—</div>
+          </div>
+          <div style="text-align:right;flex-shrink:0">
+            <div id="dotd-score" style="font-size:48px;font-weight:900;color:var(--gold);line-height:1">—</div>
+            <div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">deal score</div>
+            <div id="dotd-dtl" style="margin-top:8px;font-size:12px;font-weight:700"></div>
+            <div style="margin-top:12px">
+              <span id="dotd-tier" style="font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;background:rgba(248,113,113,.12);color:#f87171"></span>
+            </div>
+          </div>
+        </div>
+        <div id="dotd-breakdown" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;border-top:1px solid rgba(255,255,255,.06);padding-top:12px"></div>
+        <div style="position:absolute;right:24px;bottom:16px;font-size:10px;color:rgba(212,160,23,.5);font-weight:600">Click to open lead →</div>
+      </div>
+    </div>
+
+    <!-- Expiry Timeline Chart -->
+    <div id="chart-wrap" style="background:var(--surface);border:1px solid var(--border);border-radius:14px;
+      padding:20px 24px 12px;margin-bottom:20px;box-shadow:var(--shadow-md);position:relative">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <div>
+          <span style="font-size:13px;font-weight:700;color:var(--text)">MCA Maturity Timeline</span>
+          <span style="font-size:11px;color:var(--muted);margin-left:8px">Next 13 weeks · renewal pipeline</span>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center">
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--gold2)">
+            <span style="width:10px;height:10px;border-radius:2px;background:var(--gold);display:inline-block"></span>Total Maturing
+          </span>
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:#34d399">
+            <span style="width:10px;height:10px;border-radius:2px;background:#34d399;display:inline-block"></span>Stacked (3+)
+          </span>
+        </div>
+      </div>
+      <canvas id="expiry-chart" height="160" style="width:100%;display:block"></canvas>
+      <div id="chart-tooltip" style="display:none;position:absolute;background:rgba(37,42,58,.95);border:1px solid var(--border);
+        border-radius:8px;padding:8px 12px;font-size:12px;color:var(--text);pointer-events:none;
+        box-shadow:var(--shadow-md);z-index:10;backdrop-filter:blur(8px)"></div>
+    </div>
+
+    <!-- Revenue Heatmap -->
+    <div id="heatmap-wrap" style="background:var(--surface);border:1px solid var(--border);border-radius:14px;
+      padding:20px 24px 16px;margin-bottom:20px;box-shadow:var(--shadow-md);position:relative">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <div>
+          <span style="font-size:13px;font-weight:700;color:var(--text)"><span class="ic ic-radar"></span>Revenue Heatmap</span>
+          <span style="font-size:11px;color:var(--muted);margin-left:8px">Pipeline concentration by city</span>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center">
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--hot)">
+            <span style="width:10px;height:10px;border-radius:50%;background:var(--hot);display:inline-block"></span>Hot
+          </span>
+          <span style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--gold2)">
+            <span style="width:10px;height:10px;border-radius:50%;background:var(--gold);display:inline-block;opacity:.6"></span>Pipeline $
+          </span>
+        </div>
+      </div>
+      <canvas id="heatmap-canvas" height="180" style="width:100%;display:block"></canvas>
+    </div>
+
+    <!-- Signals Legend -->
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;margin-bottom:20px;box-shadow:var(--shadow-md);position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;right:0;width:300px;height:300px;background:radial-gradient(circle, rgba(212,160,23,0.05) 0%, transparent 70%);pointer-events:none;"></div>
+      <div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:16px;display:flex;align-items:center;gap:8px;text-transform:uppercase;letter-spacing:1px;">
+        <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold);animation:pillPulse 2s infinite;"></span>
+        Intelligence Signals Matrix
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px;">
+        <div style="background:rgba(212,160,23,.08);border:1px solid rgba(212,160,23,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(212,160,23,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(212,160,23,.2)'">
+          <div style="background:linear-gradient(135deg,#d4a017,#b8860b);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(212,160,23,.3);">S1_UCC</div>
+          <div><div style="font-size:13px;font-weight:700;color:var(--gold2);margin-bottom:3px;">Verified UCC-1 Blanket Lien</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Base Signal · Active Financing Confirmed</div></div>
+        </div>
+        <div style="background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(52,211,153,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(52,211,153,.2)'">
+          <div style="background:linear-gradient(135deg,#34d399,#059669);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(52,211,153,.25);">S2_EXP</div>
+          <div><div style="font-size:13px;font-weight:700;color:#34d399;margin-bottom:3px;">Actively Growing</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">New locations, awarded contracts, funding via Google News</div></div>
+        </div>
+        <div style="background:rgba(14,165,233,.08);border:1px solid rgba(14,165,233,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(14,165,233,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(14,165,233,.2)'">
+          <div style="background:linear-gradient(135deg,#38bdf8,#0284c7);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(14,165,233,.25);">S3_HIRE</div>
+          <div><div style="font-size:13px;font-weight:700;color:#38bdf8;margin-bottom:3px;">Actively Hiring Staff</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Scraped via Indeed as a proxy for positive revenue growth</div></div>
+        </div>
+        <div style="background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(248,113,113,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(248,113,113,.2)'">
+          <div style="background:linear-gradient(135deg,#f87171,#dc2626);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(248,113,113,.25);">S4_TAX</div>
+          <div><div style="font-size:13px;font-weight:700;color:#f87171;margin-bottom:3px;">IRS or State Tax Lien</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Prime indicator of financial distress and cash flow issues</div></div>
+        </div>
+        <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(167,139,250,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(167,139,250,.2)'">
+          <div style="background:linear-gradient(135deg,#a78bfa,#7c3aed);color:#000;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(167,139,250,.25);">S5_JUDG</div>
+          <div><div style="font-size:13px;font-weight:700;color:#a78bfa;margin-bottom:3px;">Active Court Judgment</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Prime target for emergency debt consolidation plays</div></div>
+        </div>
+        <div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:10px;padding:14px;display:flex;gap:14px;align-items:center;transition:.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.borderColor='rgba(239,68,68,.5)'" onmouseout="this.style.transform='none';this.style.borderColor='rgba(239,68,68,.2)'">
+          <div style="background:linear-gradient(135deg,#ef4444,#b91c1c);color:#fff;font-weight:900;font-size:12px;padding:6px 10px;border-radius:8px;letter-spacing:1px;box-shadow:0 4px 12px rgba(239,68,68,.25);">S6_DIST</div>
+          <div><div style="font-size:13px;font-weight:700;color:#ef4444;margin-bottom:3px;">Severe Business Distress</div><div style="font-size:11px;color:var(--muted);line-height:1.4;">Tracked complaints, bankruptcy filings, or closure risks</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <input class="search-box" id="search-input" placeholder="Search company, city, funder..." oninput="debounceSearch()">
+      <select class="filter" id="filter-state" onchange="loadLeads(1)">
+        <option value="all">All States</option>
+        <optgroup label="── Top States ──">
+          <option value="CO">Colorado (CO)</option>
+          <option value="CT">Connecticut (CT)</option>
+          <option value="NY">New York (NY)</option>
+          <option value="CA">California (CA)</option>
+          <option value="TX">Texas (TX)</option>
+          <option value="NJ">New Jersey (NJ)</option>
+          <option value="FL">Florida (FL)</option>
+        </optgroup>
+        <optgroup label="── More States ──">
+          <option value="AZ">Arizona (AZ)</option>
+          <option value="MA">Massachusetts (MA)</option>
+          <option value="PA">Pennsylvania (PA)</option>
+          <option value="IL">Illinois (IL)</option>
+          <option value="TN">Tennessee (TN)</option>
+          <option value="NC">North Carolina (NC)</option>
+          <option value="UT">Utah (UT)</option>
+          <option value="AL">Alabama (AL)</option>
+          <option value="GA">Georgia (GA)</option>
+          <option value="OH">Ohio (OH)</option>
+          <option value="VA">Virginia (VA)</option>
+          <option value="NV">Nevada (NV)</option>
+          <option value="WA">Washington (WA)</option>
+          <option value="MD">Maryland (MD)</option>
+          <option value="MN">Minnesota (MN)</option>
+          <option value="OR">Oregon (OR)</option>
+          <option value="OK">Oklahoma (OK)</option>
+          <option value="KS">Kansas (KS)</option>
+          <option value="MI">Michigan (MI)</option>
+          <option value="LA">Louisiana (LA)</option>
+          <option value="IN">Indiana (IN)</option>
+        </optgroup>
+      </select>
+      <select class="filter" id="filter-urgency" onchange="loadLeads(1)">
+        <option value="all">All Urgency</option>
+        <option value="7d">⚡ Expires ≤ 7 Days</option>
+        <option value="14d">🔥 Expires ≤ 14 Days</option>
+        <option value="hot">🔴 Hot (lapsed ≤90d / expiring ≤30d)</option>
+        <option value="warm">🟡 Warm (31-180d)</option>
+        <option value="cold">🔵 Cold (180d+)</option>
+      </select>
+      <select class="filter" id="filter-tier" onchange="loadLeads(1)" style="border-color:rgba(167,139,250,.4);background:rgba(167,139,250,.06)">
+        <option value="all">All Tiers</option>
+        <option value="D">🔴 D-Tier — Distress Lenders (highest spread)</option>
+        <option value="C">🟠 C-Tier — Sub-Prime MCA</option>
+        <option value="B">🟡 B-Tier — Mid-Market MCA</option>
+        <option value="A">🟢 A-Tier — Institutional (OnDeck, Square)</option>
+      </select>
+      <select class="filter" id="filter-status" onchange="loadLeads(1)">
+        <option value="all">All Leads</option>
+        <option value="unclaimed">Unclaimed Only</option>
+        <option value="claimed">My Claims</option>
+      </select>
+      <button onclick="exportLeads()" style="padding:8px 16px;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;background:linear-gradient(135deg,rgba(212,160,23,.2),rgba(212,160,23,.08));border:1px solid rgba(212,160,23,.5);color:var(--gold);letter-spacing:.5px;transition:.2s" title="Download current filtered view as CSV">
+        💾 Export CSV
+      </button>
+    </div>
+
+    <!-- Table -->
+    <div class="leads-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Score</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Lender</th>
+            <th>Advance</th>
+            <th>Matures</th>
+            <th>Urgency</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="leads-body">
+          <tr><td colspan="8" class="loading"><div class="spinner"></div><br>Loading leads...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagination" id="pagination"></div>
+  </main>
+</div>
+
+<!-- LEAD DETAIL PANEL -->
+<div id="detail-panel">
+  <div class="detail-header">
+    <div>
+      <div class="detail-title" id="dp-company">—</div>
+      <div class="detail-sub" id="dp-sub">—</div>
+    </div>
+    <button class="detail-close" onclick="closePanel()">✕</button>
+  </div>
+  <div class="detail-body" id="dp-body"></div>
+  <div class="detail-actions" id="dp-actions">
+    <button class="detail-action-btn primary" id="dp-claim-btn" onclick="panelClaim()">Claim Lead</button>
+    <button class="detail-action-btn secondary" onclick="closePanel()">Close</button>
+  </div>
+</div>
+<div id="detail-overlay" onclick="closePanel()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:199"></div>
+
+<script>
+let currentPage = 1;
+let searchTimer = null;
+let _activePanelId = null;
+
+function exportLeads() {
+  const state   = document.getElementById('filter-state').value;
+  const urgency = document.getElementById('filter-urgency').value;
+  const tier    = document.getElementById('filter-tier').value;
+  const signal  = activeSignalFilter || 'all';
+  const q       = document.getElementById('search-input').value.trim();
+  const params  = new URLSearchParams({state, urgency, tier, signal});
+  if (q) params.set('q', q);
+  window.location.href = `/api/export?${params}`;
+}
+
+function apiFetch(url, opts={}) {
+  return fetch(url, {...opts, headers: {'Content-Type':'application/json', ...(opts.headers||{})}});
+}
+
+let activeSignalFilter = null; // null, 'expansion', 'tech', 'hiring'
+
+async function loadStats(paramsStr = '') {
+  try {
+    const qs = paramsStr ? `?${paramsStr}` : '';
+    const r = await fetch(`/api/stats${qs}`);
+    const d = await r.json();
+
+    // Pipeline Value
+    const pv = d.pipeline_value || 0;
+    const pvFmt = pv >= 1_000_000 ? '$' + (pv/1_000_000).toFixed(1) + 'M'
+                : pv >= 1000 ? '$' + (pv/1000).toFixed(0) + 'K' : '$' + pv;
+    document.getElementById('s-pipeline-val').textContent = pvFmt;
+
+    // GM
+    const gm = d.gm_value || 0;
+    const gmFmt = gm >= 1_000_000 ? '$' + (gm/1_000_000).toFixed(1) + 'M'
+                : gm >= 1000 ? '$' + (gm/1000).toFixed(0) + 'K' : '$' + gm;
+    document.getElementById('s-gm').textContent = gmFmt;
+    document.getElementById('s-gm-sub').textContent = `Based on ${d.avg_gm || '—'} pts avg GM`;
+
+    // Volume
+    document.getElementById('s-hot').textContent = (d.hot || 0).toLocaleString();
+    document.getElementById('s-warm').textContent = (d.warm || 0).toLocaleString();
+    document.getElementById('s-week').textContent = (d.expiring_week || 0).toLocaleString();
+
+    // Signal counts — show pending state if 0
+    const expCount = d.expansion || 0;
+    const hirCount = d.hiring    || 0;
+    const dstCount = d.distress_total || 0;
+    document.getElementById('s-expansion').textContent = expCount > 0 ? expCount.toLocaleString() : '—';
+    document.getElementById('s-osint').textContent = (d.osint_sweeps || 0).toLocaleString();
+
+    // Pill pending badges
+    const pendingHTML = `<span style="background:rgba(248,113,113,.15);color:#f87171;border:1px solid rgba(248,113,113,.3);
+      padding:1px 6px;border-radius:8px;font-size:9px;font-weight:700;letter-spacing:.5px;
+      animation:pillPulse 2s ease-in-out infinite">PENDING SCAN</span>`;
+    const activeHTML = (n) => `<span style="background:rgba(52,211,153,.15);color:#34d399;border:1px solid rgba(52,211,153,.3);
+      padding:1px 6px;border-radius:8px;font-size:9px;font-weight:700">${n.toLocaleString()}</span>`;
+
+    const expBadge = document.getElementById('expansion-pill-badge');
+    const hirBadge = document.getElementById('hiring-pill-badge');
+    const dstBadge = document.getElementById('distress-pill-badge');
+    const pendingNote = document.getElementById('signals-pending-note');
+
+    if (expBadge) { expBadge.style.display = 'inline'; expBadge.innerHTML = expCount > 0 ? activeHTML(expCount) : pendingHTML; }
+    if (hirBadge) { hirBadge.style.display = 'inline'; hirBadge.innerHTML = hirCount > 0 ? activeHTML(hirCount) : pendingHTML; }
+    if (dstBadge) { dstBadge.style.display = 'inline'; dstBadge.innerHTML = dstCount > 0 ? activeHTML(dstCount) : pendingHTML; }
+
+    const allPending = expCount === 0 && hirCount === 0 && dstCount === 0;
+    if (pendingNote) {
+      if (allPending) {
+        pendingNote.style.display = 'inline';
+        pendingNote.textContent = 'Run: python3 mca_signal_engine.py --hot-only --limit 200';
+      } else {
+        pendingNote.style.display = 'none';
+      }
+    }
+
+    document.getElementById('s-multi').textContent = (d.stacked || 0).toLocaleString();
+    document.getElementById('s-uncontested').textContent = (d.uncontested || 0).toLocaleString();
+
+    // My Pipeline
+    const p = d.my_pipeline || {};
+    const total_p = Object.values(p).reduce((a,b)=>a+b,0);
+    document.getElementById('s-pipeline').textContent = total_p;
+  } catch(e) { console.error('Stats error:', e); }
+}
+
+const filterBtnConfig = {
+  expansion: {id: 'expansion-btn', activeColor: 'rgba(245,158,11,.25)', activeBorder: 'var(--warm)',
+    defaultBg: 'rgba(245,158,11,.08)', defaultBorder: 'rgba(245,158,11,.4)', defaultColor: 'var(--warm)'},
+  tech: {id: 'tech-btn', activeColor: 'rgba(167,139,250,.25)', activeBorder: '#a78bfa',
+    defaultBg: 'rgba(167,139,250,.08)', defaultBorder: 'rgba(167,139,250,.4)', defaultColor: '#a78bfa'},
+  hiring: {id: 'hiring-btn', activeColor: 'rgba(52,211,153,.25)', activeBorder: '#34d399',
+    defaultBg: 'rgba(52,211,153,.08)', defaultBorder: 'rgba(52,211,153,.4)', defaultColor: '#34d399'},
+  distress: {id: 'distress-btn', activeColor: 'rgba(239,68,68,.25)', activeBorder: '#f87171',
+    defaultBg: 'rgba(239,68,68,.08)', defaultBorder: 'rgba(239,68,68,.4)', defaultColor: '#f87171'},
+  stacked: {id: 's-stacked-card', activeColor: 'rgba(167,139,250,.25)', activeBorder: '#a78bfa',
+    defaultBg: 'var(--surface)', defaultBorder: 'rgba(167,139,250,.3)', defaultColor: '#a78bfa'},
+};
+
+function toggleSignalFilter(type) {
+  // Deactivate all
+  Object.entries(filterBtnConfig).forEach(([key, cfg]) => {
+    const btn = document.getElementById(cfg.id);
+    if (btn) {
+      btn.style.background = cfg.defaultBg;
+      btn.style.borderColor = cfg.defaultBorder;
+      btn.style.color = cfg.defaultColor;
+    }
+  });
+
+  if (activeSignalFilter === type) {
+    activeSignalFilter = null; // toggle off
+  } else {
+    activeSignalFilter = type;
+    const cfg = filterBtnConfig[type];
+    const btn = document.getElementById(cfg.id);
+    if (btn) {
+      btn.style.background = cfg.activeColor;
+      btn.style.borderColor = cfg.activeBorder;
+      btn.style.color = '#fff';
+    }
+  }
+  if (window.location.pathname === '/purchase-success') {
+    document.body.innerHTML = '<div style="padding:100px;text-align:center;color:#fff;font-family:Inter,sans-serif"><h2>Purchase Successful! 🎉</h2><p style="color:#9ca3b8">You can close this tab and return to the main portal where your lead is now securely unlocked.</p></div>';
+    return;
+  }
+  await loadLeads();
+}
+
+// ── Industry Inference ────────────────────────────────────────────────────
+const INDUSTRY_MAP = [
+  ['\ud83c\udf7d', 'Food & Bev',    ['restaurant','grill','pizza','diner','cafe','catering','bistro','tavern','brewery','bakery','sushi','burger','taco','food','kitchen']],
+  ['\ud83c\udfd7', 'Construction',  ['construction','builder','contractor','concrete','roofing','siding','framing','excavat','paving','masonry','plumbing','electric','hvac','renovation','remodel']],
+  ['\ud83d\ude97', 'Automotive',    ['auto ','motor','car ','truck','fleet','tire','collision','mechanic','towing','vehicle']],
+  ['\ud83c\udfe5', 'Healthcare',    ['medical','dental','health','clinic','pharmacy','therapy','chiro','urgent care','rehab','nursing','physician','doctor']],
+  ['\ud83d\udecd', 'Retail',        ['retail','store','shop','boutique','market','outlet','supply','wholesale']],
+  ['\ud83d\ude9a', 'Logistics',     ['transport','logistics','freight','trucking','shipping','delivery','courier','moving','warehouse']],
+  ['\ud83d\udc84', 'Beauty',        ['salon','beauty','spa','nail','barber','hair','lash','wax','cosmetic']],
+  ['\ud83c\udfe0', 'Real Estate',   ['realty','real estate','property','housing','leasing','apartment']],
+  ['\u2696\ufe0f', 'Legal',         ['law ','legal','attorney','counsel',' llp']],
+  ['\ud83d\udcbb', 'Technology',    ['tech','software','digital',' it ','cyber','data','cloud','network']],
+  ['\ud83c\udf3f', 'Landscaping',   ['landscap','lawn','garden','tree','irrigation']],
+  ['\ud83c\udfe4', 'Manufacturing', ['manufactur','fabricat','machine','industrial','production']],
+];
+function inferIndustry(name) {
+  const n = (name||'').toLowerCase();
+  for (const [icon, label, kws] of INDUSTRY_MAP)
+    if (kws.some(k => n.includes(k))) return {icon, label};
+  return null;
+}
+
+// ── Countdown Timer ───────────────────────────────────────────────────────
+const _countdowns = {};
+function startCountdown(id, lapseDate) {
+  if (_countdowns[id]) return;
+  _countdowns[id] = setInterval(() => {
+    const el = document.getElementById(id);
+    if (!el) { clearInterval(_countdowns[id]); delete _countdowns[id]; return; }
+    const diff = new Date(lapseDate + 'T23:59:59') - new Date();
+    if (diff <= 0) { el.textContent = 'EXPIRED'; return; }
+    const h = String(Math.floor(diff/3600000)).padStart(2,'0');
+    const m = String(Math.floor((diff%3600000)/60000)).padStart(2,'0');
+    const s = String(Math.floor((diff%60000)/1000)).padStart(2,'0');
+    el.textContent = h + ':' + m + ':' + s;
+  }, 1000);
+}
+
+// ── Deal of the Day ───────────────────────────────────────────────────────
+let _dotdLeadId = null;
+async function loadDealOfDay() {
+  try {
+    const r = await fetch('/api/deal-of-day');
+    const data = await r.json();
+    const lead = data.lead;
+    if (!lead) return;
+    _dotdLeadId = lead.id;
+    window._leadsData = window._leadsData || {};
+    window._leadsData[lead.id] = lead;
+    document.getElementById('dotd-company').textContent = lead.company_name;
+    document.getElementById('dotd-sub').textContent =
+      (lead.city||'') + ', ' + (lead.state||'') + ' \u00b7 ' + (lead.secured_party||'') + ' \u00b7 Tier ' + (lead.funder_tier||'?');
+    document.getElementById('dotd-narrative').textContent = lead.deal_narrative || '';
+    document.getElementById('dotd-score').textContent = lead.deal_score || '\u2014';
+    const dtl = lead.days_to_lapse;
+    const dtlEl = document.getElementById('dotd-dtl');
+    if (dtl !== null && dtl !== undefined) {
+      dtlEl.textContent = dtl < 0 ? 'Lapsed ' + Math.abs(dtl) + 'd ago' : dtl === 0 ? '\u26a1 Expires TODAY' : 'Expires in ' + dtl + 'd';
+      dtlEl.style.color = dtl <= 0 ? '#f87171' : dtl <= 7 ? '#fbbf24' : '#34d399';
+    }
+    const tierEl = document.getElementById('dotd-tier');
+    const tc = {D:'#f87171',C:'#fb923c',B:'#fbbf24',A:'#34d399'};
+    tierEl.textContent = (lead.funder_tier||'?') + '-Tier Lender';
+    tierEl.style.color = tc[lead.funder_tier] || '#94a3b8';
+    const cc = {urgency:'#f87171',lender:'#a78bfa',stack:'#34d399',signal:'#fbbf24'};
+    document.getElementById('dotd-breakdown').innerHTML = (lead.score_breakdown||[]).map(function(b){
+      return '<span style="font-size:10px;padding:3px 8px;border-radius:8px;background:rgba(255,255,255,.06);color:' + (cc[b.cat]||'#94a3b8') + ';font-weight:600">' + esc(b.label) + ' +' + b.pts + '</span>';
+    }).join('');
+    document.getElementById('dotd-wrap').style.display = 'block';
+  } catch(e) {}
+}
+function dotdOpen() { if (_dotdLeadId) openPanel(_dotdLeadId); }
+
+// ── Keyboard Navigation (J/K/Enter/C/Esc) ────────────────────────────────
+let _kbIdx = -1;
+document.addEventListener('keydown', function(e) {
+  if (['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName)) return;
+  const rows = Array.from(document.querySelectorAll('#leads-body tr[id^="row-"]'));
+  if (!rows.length) return;
+  if (e.key === 'j' || e.key === 'ArrowDown') {
+    e.preventDefault(); _kbIdx = Math.min(_kbIdx+1, rows.length-1);
+    rows.forEach(function(r,i){ r.style.outline = i===_kbIdx ? '1px solid rgba(212,160,23,.6)' : ''; });
+    rows[_kbIdx] && rows[_kbIdx].scrollIntoView({block:'nearest',behavior:'smooth'});
+  } else if (e.key === 'k' || e.key === 'ArrowUp') {
+    e.preventDefault(); _kbIdx = Math.max(_kbIdx-1, 0);
+    rows.forEach(function(r,i){ r.style.outline = i===_kbIdx ? '1px solid rgba(212,160,23,.6)' : ''; });
+    rows[_kbIdx] && rows[_kbIdx].scrollIntoView({block:'nearest',behavior:'smooth'});
+  } else if ((e.key === 'Enter' || e.key === ' ') && _kbIdx >= 0) {
+    e.preventDefault();
+    var id = rows[_kbIdx] && rows[_kbIdx].id && rows[_kbIdx].id.replace('row-','');
+    if (id) openPanel(id);
+  } else if (e.key === 'c' && _kbIdx >= 0) {
+    var id = rows[_kbIdx] && rows[_kbIdx].id && rows[_kbIdx].id.replace('row-','');
+    if (id) claimLead(id);
+  } else if (e.key === 'Escape') {
+    closePanel(); rows.forEach(function(r){ r.style.outline=''; }); _kbIdx = -1;
+  }
+});
+
+// ── Toast Helper ──────────────────────────────────────────────────────────
+function showToast(msg, color) {
+  color = color || '#34d399';
+  var t = document.createElement('div');
+  t.innerHTML = msg;
+  t.style.cssText = 'position:fixed;bottom:28px;left:50%;transform:translateX(-50%);' +
+    'background:#1e293b;border:1px solid ' + color + ';color:' + color + ';' +
+    'padding:10px 22px;border-radius:12px;font-size:13px;font-weight:700;' +
+    'z-index:9999;box-shadow:0 4px 24px rgba(0,0,0,.5);white-space:nowrap;transition:opacity .4s';
+  document.body.appendChild(t);
+  setTimeout(function(){ t.style.opacity='0'; }, 2800);
+  setTimeout(function(){ t.remove(); }, 3300);
+}
+
+// ── Auto-Refresh (every 60s) ──────────────────────────────────────────────
+var _lastCheck = new Date().toISOString();
+setInterval(async function(){
+  try {
+    var r = await fetch('/api/new-leads-since?since=' + encodeURIComponent(_lastCheck));
+    var data = await r.json();
+    _lastCheck = new Date().toISOString();
+    if (data.count > 0) {
+      showToast('\ud83d\udd25 ' + data.count + ' new lead' + (data.count>1?'s':'') + ' added to pipeline', '#fbbf24');
+      loadStats(); loadDealOfDay();
+    }
+  } catch(e){}
+}, 60000);
+
+function debounceSearch() {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(function(){ loadLeads(1); }, 350);
+}
+
+async function loadLeads(page=1) {
+  currentPage = page;
+  const state   = document.getElementById('filter-state').value;
+  const urgency = document.getElementById('filter-urgency').value;
+  const tier     = document.getElementById('filter-tier').value;
+  const status  = document.getElementById('filter-status').value;
+  const q       = document.getElementById('search-input').value.trim();
+  const signal  = activeSignalFilter || 'all';
+
+  document.getElementById('leads-body').innerHTML =
+    '<tr><td colspan="8" class="loading"><div class="spinner"></div><br>Loading...</td></tr>';
+
+  const params = new URLSearchParams({page, per_page:50, state, urgency, tier, status, signal});
+  if (q) params.set('q', q);
+
+  try {
+    const r = await fetch(`/api/leads?${params}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    renderLeads(d.leads || []);
+    renderPagination(d.page, d.pages, d.total);
+
+    const ps = params.toString();
+    loadStats(ps);
+    loadExpiryChart(ps);
+    loadHeatmap(ps);
+  } catch(e) {
+    console.error('loadLeads error:', e);
+    document.getElementById('leads-body').innerHTML =
+      `<tr><td colspan="8" class="empty">Error loading leads: ${e.message}</td></tr>`;
+  }
+}
+
+function renderLeads(leads) {
+  if (!leads.length) {
+    document.getElementById('leads-body').innerHTML =
+      '<tr><td colspan="8" class="empty">No leads match your filters</td></tr>';
+    return;
+  }
+  const leadsData = {};
+  leads.forEach(l => leadsData[l.id] = l);
+  window._leadsData = Object.assign(window._leadsData||{}, leadsData);
+
+  document.getElementById('leads-body').innerHTML = leads.map(lead => {
+    const tier = lead.urgency_tier;
+    const dtl  = lead.days_to_lapse;
+    const daysLabel = dtl === null || dtl === undefined ? '?' :
+                      dtl < 0 ? `${Math.abs(dtl)}d ago` : `${dtl}d`;
+    const claimed = lead.claim_status;
+    const lender = (lead.secured_party || 'Unknown').substring(0, 40);
+    let signals = [];
+    try { signals = lead.signals_json ? JSON.parse(lead.signals_json) : []; } catch(e) {}
+    const signal_html = [
+      `<span class="signal-pill ucc">✓ UCC</span>`,
+      ...signals.map(s => {
+        const t = s.type || '';
+        const cls = t.includes('EXPANSION') ? 'news' : t.includes('HIRING') ? 'hiring' :
+                    t.includes('TAX_LIEN') ? 'tax' : t.includes('JUDGMENT') ? 'judgment' :
+                    t.includes('DISTRESS') ? 'distress' : 'prime';
+        return `<span class="signal-pill ${cls}">${s.label||'Signal'}</span>`;
+      })
+    ].join('');
+    const ds = lead.deal_score || 0;
+    const sc = ds >= 70 ? 's-hot' : ds >= 45 ? 's-warm' : 's-med';
+
+    // Score breakdown tooltip
+    const breakdown = (lead.score_breakdown || []);
+    const bHTML = breakdown.map(b => {
+      const catColor = b.cat==='urgency'?'#f87171':b.cat==='lender'?'#a78bfa':b.cat==='signal'?'#fbbf24':'#34d399';
+      return `<div style="display:flex;justify-content:space-between;gap:12px;font-size:10px;padding:2px 0">
+        <span style="color:#94a3b8">${esc(b.label)}</span>
+        <span style="color:${catColor};font-weight:700">+${b.pts}</span>
+      </div>`;
+    }).join('');
+    const tooltipHTML = `<div class="score-tooltip">
+      <div style="font-size:10px;font-weight:700;color:#e2e8f0;margin-bottom:6px;border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:4px">Score Breakdown</div>
+      ${bHTML}
+      <div style="border-top:1px solid rgba(255,255,255,.1);margin-top:6px;padding-top:4px;font-size:11px;font-weight:700;color:#fff;display:flex;justify-content:space-between">
+        <span>Total</span><span style="color:${ds>=70?'#f87171':ds>=45?'#fbbf24':'#94a3b8'}">${ds}</span>
+      </div>
+    </div>`;
+
+    // Phone display
+    const phoneHTML = lead.phone
+      ? (lead.locked
+          ? `<div style="margin-top:2px;color:var(--muted);font-size:10px;font-weight:600;filter:blur(3px);user-select:none">📞 (***) ***-****</div>`
+          : `<div style="margin-top:2px"><a href="tel:${lead.phone.replace(/\D/g,'')}" onclick="event.stopPropagation()" style="color:#34d399;font-size:10px;font-weight:600;text-decoration:none">📞 ${esc(lead.phone)}</a></div>`)
+      : '';
+
+    // Claim status badge
+    const statusColors = {called:'#60a5fa',voicemail:'#94a3b8',interested:'#34d399',
+                          not_interested:'#f87171',funded:'#fbbf24',follow_up:'#fb923c'};
+    const statusLabel = {called:'Called',voicemail:'VM Left',interested:'Interested',
+                         not_interested:'Not Int.',funded:'✓ Funded',follow_up:'Follow Up'};
+    const statusBadge = claimed && claimed !== 'claimed'
+      ? `<span style="font-size:9px;font-weight:700;color:${statusColors[claimed]||'#94a3b8'};background:rgba(0,0,0,.3);padding:1px 5px;border-radius:4px">${statusLabel[claimed]||claimed}</span>`
+      : '';
+
+    // Industry tag — inferred from company name
+    const _ind = inferIndustry(lead.company_name);
+    const indHTML = _ind ? `<span class="ind-tag">${_ind.icon} ${_ind.label}</span> ` : '';
+
+    // Matures cell — live countdown for today, otherwise static days badge
+    const _cdId = 'cd-' + lead.id;
+    const _isToday = lead.lapse_date && lead.days_to_lapse === 0;
+    const maturesCell = _isToday
+      ? `<div class="countdown-cell" id="${_cdId}">--:--:--</div><div class="sub-text">${lead.lapse_date}</div>`
+      : `<div class="days-badge" style="color:${tier==='hot'?'var(--hot)':tier==='warm'?'var(--warm)':'var(--cold)'}">${daysLabel}</div><div class="sub-text">${lead.lapse_date || '—'}</div>`;
+
+    return `
+    <tr onclick="openPanel('${lead.id}')" style="cursor:pointer" id="row-${lead.id}">
+      <td style="text-align:center;width:50px;position:relative">
+        <div class="score-ring ${sc}" style="position:relative">${ds}
+          ${tooltipHTML}
+        </div>
+      </td>
+      <td>
+        <div class="company-name" ${lead.locked ? 'style="filter: blur(4px); user-select: none;"' : ''}>${esc(lead.locked ? 'Locked Lead' : lead.company_name)}</div>
+        <div class="sub-text" style="margin-top:2px">${indHTML}${signal_html}</div>
+        ${statusBadge ? `<div style="margin-top:3px">${statusBadge}</div>` : ''}
+      </td>
+      <td>
+        <div>${esc(lead.city || '—')}, ${esc(lead.state || '')}</div>
+        <div class="sub-text">${esc(lead.zipcode || '')}</div>
+      </td>
+      <td>
+        <div style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(lender)}</div>
+        <div class="sub-text">${lead.funder_tier ? 'Tier ' + lead.funder_tier : ''}</div>
+      </td>
+      <td>
+        <div style="font-weight:600;color:var(--gold)">${lead.est_advance_amount ? '$' + Number(lead.est_advance_amount).toLocaleString() : '—'}</div>
+        <div class="sub-text">${lead.stack_depth > 1 ? lead.stack_depth + ' positions stacked' : 'Single position'}</div>
+        ${phoneHTML}
+      </td>
+      <td>${maturesCell}</td>
+      <td><span class="badge ${tier}">${tier.toUpperCase()}</span></td>
+      <td onclick="event.stopPropagation()">
+        ${lead.locked
+          ? `<button class="action-btn claim" onclick="unlockLeadUI('${lead.id}')">Unlock</button>`
+          : claimed
+            ? `<button class="action-btn claimed" onclick="unclaimLead('${lead.id}')">✓ Claimed</button>`
+            : `<button class="action-btn claim" onclick="claimLead('${lead.id}')">Claim</button>`
+        }
+      </td>
+    </tr>`;
+  }).join('');
+  // Start countdown timers for any lead expiring today
+  leads.forEach(function(lead){
+    if (lead.days_to_lapse === 0 && lead.lapse_date)
+      setTimeout(function(){ startCountdown('cd-' + lead.id, lead.lapse_date); }, 50);
+  });
+}
+
+
+function renderPagination(page, pages, total) {
+  const el = document.getElementById('pagination');
+  if (pages <= 1) { el.innerHTML = `<span class="page-info">${total.toLocaleString()} leads</span>`; return; }
+  let html = `<span class="page-info">${total.toLocaleString()} leads</span>`;
+  if (page > 1) html += `<button class="page-btn" onclick="loadLeads(${page-1})">← Prev</button>`;
+  html += `<span class="page-info">Page ${page} of ${pages}</span>`;
+  if (page < pages) html += `<button class="page-btn" onclick="loadLeads(${page+1})">Next →</button>`;
+  el.innerHTML = html;
+}
+
+async function claimLead(id) {
+  await apiFetch(`/api/leads/${id}/claim`, {method:'POST', body: JSON.stringify({status:'claimed'})});
+  loadLeads(currentPage);
+  loadStats();
+}
+
+async function unclaimLead(id) {
+  await apiFetch(`/api/leads/${id}/unclaim`, {method:'POST'});
+  loadLeads(currentPage);
+  loadStats();
+}
+
+// ── Lead Intelligence Panel ───────────────────────────────────────────────
+let _panelLeadId = null;
+
+function setLeadStatus(status) {
+  if (!_activePanelId) return;
+  const labels = {called:'📞 Called',voicemail:'📩 Voicemail',interested:'✓ Interested',
+                  follow_up:'🔄 Follow Up',funded:'★ Funded!',not_interested:'✕ Not Int.'};
+  fetch(`/api/lead/${_activePanelId}/status`, {
+    method:'PATCH',
+    headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({status, broker: localStorage.getItem('broker')||'demo_broker'})
+  }).then(r=>r.json()).then(d=>{
+    if (d.ok) {
+      // Update cached lead
+      if (window._leadsData && window._leadsData[_activePanelId]) {
+        window._leadsData[_activePanelId].claim_status = status;
+      }
+      // Visual flash on status buttons
+      document.querySelectorAll('.status-btn').forEach(b => b.style.opacity = '.5');
+      event.target.style.opacity = '1';
+      event.target.style.transform = 'scale(1.1)';
+      setTimeout(() => {
+        document.querySelectorAll('.status-btn').forEach(b => { b.style.opacity='1'; b.style.transform=''; });
+        loadStats();
+      }, 800);
+      // Show toast
+      const toast = document.createElement('div');
+      toast.textContent = `Status: ${labels[status]||status}`;
+      toast.style.cssText = 'position:fixed;bottom:24px;right:24px;background:#1e293b;border:1px solid rgba(255,255,255,.15);color:#e2e8f0;padding:10px 18px;border-radius:10px;font-size:13px;font-weight:600;z-index:9999;animation:fadeIn .2s';
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 2500);
+    }
+  });
+}
+
+function openPanel(id) {
+  const lead = (window._leadsData||{})[id];
+  if (!lead) return;
+  _activePanelId = id;
+  _panelLeadId = id;
+
+  document.getElementById('dp-company').textContent = lead.locked ? 'Locked Lead' : lead.company_name;
+  document.getElementById('dp-company').style.filter = lead.locked ? 'blur(4px)' : 'none';
+  document.getElementById('dp-company').style.userSelect = lead.locked ? 'none' : 'auto';
+
+  document.getElementById('dp-sub').textContent =
+    `${lead.city||''}, ${lead.state||''} ${lead.locked ? '' : (lead.zipcode||'')} · MCA Filing`;
+
+  const claimed = lead.claim_status;
+  const claimBtn = document.getElementById('dp-claim-btn');
+  if (lead.locked) {
+    claimBtn.textContent = 'Unlock Lead ';
+    claimBtn.className = 'detail-action-btn primary';
+    claimBtn.onclick = function() { unlockLeadUI(id); };
+  } else {
+    claimBtn.textContent = claimed ? '✓ Release Claim' : 'Claim This Lead';
+    claimBtn.className = `detail-action-btn ${claimed ? 'secondary' : 'primary'}`;
+    claimBtn.onclick = function() { panelClaim(); };
+  }
+
+  const dtl = lead.days_to_lapse;
+  const urgencyPct = dtl === null ? 100 :
+                     dtl <= 0 ? 100 :
+                     Math.max(5, Math.min(100, Math.round((180-dtl)/180*100)));
+  const urgencyColor = lead.urgency_tier==='hot' ? 'var(--hot)' :
+                       lead.urgency_tier==='warm' ? 'var(--warm)' : 'var(--cold)';
+  const daysLabel = dtl === null ? 'Unknown' :
+                    dtl < 0 ? `Lapsed ${Math.abs(dtl)} days ago` :
+                    dtl === 0 ? 'Expires TODAY' : `${dtl} days remaining`;
+
+  const lender = lead.secured_party || 'Unknown Lender';
+  const collateral = lead.collateral_desc || 'Equipment';
+  const filingDate = lead.filing_date || '—';
+  const lapseDate = lead.lapse_date || '—';
+
+  // Classify lender type for competitive angle
+  const bigBanks = ['WELLS FARGO','BANK OF AMERICA','CHASE','CITIBANK','US BANK','PNC','TD BANK'];
+  const captives = ['CATERPILLAR','JOHN DEERE','KOMATSU','CNH','MANITOWOC','HITACHI'];
+  const aBanks = ['CAT FINANCIAL','DLL FINANCE','DE LAGE LANDEN','CISCO','DELL FINANCIAL'];
+  const isBigBank = bigBanks.some(b => lender.toUpperCase().includes(b));
+  const isCaptive = captives.some(b => lender.toUpperCase().includes(b));
+
+  let competitiveAngle = '';
+  if (isBigBank) {
+    competitiveAngle = `This is a <strong>major bank lien</strong>. Big banks rarely renew equipment-specific deals — they push clients to generic commercial lines. Position as a dedicated equipment finance specialist with faster approvals and better terms.`;
+  } else if (isCaptive) {
+    competitiveAngle = `This is a <strong>manufacturer captive lien</strong>. Captives lock clients to one brand. A bank-agnostic broker can offer multi-brand and used equipment options at better rates.`;
+  } else {
+    competitiveAngle = `Independent or specialty lender. Approach with a competitive rate comparison — emphasize speed of close and flexible term structures for renewal.`;
+  }
+
+
+
+  const signals = [];
+  try { JSON.parse(lead.signals_json||'[]').forEach(s=>signals.push(s)); } catch(e){}
+
+  // ── Build signal section HTML ──────────────────────────────────────────
+  let signalSectionHTML = `
+    <div style="margin-bottom:10px">
+      <span class="signal-pill ucc" style="font-size:11px;padding:4px 12px">
+        ✓ CONFIRMED UCC-1 FILING
+      </span>
+      <span style="font-size:11px;color:var(--muted);margin-left:8px">Primary signal — verified public record</span>
+    </div>
+  `;
+
+  if (signals.length === 0) {
+    signalSectionHTML += `<div style="color:var(--muted);font-size:12px;margin-top:8px">No additional signals detected yet. Background scan in progress.</div>`;
+  }
+
+  for (const sig of signals) {
+    const isExpansion = sig.type && sig.type.includes('EXPANSION');
+    const isHiring    = sig.type && sig.type.includes('HIRING');
+    const pillClass   = isExpansion ? 'news' : isHiring ? 'hiring' : 'prime';
+
+    if (isExpansion) {
+      // Full article card
+      const headline = esc(sig.detail || 'Business expansion activity detected');
+      const source   = esc(sig.source || 'News source');
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(245,158,11,.15);color:var(--warm);border:1px solid rgba(245,158,11,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      const pubDate  = sig.pub ? new Date(sig.pub).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+      const link     = sig.link || '';
+
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+            <span class="signal-pill news" style="font-size:10px">${sig.label || '▲ Business Expansion'}</span>
+            ${pubDate ? `<span style="font-size:11px;color:var(--muted)">${pubDate}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${headline}
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+            <div>
+              <span style="font-size:11px;color:var(--muted)">via </span>
+              <span style="font-size:11px;font-weight:600;color:var(--warm)">${source}</span>
+            </div>
+            ${link ? `<a href="${link}" target="_blank" rel="noopener"
+                style="font-size:11px;font-weight:600;color:var(--accent);
+                       text-decoration:none;border:1px solid rgba(212,160,23,.3);
+                       padding:3px 10px;border-radius:6px;transition:.2s"
+                onmouseover="this.style.background='rgba(212,160,23,.1)'"
+                onmouseout="this.style.background=''">Read Article ↗</a>` : ''}
+          </div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else if (isHiring) {
+      // Hiring signal card
+      const eqCount  = sig.eq_count || 0;
+      const total    = sig.count || 0;
+      const roles    = (sig.triggers || []).slice(0,3);
+      const roleTags = roles.map(r => `<span style="background:rgba(59,130,246,.12);color:#60a5fa;border:1px solid rgba(59,130,246,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(r)}</span>`).join('');
+      const hiringColor = eqCount > 0 ? 'rgba(59,130,246,.25)' : 'rgba(59,130,246,.12)';
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(59,130,246,.06);border:1px solid rgba(59,130,246,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill hiring" style="font-size:10px">${sig.label || '👷 Hiring'}</span>
+            <span style="font-size:11px;color:var(--muted)">${total} open position${total !== 1 ? 's' : ''} found</span>
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${esc(sig.detail || '')}
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+            <div>
+              <span style="font-size:11px;color:var(--muted)">via </span>
+              <span style="font-size:11px;font-weight:600;color:#60a5fa">${esc(sig.source || 'LinkedIn')}</span>
+            </div>
+            ${eqCount > 0 ? `<span style="font-size:11px;font-weight:700;color:#22d3ee;background:rgba(34,211,238,.1);border:1px solid rgba(34,211,238,.3);padding:2px 8px;border-radius:6px">${eqCount} equipment role${eqCount > 1 ? 's' : ''} ▲</span>` : ''}
+          </div>
+          ${roleTags ? `<div style="margin-top:10px">${roleTags}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('EDGAR')) {
+      // SEC EDGAR card
+      const keywords = (sig.triggers || []).slice(0,4);
+      const kwTags = keywords.map(k => `<span style="background:rgba(168,85,247,.12);color:#c084fc;border:1px solid rgba(168,85,247,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(k)}</span>`).join('');
+      const filedFmt = sig.pub ? new Date(sig.pub).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+      const secLink  = sig.link || '';
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(168,85,247,.06);border:1px solid rgba(168,85,247,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+            <span class="signal-pill prime" style="font-size:10px">${sig.label || '▲ SEC Filing'}</span>
+            ${filedFmt ? `<span style="font-size:11px;color:var(--muted)">Filed ${filedFmt}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${esc(sig.detail || 'Equipment capex keywords detected in SEC 8-K filing')}
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+            <div>
+              <span style="font-size:11px;color:var(--muted)">source: </span>
+              <span style="font-size:11px;font-weight:600;color:#c084fc">SEC EDGAR (public record)</span>
+            </div>
+            ${secLink ? `<a href="${secLink}" target="_blank" rel="noopener"
+                style="font-size:11px;font-weight:600;color:var(--accent);
+                       text-decoration:none;border:1px solid rgba(212,160,23,.3);
+                       padding:3px 10px;border-radius:6px;transition:.2s"
+                onmouseover="this.style.background='rgba(212,160,23,.1)'"
+                onmouseout="this.style.background=''">View Filing ↗</a>` : ''}
+          </div>
+          ${kwTags ? `<div style="margin-top:10px">${kwTags}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('TAX_LIEN')) {
+      const amount = sig.amount ? '$' + Number(sig.amount).toLocaleString() : '';
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(239,68,68,.15);color:#f87171;border:1px solid rgba(239,68,68,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill tax" style="font-size:10px">${sig.label || 'Tax Lien'}</span>
+            ${amount ? `<span style="font-size:14px;font-weight:700;color:#f87171">${amount}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${esc(sig.detail || '')}
+          </div>
+          <div style="display:flex;align-items:center;margin-top:8px">
+            <span style="font-size:11px;color:var(--muted)">via </span>
+            <span style="font-size:11px;font-weight:600;color:#f87171;margin-left:4px">${esc(sig.source || 'Public Records')}</span>
+          </div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('JUDGMENT')) {
+      const amount = sig.amount ? '$' + Number(sig.amount).toLocaleString() : '';
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(251,146,60,.15);color:#fb923c;border:1px solid rgba(251,146,60,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(251,146,60,.06);border:1px solid rgba(251,146,60,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <span class="signal-pill judgment" style="font-size:10px">${sig.label || 'Court Judgment'}</span>
+            ${amount ? `<span style="font-size:14px;font-weight:700;color:#fb923c">${amount}</span>` : ''}
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${esc(sig.detail || '')}
+          </div>
+          <div style="display:flex;align-items:center;margin-top:8px">
+            <span style="font-size:11px;color:var(--muted)">via </span>
+            <span style="font-size:11px;font-weight:600;color:#fb923c;margin-left:4px">${esc(sig.source || 'County Court Records')}</span>
+          </div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else if (sig.type && sig.type.includes('DISTRESS')) {
+      const triggers = (sig.triggers || []).slice(0,3).map(t => `<span style="background:rgba(248,113,113,.15);color:#fca5a5;border:1px solid rgba(248,113,113,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-right:4px">${esc(t)}</span>`).join('');
+      signalSectionHTML += `
+        <div style="margin-top:14px;background:rgba(248,113,113,.06);border:1px solid rgba(248,113,113,.25);
+                    border-radius:10px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+            <span class="signal-pill distress" style="font-size:10px">${sig.label || 'Distress'}</span>
+          </div>
+          <div style="font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:8px">
+            ${esc(sig.detail || '')}
+          </div>
+          <div style="display:flex;align-items:center;margin-top:8px">
+            <span style="font-size:11px;color:var(--muted)">via </span>
+            <span style="font-size:11px;font-weight:600;color:#fca5a5;margin-left:4px">${esc(sig.source || 'Public Records')}</span>
+          </div>
+          ${triggers ? `<div style="margin-top:10px">${triggers}</div>` : ''}
+        </div>
+      `;
+    } else {
+      // Generic fallback
+      signalSectionHTML += `
+        <div style="margin-top:10px;padding:10px 12px;background:var(--surface2);
+                    border:1px solid var(--border);border-radius:8px;">
+          <span class="signal-pill ${pillClass}">${sig.label || 'Signal'}</span>
+          <span style="font-size:12px;color:var(--muted);margin-left:8px">${esc(sig.detail||'')}</span>
+        </div>
+      `;
+    }
+  }
+
+  // ── Build approach intelligence data ──────────────────────────────────
+  const phone = lead.phone || '';
+  const email = lead.email || '';
+  const website = lead.company_website || '';
+  const contactName = lead.contact_name || '';
+  const address = lead.address || '';
+  const techCat = lead.tech_category || '';
+  const techReason = lead.tech_reason || '';
+  const fileId = lead.file_id || lead.id || '';
+  const sourceState = lead.source_state || '';
+
+  // Filing tenure (how long this lien has been active)
+  let tenureLabel = '';
+  if (filingDate && lapseDate && filingDate !== '—' && lapseDate !== '—') {
+    const filedYear = parseInt(filingDate.split('-')[0]);
+    const lapseYear = parseInt(lapseDate.split('-')[0]);
+    const tenure = lapseYear - filedYear;
+    tenureLabel = tenure > 0 ? `${tenure}-year term` : '< 1 year';
+  }
+
+  // Urgency context
+  let urgencyContext = '';
+  if (dtl !== null) {
+    if (dtl < 0) urgencyContext = '■ LAPSED — lender relationship is already expired. Competitor may have already made contact.';
+    else if (dtl === 0) urgencyContext = '● EXPIRES TODAY — maximum urgency. Decision is being made right now.';
+    else if (dtl <= 3) urgencyContext = '● CRITICAL — expires within 72 hours. Very narrow window for outreach.';
+    else if (dtl <= 7) urgencyContext = '● THIS WEEK — decision window is open. High likelihood of active vendor evaluation.';
+    else if (dtl <= 14) urgencyContext = '● 2-WEEK WINDOW — ideal timing for first contact. Company is likely starting to evaluate options.';
+    else if (dtl <= 30) urgencyContext = '● 30-DAY WINDOW — early mover advantage. Position before competitors reach out.';
+  }
+
+  // Lender classification — deep competitive intelligence
+  const lu = lender.toUpperCase();
+  let lenderType = '';
+  let lenderInsight = '';
+
+  if (lu.includes('XEROX')) {
+    lenderType = '▪  Xerox / FITTLE';
+    lenderInsight = '<strong>Xerox rebranded its financial services to FITTLE in 2022.</strong> Most clients are confused by the transition and don\'t know who holds their lease. Auto-renewal clauses kick in 90 days before lapse — if you\'re inside that window, the deal may have already rolled. Xerox print volumes are declining ~4% YoY — they\'re not fighting hard to retain small-ticket deals under $15K.';
+  } else if (lu.includes('CANON FINANCIAL')) {
+    lenderType = '▪  Canon Financial (Captive)';
+    lenderInsight = '<strong>Canon Financial ONLY finances Canon-branded equipment.</strong> The moment a client needs multi-brand (e.g. adding a wide-format printer from HP or Epson), Canon can\'t service it. Their standard FMV lease auto-renews at 3–6% above original rate if the client doesn\'t send written notice 90 days out. Many clients miss this and overpay for months.';
+  } else if (lu.includes('RICOH')) {
+    lenderType = '▪  Ricoh Leasing';
+    lenderInsight = '<strong>Ricoh bundles service contracts into their lease payments.</strong> When the lease lapses, the service contract often continues billing separately — clients don\'t realize they\'re paying for maintenance on equipment they no longer lease. Unbundling the service contract is a strong opening angle.';
+  } else if (lu.includes('KONICA MINOLTA')) {
+    lenderType = '▪  Konica Minolta';
+    lenderInsight = '<strong>Konica Minolta Premier Finance uses aggressive early-termination penalties</strong> — typically 85-100% of remaining payments. However, at lease-end they have very little leverage. Their sales reps are comp\'d on new placements, not renewals — the renewal desk is understaffed and slow. This is a high-win-rate displacement window.';
+  } else if (lu.includes('DELL FINANCIAL')) {
+    lenderType = '▸  Dell Financial Services';
+    lenderInsight = '<strong>Dell Financial uses 3rd-party capital</strong> (DFS is funded by CIT/First Citizens Bank). Their FMV leases are where they make margin — residual values are inflated by 15-25% vs. market. At lapse, Dell pushes hard for Technology Rotation (trade-in + new lease) which locks the client into another 36-month cycle. Offer a $1 buyout or EFA as alternative — Dell can\'t match that structure.';
+  } else if (lu.includes('LENOVO')) {
+    lenderType = '▸  Lenovo Financial';
+    lenderInsight = '<strong>Lenovo Financial Services is a small, centralized operation</strong> — deals over $50K go to a single approval desk in Morrisville, NC. Turnaround is 5-7 business days vs. 24-48 hours from independent lessors. At lease-end, Lenovo typically offers a 12-month extension at 110% of the original rate. Position with faster funding and flexible terms.';
+  } else if (lu.includes('IBM CREDIT') || lu.includes('IBM CORP')) {
+    lenderType = '▸  IBM Credit (Legacy)';
+    lenderInsight = '<strong>IBM sold its equipment financing operations.</strong> Many "IBM Credit" liens are now managed by successor entities — the client may not even know who their current lessor is. IBM\'s shift to cloud/subscription (Red Hat, watsonx) means on-prem hardware is being deprioritized. These clients are often being pushed to migrate to IBM cloud — an independent broker offering traditional EFA keeps them in control of their infrastructure.';
+  } else if (lu.includes('CISCO')) {
+    lenderType = '▸  Cisco Capital';
+    lenderInsight = '<strong>Cisco Capital bundles financing with Cisco+</strong> (their new subscription model). At lease-end, Cisco pushes hard to convert hardware customers to Cisco+ subscriptions — which costs 20-40% more than traditional ownership. Clients who want to keep owning hardware need an independent financing option. Also: Cisco refresh cycles are shortening from 5yr to 3yr as they push newer platforms.';
+  } else if (lu.includes('HEWLETT') || lu.includes('HPE') || lu.includes('HP INC')) {
+    lenderType = '▸  HP / HPE Financial';
+    lenderInsight = '<strong>HP split into HP Inc (printers/PCs) and HPE (servers/networking) in 2015</strong> — but their financial services weren\'t cleanly separated. Many clients have liens under the old "Hewlett-Packard Financial Services" entity that neither HP Inc nor HPE actively services anymore. These are orphaned accounts — the renewal desk has minimal incentive to compete on price.';
+  } else if (lu.includes('GREATAMERICA')) {
+    lenderType = '▹  GreatAmerica Financial';
+    lenderInsight = '<strong>GreatAmerica starts their renewal process 120 days before lapse</strong> — earlier than any other lessor. If you\'re seeing this lead, their renewal team has likely already made contact. However: GreatAmerica bundles equipment + managed services into a single payment — if the client wants to switch service providers, the bundled structure becomes a liability. Unbundling is your angle.';
+  } else if (lu.includes('MARLIN')) {
+    lenderType = '▹  Marlin Business Services';
+    lenderInsight = '<strong>Marlin was acquired by HPS Investment Partners in late 2022.</strong> Post-acquisition, their underwriting criteria tightened significantly — approval rates dropped ~20% for sub-$100K deals. Their existing clients are seeing renewal offers with higher rates than their original lease. If you can beat their renewal rate by even 50bps, you win — they\'re not negotiating aggressively during integration.';
+  } else if (lu.includes('LEAF') || lu.includes('PEOPLE')) {
+    lenderType = '▹  LEAF / People\'s Capital';
+    lenderInsight = '<strong>LEAF merged with People\'s Capital and Leasing</strong> — brand confusion is rampant. Clients receive communications from both brands and don\'t know which entity holds their lease. Their standard contract includes a 15% early-termination fee, but at natural lapse there\'s zero penalty. Time your outreach for the lapse window — not before.';
+  } else if (lu.includes('CIT')) {
+    lenderType = '▹  CIT / First Citizens';
+    lenderInsight = '<strong>CIT Group was acquired by First Citizens BancShares in 2022.</strong> The integration is still ongoing — loan servicing has been inconsistent, and many commercial clients report difficulty reaching their account managers. First Citizens is a regional bank scaling into national commercial lending — they\'re focused on deposits, not equipment retention. These accounts are vulnerable to displacement.';
+  } else if (lu.includes('AMAZON CAPITAL')) {
+    lenderType = '◆  Amazon Capital Services';
+    lenderInsight = '<strong>Amazon Capital Services provides lending to Amazon Marketplace sellers.</strong> These are e-commerce businesses using Amazon\'s working capital product — typically short-term, high-rate loans. The UCC filing signals the business has revenue but may be over-leveraged on Amazon\'s terms (rates can be 12-16% APR). Offering a traditional equipment line at lower rates is a strong displacement play.';
+  } else if (lu.includes('CATERPILLAR') || lu.includes('CAT FINANCIAL')) {
+    lenderType = '◼  Caterpillar Financial';
+    lenderInsight = '<strong>CAT Financial offers 0% promotional rates on new Caterpillar equipment</strong> — but marks up used, rental, and non-CAT equipment by 200-400bps. Their standard lease includes a "Fair Market Value" return option that inflates residuals by 20-30%. At lapse, CAT pushes fleet management programs that lock clients into 5-year cycles. Counter with flexible terms and multi-brand capability — CAT can\'t finance Deere, Komatsu, or Volvo equipment.';
+  } else if (lu.includes('WELLS FARGO')) {
+    lenderType = '◻  Wells Fargo Equipment Finance';
+    lenderInsight = '<strong>Wells Fargo exited small-ticket equipment lending ($50K-$250K) in 2021.</strong> Their minimum deal size is now ~$250K. Existing small-ticket UCC filings that are lapsing will NOT be renewed by Wells — the client has to find a new lender regardless. This is essentially a warm introduction — the client already knows they need to refinance and has no incumbent to fall back on.';
+  } else if (lu.includes('DE LAGE LANDEN') || lu.includes('DLL')) {
+    lenderType = '▹  DLL (De Lage Landen)';
+    lenderInsight = '<strong>DLL is a subsidiary of Rabobank (Netherlands)</strong> — they have deep capital reserves but their U.S. operations have a 7-10 day approval cycle vs. 24-48 hours from domestic lessors. They\'re strongest in agriculture and food processing equipment — outside those verticals, their underwriting team is less experienced and more conservative. Speed of close is your primary advantage.';
+  } else if (lu.includes('KEY EQUIPMENT') || lu.includes('KEYBANK')) {
+    lenderType = '◻  Key Equipment Finance';
+    lenderInsight = '<strong>Key Equipment Finance tightened credit criteria in 2023-2024</strong> — they\'re now declining deals they would have approved 2 years ago, particularly in construction and transportation. Their portfolio is shifting toward healthcare and technology. If this is a construction/industrial client, Key may not even offer competitive renewal terms — the client could be looking for a new lender already.';
+  } else if (lu.includes('SACHEM CAPITAL')) {
+    lenderType = '◇  Sachem Capital (Bridge Lender)';
+    lenderInsight = '<strong>Sachem Capital is primarily a bridge/hard-money real estate lender.</strong> If they appear on an equipment UCC, the borrower likely couldn\'t get traditional financing — this may signal credit issues or non-standard collateral. However, it also means the borrower is paying 10-15% rates and would jump at a 6-8% equipment-specific offer. High motivation, but verify creditworthiness carefully.';
+  } else if (lu.includes('SIEMENS')) {
+    lenderType = '▪  Siemens Financial';
+    lenderInsight = '<strong>Siemens Financial Services focuses on energy, healthcare, and industrial automation.</strong> Their typical deal is $500K+ and structured as a project finance arrangement, not a standard lease. At lapse, Siemens pushes clients toward their Asset-as-a-Service model — which is essentially a subscription with no ownership path. Offering a buyout/EFA structure gives the client ownership and long-term cost savings.';
+  } else if (isBigBank) {
+    lenderType = '◻  Major Bank';
+    lenderInsight = '<strong>Major bank equipment desks are typically understaffed and deprioritized</strong> — they make their money on deposits and commercial lines. Equipment renewal quotes from big banks often come 30-60 days late and with above-market rates. The relationship manager rarely fights to retain a $50K equipment deal when they\'re managing a $5M credit facility. This is a low-resistance displacement.';
+  } else if (isCaptive) {
+    lenderType = '◼  Manufacturer Captive';
+    lenderInsight = '<strong>Captive lenders can ONLY finance their own brand.</strong> The moment the client needs mixed-vendor equipment, the captive can\'t help. Their renewal rates are typically 150-250bps above market because they have no competition within their own ecosystem. Position as brand-agnostic with lower rates and used equipment capability.';
+  } else {
+    lenderType = '▫  Specialty / Regional';
+    lenderInsight = '<strong>Specialty or regional lender — limited market data available.</strong> These are often relationship-driven lenders where the deal was placed through a broker originally. Check if this lender has been involved in any recent M&A activity — smaller lessors are being acquired at record rates, and post-acquisition service disruptions create displacement windows.';
+  }
+
+  const panelBodyHTML = `
+    <div class="urgency-bar"><div class="urgency-fill" style="width:${urgencyPct}%;background:${urgencyColor}"></div></div>
+    <div style="font-size:13px;font-weight:600;color:${urgencyColor};margin-bottom:6px">${daysLabel}</div>
+    <div style="font-size:12px;color:var(--muted);margin-bottom:16px;line-height:1.5">${urgencyContext}</div>
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-bolt"></span>AI Deal Score &amp; Narrative</div>
+      <div style="display:flex;gap:16px;align-items:flex-start">
+        <div class="score-ring ${lead.deal_score >= 70 ? 's-hot' : lead.deal_score >= 45 ? 's-warm' : 's-med'}" style="width:52px;height:52px;font-size:18px;flex-shrink:0">${lead.deal_score || 0}</div>
+        <div class="call-script" style="flex:1;font-style:normal;font-size:12px;line-height:1.7;background:rgba(212,160,23,.06);border:1px solid rgba(212,160,23,.18);padding:12px 14px">
+          ${esc(lead.deal_narrative || '')}
+        </div>
+      </div>
+    </div>
+
+    ${(lead.est_paydex) ? (() => {
+      const px = lead.est_paydex;
+      const pxColor = px >= 70 ? '#34d399' : px >= 50 ? '#fbbf24' : px >= 35 ? '#fb923c' : '#f87171';
+      const pxLabel = lead.est_paydex_label || (px >= 70 ? 'Low Risk' : px >= 50 ? 'Moderate' : px >= 35 ? 'Elevated Risk' : 'High Risk');
+      const pxContext = px >= 70
+        ? 'Creditworthiness signals are solid for MCA context. May qualify for consolidation at improved rates.'
+        : px >= 50
+        ? 'Moderate risk signals. MCA consolidation is the right pitch — show daily payment reduction.'
+        : px >= 35
+        ? 'Elevated risk indicators. Banks will decline. MCA is their primary capital source — high conversion.'
+        : 'High distress signals. Multiple funders, tax liens, or judgments likely. Position as the lifeline — consolidation saves their cash flow.';
+      const angle = (px / 100) * 180;
+      const rad = angle * Math.PI / 180;
+      const ex = 50 - 40 * Math.cos(rad);
+      const ey = 52 - 40 * Math.sin(rad);
+      const largeArc = angle > 180 ? 1 : 0;
+      const rationale = lead.est_paydex_rationale || [];
+      return `
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-shield"></span>Est. Paydex
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">Signal-based · no D&amp;B required</span>
+      </div>
+      <div style="display:flex;gap:20px;align-items:flex-start">
+        <div style="position:relative;width:100px;height:60px;flex-shrink:0">
+          <svg viewBox="0 0 100 58" style="width:100px;height:60px">
+            <path d="M 10 52 A 40 40 0 0 1 90 52" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="6" stroke-linecap="round"/>
+            <path d="M 10 52 A 40 40 0 ${largeArc} 1 ${ex.toFixed(1)} ${ey.toFixed(1)}" fill="none" stroke="${pxColor}" stroke-width="6" stroke-linecap="round" style="filter:drop-shadow(0 0 6px ${pxColor}40)"/>
+            <text x="50" y="46" text-anchor="middle" fill="${pxColor}" font-size="20" font-weight="800" font-family="Inter">${px}</text>
+            <text x="50" y="56" text-anchor="middle" fill="${pxColor}90" font-size="7" font-weight="600" font-family="Inter">${pxLabel.toUpperCase()}</text>
+          </svg>
+        </div>
+        <div style="flex:1">
+          <div style="font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:8px">${pxContext}</div>
+          ${rationale.length > 0 ? `
+          <div style="font-size:10px;color:#64748b;line-height:1.8">
+            ${rationale.map(r => `<div>• ${r}</div>`).join('')}
+          </div>` : ''}
+        </div>
+      </div>
+    </div>`;
+    })() : ''}
+
+    ${(lead.est_revenue_range) ? (() => {
+      const rv = lead.est_revenue_range;
+      const label = lead.est_revenue_label || 'Est.';
+      const color = lead.est_revenue_color || '#fbbf24';
+      const rationale = lead.est_revenue_rationale || [];
+      return `
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-chart"></span>Est. Annual Revenue
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">Advance-based · no D&amp;B required</span>
+      </div>
+      <div style="display:flex;gap:20px;align-items:center">
+        <div style="flex-shrink:0;text-align:center;min-width:90px">
+          <div style="font-size:20px;font-weight:900;color:${color};letter-spacing:-.5px;line-height:1">${rv}</div>
+          <div style="font-size:9px;font-weight:700;color:${color}90;text-transform:uppercase;letter-spacing:1px;margin-top:4px">${label} · Est.</div>
+        </div>
+        <div style="flex:1;font-size:11px;color:var(--muted);line-height:1.6;border-left:1px solid var(--border);padding-left:14px">
+          <div style="color:var(--text);font-weight:600;font-size:12px;margin-bottom:4px">Derived from advance amount × stack depth</div>
+          ${rationale.join(' · ') || 'Based on MCA advance amount and funder profile.'}
+          <div style="margin-top:6px;font-size:10px;color:#64748b">MCA funders typically advance 70–100% of monthly revenue. Range = ±40%.</div>
+        </div>
+      </div>
+    </div>`;
+    })() : ''}
+
+    ${phone || email || website || contactName ? `
+    <div class="intel-section" ${lead.locked ? 'style="filter:blur(4px);pointer-events:none;user-select:none;"' : ''}>
+      <div class="intel-label"><span class="ic ic-phone"></span>Contact Data</div>
+      <div class="intel-card">
+        ${phone ? `<div class="intel-row"><span class="intel-key">Phone</span><span class="intel-val" style="color:var(--gold);font-weight:700"><a href="tel:${phone.replace(/[^0-9]/g,'')}" style="color:var(--gold);text-decoration:none">${esc(lead.locked ? '(***) ***-****' : phone)}</a></span></div>` : ''}
+        ${email ? `<div class="intel-row"><span class="intel-key">Email</span><span class="intel-val"><a href="mailto:${email}" style="color:var(--gold);text-decoration:none">${esc(lead.locked ? '*****@****.***' : email)}</a></span></div>` : ''}
+        ${contactName ? `<div class="intel-row"><span class="intel-key">Contact</span><span class="intel-val">${esc(lead.locked ? 'Contact Hidden' : contactName)}</span></div>` : ''}
+        ${website ? `<div class="intel-row"><span class="intel-key">Website</span><span class="intel-val"><a href="${website.startsWith('http') ? website : 'https://' + website}" target="_blank" style="color:var(--gold);text-decoration:none">${esc(lead.locked ? 'www.******.com' : website)}</a></span></div>` : ''}
+      </div>
+    </div>
+    ` : ''}
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-doc"></span>Filing Intelligence</div>
+      <div class="intel-card">
+        <div class="intel-row"><span class="intel-key">Current Lender</span><span class="intel-val">${esc(lender.substring(0,50))}</span></div>
+        <div class="intel-row"><span class="intel-key">Lender Type</span><span class="intel-val">${lenderType}</span></div>
+        <div class="intel-row"><span class="intel-key">Advance</span><span class="intel-val">${esc(collateral.substring(0,50))}</span></div>
+        <div class="intel-row"><span class="intel-key">Filed</span><span class="intel-val">${esc(filingDate)}</span></div>
+        <div class="intel-row"><span class="intel-key">Lapse Date</span><span class="intel-val" style="font-weight:700;color:${urgencyColor}">${esc(lapseDate)}</span></div>
+        ${tenureLabel ? `<div class="intel-row"><span class="intel-key">Tenure</span><span class="intel-val">${tenureLabel}</span></div>` : ''}
+        <div class="intel-row"><span class="intel-key">Filing ID</span><span class="intel-val" style="font-size:11px;color:var(--muted)">${esc(fileId)}</span></div>
+        <div class="intel-row"><span class="intel-key">State</span><span class="intel-val">${esc(sourceState)}</span></div>
+      </div>
+    </div>
+
+    <div class="intel-section" ${lead.locked ? 'style="filter:blur(4px);pointer-events:none;user-select:none;"' : ''}>
+      <div class="intel-label"><span class="ic ic-building"></span>Company Profile</div>
+      <div class="intel-card">
+        <div class="intel-row"><span class="intel-key">Company</span><span class="intel-val">${esc(lead.locked ? 'Locked Lead' : lead.company_name)}</span></div>
+        ${address ? `<div class="intel-row"><span class="intel-key">Address</span><span class="intel-val" style="font-size:12px">${esc(lead.locked ? '*** Hidden Address ***' : address)}</span></div>` : ''}
+        <div class="intel-row"><span class="intel-key">Location</span><span class="intel-val">${esc((lead.city||'') + ', ' + (lead.state||'') + ' ' + (lead.locked ? '' : (lead.zipcode||'')))}</span></div>
+        ${techCat ? `<div class="intel-row"><span class="intel-key">Tech Category</span><span class="intel-val"><span class="signal-pill ucc" style="font-size:10px">${esc(techCat)}</span></span></div>` : ''}
+        ${techReason ? `<div class="intel-row"><span class="intel-key">Classification</span><span class="intel-val" style="font-size:11px;color:var(--muted)">${esc(techReason)}</span></div>` : ''}
+      </div>
+    </div>
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-bolt"></span>Lender Intelligence</div>
+      <div class="intel-card" style="font-size:13px;line-height:1.6;color:var(--text)">${lenderInsight}</div>
+    </div>
+
+    <div class="intel-section">
+      <div class="intel-label"><span class="ic ic-radar"></span>Signal Stack</div>
+      <div class="intel-card">${signalSectionHTML}</div>
+    </div>
+  `;
+
+  document.getElementById('dp-body').innerHTML = panelBodyHTML + `
+    <div class="intel-section" id="sh-section">
+      <div class="intel-label"><span class="ic ic-chart"></span>Funding History
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">lender stack escalation pattern</span>
+      </div>
+      <div id="sh-content">
+        <div class="mi-skeleton"></div><div class="mi-skeleton" style="height:40px"></div>
+      </div>
+    </div>
+    <div class="intel-section" id="cr-section">
+      <div class="intel-label"><span class="ic ic-shield"></span>Court &amp; Regulatory
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">PACER &middot; CFPB &middot; EPA &middot; OSHA</span>
+      </div>
+      <div id="cr-content">
+        <div class="mi-skeleton"></div><div class="mi-skeleton" style="height:36px"></div>
+      </div>
+    </div>
+    <div class="intel-section" id="mi-section">
+      <div class="intel-label"><span class="ic ic-radar"></span>Market Intelligence
+        <span style="font-size:9px;font-weight:500;color:#64748b;margin-left:6px;text-transform:none;letter-spacing:0">live multi-source sweep</span>
+      </div>
+      <div id="mi-sweep-status" style="font-size:11px;color:var(--muted);margin-bottom:10px">&#9881; Sweeping sources&#8230;</div>
+      <div class="mi-tabs">
+        <div class="mi-tab active" id="mi-tab-co" onclick="miSwitchTab('company')">About This Company</div>
+        <div class="mi-tab" id="mi-tab-ind" onclick="miSwitchTab('industry')">Industry News</div>
+      </div>
+      <div id="mi-source-bar" class="mi-source-bar"></div>
+      <div id="mi-sentiment-wrap"></div>
+      <div id="mi-content-company">
+        <div class="mi-skeleton"></div><div class="mi-skeleton"></div><div class="mi-skeleton" style="height:40px"></div>
+      </div>
+      <div id="mi-content-industry" style="display:none">
+        <div class="mi-skeleton"></div><div class="mi-skeleton"></div><div class="mi-skeleton" style="height:40px"></div>
+      </div>
+    </div>`;
+
+  document.getElementById('detail-panel').classList.add('open');
+  document.getElementById('detail-overlay').style.display = 'block';
+
+  // Highlight row
+  document.querySelectorAll('tr.selected').forEach(r=>r.classList.remove('selected'));
+  const row = document.getElementById(`row-${id}`);
+  if (row) row.classList.add('selected');
+
+  loadLeadIntel(id);
+  loadStackHistory(id);
+  loadCourtSweep(id);
+}
+
+// orphaned block removed
+// ── Market Intelligence Loader ────────────────────────────────────────────
+const _MI_PROVIDER_CLASS = {
+  'GDELT': 'gdelt', 'Google News': 'gnews', 'Reddit': 'reddit',
+  'Bing News': 'bing', 'NewsAPI': 'newsapi'
+};
+
+function _miArticleHTML(a) {
+  const provider = a.provider || 'News';
+  const cls = _MI_PROVIDER_CLASS[provider] || 'gnews';
+  const date = a.date ? a.date.substring(0,10) : '';
+  return `<div class="mi-article">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+      <span class="mi-source ${cls}">${provider}</span>
+      ${date ? `<span style="font-size:10px;color:var(--muted)">${date}</span>` : ''}
+    </div>
+    <div class="mi-article-headline">${esc(a.headline)}</div>
+    <div class="mi-article-meta">
+      <span class="mi-article-source">${esc(a.source)}</span>
+      <a class="mi-article-link" href="${a.url}" target="_blank" rel="noopener">Read \u2197</a>
+    </div>
+  </div>`;
+}
+
+let _miActiveTab = 'company';
+function miSwitchTab(tab) {
+  _miActiveTab = tab;
+  document.getElementById('mi-tab-co').classList.toggle('active', tab === 'company');
+  document.getElementById('mi-tab-ind').classList.toggle('active', tab === 'industry');
+  const co = document.getElementById('mi-content-company');
+  const ind = document.getElementById('mi-content-industry');
+  if (co) co.style.display = tab === 'company' ? 'block' : 'none';
+  if (ind) ind.style.display = tab === 'industry' ? 'block' : 'none';
+}
+
+async function loadLeadIntel(id) {
+  const status = document.getElementById('mi-sweep-status');
+  if (!status) return;
+  const t0 = Date.now();
+  const timer = setInterval(() => {
+    const s = document.getElementById('mi-sweep-status');
+    if (s) s.textContent = `⚙ Sweeping Google News · Bing · GDELT… ${((Date.now()-t0)/1000).toFixed(1)}s`;
+  }, 200);
+  try {
+    const r = await fetch(`/api/leads/${id}/intel`);
+    const data = await r.json();
+    clearInterval(timer);
+    if (!document.getElementById('mi-sweep-status')) return;
+    const sources = (data.sources_swept || []).join(' · ');
+    const total = data.total_articles || 0;
+    const st = document.getElementById('mi-sweep-status');
+    if (st) { st.textContent = `✓ ${total} articles — ${sources} — ${data.elapsed_s}s`; st.style.color = '#34d399'; }
+    const bar = document.getElementById('mi-source-bar');
+    if (bar) bar.innerHTML = (data.sources_swept || []).map(s =>
+      `<span class="mi-source ${_MI_PROVIDER_CLASS[s]||'gnews'}">${s}</span>`).join('');
+    const sent = data.sector_sentiment;
+    const sw = document.getElementById('mi-sentiment-wrap');
+    if (sw && sent && data.industry_label)
+      sw.innerHTML = `<div class="mi-sentiment" style="background:${sent.color}18;border:1px solid ${sent.color}40;color:${sent.color}">${sent.icon} ${esc(data.industry_label)} Sector: ${sent.label}</div>`;
+    const co = document.getElementById('mi-content-company');
+    if (co) co.innerHTML = (data.company && data.company.length)
+      ? data.company.map(_miArticleHTML).join('')
+      : `<div class="mi-empty" style="text-align:left;padding:12px;border-radius:8px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.07)">
+          <div style="font-size:11px;font-weight:700;color:var(--text);margin-bottom:4px">No direct company coverage found</div>
+          <div style="font-size:10px;color:var(--muted);line-height:1.6">Private small businesses rarely appear in indexed media. Industry news below reflects sector-level signals relevant to this borrower.</div>
+        </div>`;
+    const ind = document.getElementById('mi-content-industry');
+    if (ind) ind.innerHTML = (data.industry && data.industry.length) ? data.industry.map(_miArticleHTML).join('') : '<div class="mi-empty">No industry articles found.</div>';
+    // Auto-switch to Industry News when no company coverage exists
+    if (data.company_empty) miSwitchTab('industry');
+  } catch(e) {
+    clearInterval(timer);
+    const s = document.getElementById('mi-sweep-status');
+    if (s) s.textContent = '⚠ Intelligence sweep unavailable';
+  }
+}
+
+async function loadStackHistory(id) {
+  const el = document.getElementById('sh-content');
+  if (!el) return;
+  try {
+    const r = await fetch(`/api/leads/${id}/stack-history`);
+    const data = await r.json();
+    if (data.error || !data.events || !data.events.length) {
+      el.innerHTML = '<div class="mi-empty">Only one filing found — no escalation history to display.</div>';
+      return;
+    }
+    const events = data.events;
+    const nav = data.narrative;
+    const _TIERC = {A:'#34d399',B:'#60a5fa',C:'#fbbf24',D:'#f87171'};
+    const _SIGNS = {negative:'#f87171',warning:'#fbbf24',positive:'#34d399',neutral:'#64748b'};
+
+    // ── Escalation Arrow (deduped lender chain) ────────────────────────────
+    let arrowHTML = '';
+    if (nav && nav.unique_lenders && nav.unique_lenders.length > 1) {
+      const nodes = nav.unique_lenders.map(ul => {
+        const c = _TIERC[ul.tier] || '#64748b';
+        return `<span class="sh-arrow-node" style="color:${c};border-color:${c}40;background:${c}12">${esc(ul.lender)}</span>`;
+      });
+      arrowHTML = `<div class="sh-arrow">${nodes.join('<span class="sh-arrow-sep">→</span>')}</div>`;
+    }
+
+    // ── Risk Badge + Narrative ─────────────────────────────────────────────
+    let navHTML = '';
+    if (nav) {
+      const signalCards = (nav.key_signals || []).map(s => {
+        const c = _SIGNS[s.type] || '#64748b';
+        return `<div class="sh-signal" style="background:${c}0d;border-color:${c}30">
+          <div class="sh-signal-dot" style="background:${c}"></div>
+          <div><div class="sh-signal-label">${esc(s.label)}</div><div class="sh-signal-detail">${esc(s.detail)}</div></div>
+        </div>`;
+      }).join('');
+      navHTML = `
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+          <span class="sh-risk-badge" style="background:${nav.risk_bg};border:1px solid ${nav.risk_border};color:${nav.risk_color}">${nav.risk_level} RISK</span>
+          ${nav.avg_cycle_days ? `<span style="font-size:10px;color:var(--muted)">avg funding cycle: ${nav.avg_cycle_days}d</span>` : ''}
+        </div>
+        <div style="font-size:12px;font-weight:600;color:var(--text);line-height:1.5;margin-bottom:12px;padding:10px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:8px">${esc(nav.headline)}</div>
+        ${arrowHTML}
+        ${signalCards}`;
+    }
+
+    // ── Timeline ──────────────────────────────────────────────────────────
+    const timelineHTML = events.map((ev, i) => {
+      const c = _TIERC[ev.tier] || '#64748b';
+      const isCurrent = ev.is_current;
+      const dtl = ev.days_to_lapse;
+      let statusLabel = '';
+      if (dtl === null || dtl === undefined) statusLabel = '';
+      else if (dtl < 0) statusLabel = `<span style="font-size:9px;color:#f87171;font-weight:700">LAPSED ${Math.abs(dtl)}d</span>`;
+      else if (dtl === 0) statusLabel = `<span style="font-size:9px;color:#fbbf24;font-weight:700">EXPIRES TODAY</span>`;
+      else statusLabel = `<span style="font-size:9px;color:#64748b">+${dtl}d</span>`;
+      return `<div class="sh-event">
+        <div style="position:relative">
+          <div class="sh-dot" style="color:${c};border-color:${c};background:${c}15">${ev.tier||'?'}</div>
+          ${i < events.length-1 ? '<div class="sh-line"></div>' : ''}
+        </div>
+        <div style="flex:1;padding-top:4px">
+          <div style="font-size:11px;font-weight:700;color:${isCurrent?'var(--gold)':ev.tier?c:'var(--muted)'}">${esc(ev.lender_clean)}${isCurrent?' ◀ this filing':''}</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px">${ev.filing_date||'—'} → ${ev.lapse_date||'—'} &nbsp;${statusLabel}</div>
+        </div>
+      </div>`;
+    }).join('');
+
+    // ── Advance Size Sparkline ─────────────────────────────────────────────
+    let sparkHTML = '';
+    const pts = (nav && nav.advance_points) || [];
+    if (pts.length >= 2) {
+      const trend   = nav.advance_trend || 'flat';
+      const tcolor  = trend === 'up' ? '#34d399' : trend === 'down' ? '#f87171' : '#64748b';
+      const tArrow  = trend === 'up' ? '▲' : trend === 'down' ? '▼' : '→';
+      const tLabel  = trend === 'up' ? 'Growing' : trend === 'down' ? 'Shrinking' : 'Flat';
+      const maxAmt  = Math.max(...pts.map(p => p.amount));
+      const barW    = Math.max(20, Math.floor(320 / pts.length) - 6);
+      const bars    = pts.map(p => {
+        const h = Math.max(8, Math.round((p.amount / maxAmt) * 52));
+        const amt = p.amount >= 1000000 ? `$${(p.amount/1000000).toFixed(1)}M`
+                  : p.amount >= 1000 ? `$${Math.round(p.amount/1000)}K` : `$${p.amount}`;
+        const yr = (p.date || '').substring(0,4);
+        return `<div style="display:flex;flex-direction:column;align-items:center;gap:3px">
+          <div style="font-size:8px;color:${tcolor};font-weight:700">${amt}</div>
+          <div style="width:${barW}px;height:${h}px;background:${tcolor}40;border-radius:3px 3px 0 0;border-top:2px solid ${tcolor}"></div>
+          <div style="font-size:8px;color:var(--muted)">${yr}</div>
+        </div>`;
+      }).join('');
+      sparkHTML = `<div style="margin-bottom:12px;padding:10px 12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <span style="font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Advance Size Trend</span>
+          <span style="font-size:10px;font-weight:800;color:${tcolor}">${tArrow} ${tLabel}</span>
+        </div>
+        <div style="display:flex;align-items:flex-end;gap:4px;height:70px;overflow:hidden">${bars}</div>
+      </div>`;
+    }
+
+    el.innerHTML = navHTML + sparkHTML + `<div class="sh-timeline" style="margin-top:${nav?'4':'0'}px">${timelineHTML}</div>`;
+  } catch(e) {
+    const el2 = document.getElementById('sh-content');
+    if (el2) el2.innerHTML = '<div class="mi-empty">Stack history unavailable.</div>';
+  }
+}
+
+async function loadCourtSweep(id) {
+  const el = document.getElementById('cr-content');
+  if (!el) return;
+  try {
+    const r = await fetch(`/api/leads/${id}/court-sweep`);
+    const data = await r.json();
+    if (data.error) { el.innerHTML = '<div class="mi-empty">Regulatory sweep unavailable.</div>'; return; }
+
+    const risk = data.risk || {};
+    const items = data.items || [];
+    const cfpb = data.cfpb_total || 0;
+    const swept = (data.sources_swept || []);
+
+    // Source sweep bar
+    const sweepBar = swept.map(s => {
+      const cls = {CourtListener:'court',CFPB:'cfpb','EPA ECHO':'epa',OSHA:'osha'}[s]||'court';
+      return `<span class="cr-badge ${cls}">${s}</span>`;
+    }).join(' ');
+
+    // Risk badge + meta
+    let header = `<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px">
+      <span class="sh-risk-badge" style="background:${risk.bg};border:1px solid ${risk.border};color:${risk.color}">${risk.icon||''} ${risk.level} — Legal</span>
+      ${cfpb > 0 ? `<span style="font-size:10px;font-weight:700;color:#38bdf8">${cfpb} CFPB complaint${cfpb!==1?'s':''} on record</span>` : ''}
+      <span style="font-size:10px;color:var(--muted)">· ${data.elapsed_s}s</span>
+    </div>
+    <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px">${sweepBar}</div>`;
+
+    if (items.length === 0) {
+      el.innerHTML = header + `<div style="padding:12px;border-radius:8px;background:rgba(52,211,153,.06);border:1px solid rgba(52,211,153,.2);font-size:12px;font-weight:600;color:#34d399">
+        ✓ No adverse court or regulatory records found across ${swept.length} sources.
+      </div>`;
+      return;
+    }
+
+    const cards = items.map(item => {
+      const cls = {CourtListener:'court',CFPB:'cfpb','EPA ECHO':'epa',OSHA:'osha'}[item.source]||'court';
+      const sevCls = item.severity === 'high' ? 'sev-high' : 'sev-medium';
+      return `<div class="cr-card ${sevCls}">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <span class="cr-badge ${cls}">${esc(item.source)}</span>
+          <span style="font-size:9px;color:var(--muted)">${esc(item.date||'')}</span>
+        </div>
+        <div class="cr-headline">${esc(item.headline||'')}</div>
+        <div class="cr-detail">${esc(item.detail||'')}${item.status ? ` · <em>${esc(item.status)}</em>` : ''}</div>
+        ${item.url ? `<a class="cr-link" href="${item.url}" target="_blank" rel="noopener">View record ↗</a>` : ''}
+      </div>`;
+    }).join('');
+
+    el.innerHTML = header + cards;
+  } catch(e) {
+    const el2 = document.getElementById('cr-content');
+    if (el2) el2.innerHTML = '<div class="mi-empty">Regulatory sweep unavailable.</div>';
+  }
+}
+
+function closePanel() {
+  document.getElementById('detail-panel').classList.remove('open');
+  document.getElementById('detail-overlay').style.display = 'none';
+  document.querySelectorAll('tr.selected').forEach(r=>r.classList.remove('selected'));
+  _panelLeadId = null;
+}
+
+async function panelClaim() {
+  if (!_panelLeadId) return;
+  const lead = (window._leadsData||{})[_panelLeadId];
+  if (lead && lead.claim_status) {
+    await unclaimLead(_panelLeadId);
+  } else {
+    await claimLead(_panelLeadId);
+  }
+  closePanel();
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Expiry Timeline Chart ────────────────────────────────────────────────
+async function loadExpiryChart(paramsStr = '') {
+  try {
+    const qs = paramsStr ? `?${paramsStr}` : '';
+    const r = await fetch(`/api/expiry-timeline${qs}`);
+    const d = await r.json();
+    const weeks = d.weeks || [];
+    if (!weeks.length) return;
+
+    // Fill gaps (ensure 13 weeks)
+    const data = [];
+    for (let i = 0; i < 13; i++) {
+      const found = weeks.find(w => w.week === i);
+      data.push({ week: i, label: `Wk ${i+1}`, count: found ? found.count : 0, enriched: found ? found.enriched : 0 });
+    }
+
+    const canvas = document.getElementById('expiry-chart');
+    const dpr = window.devicePixelRatio || 1;
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width * dpr;
+    canvas.height = 160 * dpr;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    const W = rect.width, H = 160;
+    const pad = { top: 10, right: 16, bottom: 28, left: 44 };
+    const cW = W - pad.left - pad.right;
+    const cH = H - pad.top - pad.bottom;
+    const sortedCounts = [...data.map(d => d.count)].sort((a,b) => b - a);
+    let maxVal = Math.max(sortedCounts[0] || 0, 10);
+    if (sortedCounts.length > 1 && sortedCounts[0] > sortedCounts[1] * 4 && sortedCounts[1] > 0) {
+      maxVal = sortedCounts[1] * 1.5;
+    }
+    const barW = cW / data.length;
+
+    function draw(animPct) {
+      ctx.clearRect(0, 0, W, H);
+
+      // Grid lines
+      ctx.strokeStyle = 'rgba(58,65,88,.4)';
+      ctx.lineWidth = 0.5;
+      for (let i = 0; i <= 4; i++) {
+        const y = pad.top + (cH / 4) * i;
+        ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(W - pad.right, y); ctx.stroke();
+        if (i < 4) {
+          ctx.fillStyle = '#9ca3b8';
+          ctx.font = '10px Inter';
+          ctx.textAlign = 'right';
+          ctx.fillText(Math.round(maxVal * (1 - i / 4)), pad.left - 8, y + 4);
+        }
+      }
+      ctx.fillText('0', pad.left - 8, pad.top + cH + 4);
+
+      // Bars — total (gold)
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + i * barW;
+        let barH = (data[i].count / maxVal) * cH * animPct;
+        barH = Math.min(barH, cH);
+        const y = pad.top + cH - barH;
+
+        // Gold gradient bar
+        const grad = ctx.createLinearGradient(x, y, x, pad.top + cH);
+        grad.addColorStop(0, 'rgba(212,160,23,.7)');
+        grad.addColorStop(1, 'rgba(212,160,23,.15)');
+        ctx.fillStyle = grad;
+        ctx.beginPath();
+        const r = Math.min(3, barH / 2);
+        ctx.roundRect(x + 2, y, barW - 4, barH, [r, r, 0, 0]);
+        ctx.fill();
+
+        // Enriched overlay (green)
+        if (data[i].enriched > 0) {
+          let eH = (data[i].enriched / maxVal) * cH * animPct;
+          eH = Math.min(eH, cH);
+          const eY = pad.top + cH - eH;
+          const eGrad = ctx.createLinearGradient(x, eY, x, pad.top + cH);
+          eGrad.addColorStop(0, 'rgba(52,211,153,.8)');
+          eGrad.addColorStop(1, 'rgba(52,211,153,.2)');
+          ctx.fillStyle = eGrad;
+          ctx.beginPath();
+          ctx.roundRect(x + 2, eY, barW - 4, eH, [r, r, 0, 0]);
+          ctx.fill();
+        }
+
+        // Week label
+        ctx.fillStyle = i <= 1 ? '#f87171' : i <= 3 ? '#fbbf24' : '#9ca3b8';
+        ctx.font = i <= 1 ? 'bold 10px Inter' : '10px Inter';
+        ctx.textAlign = 'center';
+        ctx.fillText(data[i].label, x + barW / 2, H - 4);
+      }
+
+      // Area line on top
+      ctx.strokeStyle = 'rgba(212,160,23,.9)';
+      ctx.lineWidth = 2;
+      ctx.lineJoin = 'round';
+      ctx.beginPath();
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + i * barW + barW / 2;
+        let lineH = (data[i].count / maxVal) * cH * animPct;
+        lineH = Math.min(lineH, cH);
+        const y = pad.top + cH - lineH;
+        i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      // Glow dots on line
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + i * barW + barW / 2;
+        let lineH = (data[i].count / maxVal) * cH * animPct;
+        lineH = Math.min(lineH, cH);
+        const y = pad.top + cH - lineH;
+        ctx.fillStyle = data[i].count > 0 ? 'rgba(245,197,66,.9)' : 'rgba(156,163,184,.3)';
+        ctx.beginPath(); ctx.arc(x, y, 3, 0, Math.PI * 2); ctx.fill();
+        if (i <= 1 && data[i].count > 0) {
+          ctx.fillStyle = 'rgba(248,113,113,.15)';
+          ctx.beginPath(); ctx.arc(x, y, 8, 0, Math.PI * 2); ctx.fill();
+        }
+      }
+    }
+
+    // Animate
+    let start = null;
+    function animate(ts) {
+      if (!start) start = ts;
+      const pct = Math.min(1, (ts - start) / 700);
+      const ease = 1 - Math.pow(1 - pct, 3);
+      draw(ease);
+      if (pct < 1) requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+
+    // Hover tooltip
+    const tooltip = document.getElementById('chart-tooltip');
+    canvas.addEventListener('mousemove', e => {
+      const r = canvas.getBoundingClientRect();
+      const mx = e.clientX - r.left;
+      const idx = Math.floor((mx - pad.left) / barW);
+      if (idx >= 0 && idx < data.length) {
+        const d = data[idx];
+        const urgency = idx <= 1 ? '<span style="color:#f87171">● THIS WEEK</span>' :
+                       idx <= 3 ? '<span style="color:#fbbf24">● HOT</span>' : '';
+        tooltip.innerHTML = `<div style="font-weight:700;margin-bottom:4px">${d.label} ${urgency}</div>
+          <div><span style="color:var(--gold2)">${d.count}</span> advances maturing</div>
+          <div><span style="color:#34d399">${d.enriched}</span> stacked 3+</div>`;
+        tooltip.style.display = 'block';
+        tooltip.style.left = Math.min(mx + 12, W - 170) + 'px';
+        tooltip.style.top = '40px';
+      } else {
+        tooltip.style.display = 'none';
+      }
+    });
+    canvas.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; });
+  } catch(e) { console.error('Chart error:', e); }
+}
+// ── Revenue Heatmap ─────────────────────────────────────────────────────────
+async function loadHeatmap(paramsStr = '') {
+  try {
+    const qs = paramsStr ? `?${paramsStr}` : '';
+    const r = await fetch(`/api/heatmap${qs}`);
+    const d = await r.json();
+    const cities = d.cities || [];
+    if (!cities.length) return;
+    const canvas = document.getElementById('heatmap-canvas');
+    const ctx = canvas.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    const W = canvas.clientWidth;
+    const H = canvas.clientHeight;
+    canvas.width = W * dpr;
+    canvas.height = H * dpr;
+    ctx.scale(dpr, dpr);
+    const maxPipeline = Math.max(1, ...cities.map(c => c.pipeline));
+    const maxHot = Math.max(1, ...cities.map(c => c.hot));
+    const aspect = W / H;
+    const n = cities.length;
+    const cols = Math.round(Math.sqrt(n * aspect));
+    const rows = Math.ceil(n / cols);
+    const cellSize = Math.min(W / cols, H / rows);
+    const gridW = cols * cellSize;
+    const gridH = rows * cellSize;
+    const offX = (W - gridW) / 2;
+    const offY = (H - gridH) / 2;
+    const maxR = cellSize * 0.34;
+    cities.forEach((city, i) => {
+      const col = i % cols;
+      const row = Math.floor(i / cols);
+      const cx = offX + col * cellSize + cellSize / 2;
+      const cy = offY + row * cellSize + cellSize / 2;
+      const ratio = city.pipeline / maxPipeline;
+      const radius = Math.max(8, ratio * maxR);
+      const hotRatio = city.hot / maxHot;
+      const glow = ctx.createRadialGradient(cx, cy, radius * 0.3, cx, cy, radius * 2);
+      glow.addColorStop(0, `rgba(248,113,113,${0.15 * hotRatio})`);
+      glow.addColorStop(1, 'rgba(248,113,113,0)');
+      ctx.fillStyle = glow;
+      ctx.beginPath(); ctx.arc(cx, cy, radius * 2, 0, Math.PI * 2); ctx.fill();
+      const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, radius);
+      grad.addColorStop(0, `rgba(212,160,23,${0.3 + hotRatio * 0.5})`);
+      grad.addColorStop(0.7, `rgba(248,113,113,${0.15 + hotRatio * 0.35})`);
+      grad.addColorStop(1, `rgba(248,113,113,${0.05})`);
+      ctx.fillStyle = grad;
+      ctx.beginPath(); ctx.arc(cx, cy, radius, 0, Math.PI * 2); ctx.fill();
+      ctx.strokeStyle = `rgba(212,160,23,${0.3 + hotRatio * 0.4})`;
+      ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.arc(cx, cy, radius, 0, Math.PI * 2); ctx.stroke();
+      ctx.fillStyle = '#f8fafc'; ctx.font = '600 11px Inter'; ctx.textAlign = 'center';
+      ctx.fillText(city.city.substring(0, 12), cx, cy - 3);
+      const valLabel = city.pipeline >= 1000000 ? '$' + (city.pipeline / 1000000).toFixed(1) + 'M' : '$' + (city.pipeline / 1000).toFixed(0) + 'K';
+      ctx.fillStyle = '#d4a017'; ctx.font = '700 10px Inter';
+      ctx.fillText(valLabel, cx, cy + 11);
+      ctx.fillStyle = 'rgba(248,113,113,0.8)'; ctx.font = '600 9px Inter';
+      ctx.fillText(city.hot + ' hot', cx, cy + 22);
+    });
+  } catch(e) { console.error('Heatmap error:', e); }
+}
+
+async function unlockLeadUI(leadId) {
+  try {
+    const res = await fetch(`/api/leads/${leadId}/checkout`, { method: 'POST' });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Failed to initiate checkout');
+    
+    // Open Stripe checkout in a new tab
+    window.open(data.checkout_url, '_blank');
+    
+    showToast('Waiting for purchase completion...', '#fbbf24');
+    
+    // Start background polling
+    if (window._activePolls && window._activePolls[leadId]) clearInterval(window._activePolls[leadId]);
+    window._activePolls = window._activePolls || {};
+    window._activePolls[leadId] = setInterval(async () => {
+      try {
+        const pollRes = await fetch(`/api/leads/${leadId}/unlock?session_id=${data.session_id}`);
+        if (pollRes.status === 200) {
+          const unlockedLead = await pollRes.json();
+          if (window._activePolls && window._activePolls[leadId]) {
+            clearInterval(window._activePolls[leadId]);
+            delete window._activePolls[leadId];
+          }
+          
+          // Update the local store
+          if (window._leadsData && window._leadsData[leadId]) {
+            Object.assign(window._leadsData[leadId], unlockedLead.lead || unlockedLead);
+          }
+          
+          // Show success
+          showToast('Lead unlocked successfully!', '#34d399');
+          
+          // Refresh the panel and table
+          if (_activePanelId === leadId) {
+            openPanel(leadId);
+          }
+          loadLeads(currentPage);
+        }
+      } catch (e) {
+        console.error('Polling error:', e);
+      }
+    }, 3000);
+  } catch (err) {
+    showToast(err.message, '#f87171');
+  }
+}
+
+// ── Init — load immediately ──────────────────────────────────────────────
+(function init() {
+  loadStats();
+  loadLeads(1);
+  loadExpiryChart();
+  loadHeatmap();
+  loadDealOfDay();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+flask>=3.0
+stripe>=8.0
+gunicorn>=21.0
+feedparser>=6.0
+requests>=2.31

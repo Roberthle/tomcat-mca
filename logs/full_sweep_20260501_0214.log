@@ -1,0 +1,1237 @@
+2026-05-01 02:14:35,731 [MCA-SWEEP] INFO - === CONNECTICUT FULL SWEEP ===
+2026-05-01 02:14:37,044 [MCA-SWEEP] INFO -   CT offset 0: 2000 records, 0 new MCA leads
+2026-05-01 02:14:38,458 [MCA-SWEEP] INFO -   CT offset 2000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:40,243 [MCA-SWEEP] INFO -   CT offset 4000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:41,452 [MCA-SWEEP] INFO -   CT offset 6000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:43,677 [MCA-SWEEP] INFO -   CT offset 8000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:44,936 [MCA-SWEEP] INFO -   CT offset 10000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:46,280 [MCA-SWEEP] INFO -   CT offset 12000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:47,727 [MCA-SWEEP] INFO -   CT offset 14000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:49,582 [MCA-SWEEP] INFO -   CT offset 16000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:51,213 [MCA-SWEEP] INFO -   CT offset 18000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:52,677 [MCA-SWEEP] INFO -   CT offset 20000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:54,426 [MCA-SWEEP] INFO -   CT offset 22000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:56,128 [MCA-SWEEP] INFO -   CT offset 24000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:57,563 [MCA-SWEEP] INFO -   CT offset 26000: 2000 records, 0 new MCA leads
+2026-05-01 02:14:59,794 [MCA-SWEEP] INFO -   CT offset 28000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:01,761 [MCA-SWEEP] INFO -   CT offset 30000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:03,308 [MCA-SWEEP] INFO -   CT offset 32000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:04,588 [MCA-SWEEP] INFO -   CT offset 34000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:06,124 [MCA-SWEEP] INFO -   CT offset 36000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:07,487 [MCA-SWEEP] INFO -   CT offset 38000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:08,958 [MCA-SWEEP] INFO -   CT offset 40000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:10,527 [MCA-SWEEP] INFO -   CT offset 42000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:12,235 [MCA-SWEEP] INFO -   CT offset 44000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:14,148 [MCA-SWEEP] INFO -   CT offset 46000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:15,819 [MCA-SWEEP] INFO -   CT offset 48000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:17,878 [MCA-SWEEP] INFO -   CT offset 50000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:20,093 [MCA-SWEEP] INFO -   CT offset 52000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:21,836 [MCA-SWEEP] INFO -   CT offset 54000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:23,549 [MCA-SWEEP] INFO -   CT offset 56000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:25,592 [MCA-SWEEP] INFO -   CT offset 58000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:28,188 [MCA-SWEEP] INFO -   CT offset 60000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:29,979 [MCA-SWEEP] INFO -   CT offset 62000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:32,137 [MCA-SWEEP] INFO -   CT offset 64000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:33,621 [MCA-SWEEP] INFO -   CT offset 66000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:35,286 [MCA-SWEEP] INFO -   CT offset 68000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:36,847 [MCA-SWEEP] INFO -   CT offset 70000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:38,697 [MCA-SWEEP] INFO -   CT offset 72000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:40,496 [MCA-SWEEP] INFO -   CT offset 74000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:42,083 [MCA-SWEEP] INFO -   CT offset 76000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:43,521 [MCA-SWEEP] INFO -   CT offset 78000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:45,683 [MCA-SWEEP] INFO -   CT offset 80000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:47,286 [MCA-SWEEP] INFO -   CT offset 82000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:49,118 [MCA-SWEEP] INFO -   CT offset 84000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:51,294 [MCA-SWEEP] INFO -   CT offset 86000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:52,983 [MCA-SWEEP] INFO -   CT offset 88000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:54,749 [MCA-SWEEP] INFO -   CT offset 90000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:56,384 [MCA-SWEEP] INFO -   CT offset 92000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:58,350 [MCA-SWEEP] INFO -   CT offset 94000: 2000 records, 0 new MCA leads
+2026-05-01 02:15:59,935 [MCA-SWEEP] INFO -   CT offset 96000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:01,790 [MCA-SWEEP] INFO -   CT offset 98000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:03,534 [MCA-SWEEP] INFO -   CT offset 100000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:05,225 [MCA-SWEEP] INFO -   CT offset 102000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:07,557 [MCA-SWEEP] INFO -   CT offset 104000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:10,493 [MCA-SWEEP] INFO -   CT offset 106000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:12,248 [MCA-SWEEP] INFO -   CT offset 108000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:13,952 [MCA-SWEEP] INFO -   CT offset 110000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:15,858 [MCA-SWEEP] INFO -   CT offset 112000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:17,528 [MCA-SWEEP] INFO -   CT offset 114000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:19,495 [MCA-SWEEP] INFO -   CT offset 116000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:21,591 [MCA-SWEEP] INFO -   CT offset 118000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:23,530 [MCA-SWEEP] INFO -   CT offset 120000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:25,247 [MCA-SWEEP] INFO -   CT offset 122000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:27,021 [MCA-SWEEP] INFO -   CT offset 124000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:29,146 [MCA-SWEEP] INFO -   CT offset 126000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:30,985 [MCA-SWEEP] INFO -   CT offset 128000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:33,487 [MCA-SWEEP] INFO -   CT offset 130000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:36,167 [MCA-SWEEP] INFO -   CT offset 132000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:38,025 [MCA-SWEEP] INFO -   CT offset 134000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:40,309 [MCA-SWEEP] INFO -   CT offset 136000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:42,294 [MCA-SWEEP] INFO -   CT offset 138000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:44,224 [MCA-SWEEP] INFO -   CT offset 140000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:46,157 [MCA-SWEEP] INFO -   CT offset 142000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:47,922 [MCA-SWEEP] INFO -   CT offset 144000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:49,777 [MCA-SWEEP] INFO -   CT offset 146000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:52,156 [MCA-SWEEP] INFO -   CT offset 148000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:54,303 [MCA-SWEEP] INFO -   CT offset 150000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:56,419 [MCA-SWEEP] INFO -   CT offset 152000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:58,111 [MCA-SWEEP] INFO -   CT offset 154000: 2000 records, 0 new MCA leads
+2026-05-01 02:16:59,893 [MCA-SWEEP] INFO -   CT offset 156000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:02,280 [MCA-SWEEP] INFO -   CT offset 158000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:04,151 [MCA-SWEEP] INFO -   CT offset 160000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:05,949 [MCA-SWEEP] INFO -   CT offset 162000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:07,883 [MCA-SWEEP] INFO -   CT offset 164000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:09,769 [MCA-SWEEP] INFO -   CT offset 166000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:11,478 [MCA-SWEEP] INFO -   CT offset 168000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:13,284 [MCA-SWEEP] INFO -   CT offset 170000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:15,393 [MCA-SWEEP] INFO -   CT offset 172000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:17,235 [MCA-SWEEP] INFO -   CT offset 174000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:19,339 [MCA-SWEEP] INFO -   CT offset 176000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:21,294 [MCA-SWEEP] INFO -   CT offset 178000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:23,945 [MCA-SWEEP] INFO -   CT offset 180000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:25,830 [MCA-SWEEP] INFO -   CT offset 182000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:27,620 [MCA-SWEEP] INFO -   CT offset 184000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:29,574 [MCA-SWEEP] INFO -   CT offset 186000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:31,582 [MCA-SWEEP] INFO -   CT offset 188000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:33,474 [MCA-SWEEP] INFO -   CT offset 190000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:35,517 [MCA-SWEEP] INFO -   CT offset 192000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:37,680 [MCA-SWEEP] INFO -   CT offset 194000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:39,864 [MCA-SWEEP] INFO -   CT offset 196000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:41,476 [MCA-SWEEP] INFO -   CT offset 198000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:43,541 [MCA-SWEEP] INFO -   CT offset 200000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:45,499 [MCA-SWEEP] INFO -   CT offset 202000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:47,506 [MCA-SWEEP] INFO -   CT offset 204000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:49,711 [MCA-SWEEP] INFO -   CT offset 206000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:51,989 [MCA-SWEEP] INFO -   CT offset 208000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:53,986 [MCA-SWEEP] INFO -   CT offset 210000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:56,270 [MCA-SWEEP] INFO -   CT offset 212000: 2000 records, 0 new MCA leads
+2026-05-01 02:17:58,221 [MCA-SWEEP] INFO -   CT offset 214000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:00,421 [MCA-SWEEP] INFO -   CT offset 216000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:02,233 [MCA-SWEEP] INFO -   CT offset 218000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:04,453 [MCA-SWEEP] INFO -   CT offset 220000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:06,359 [MCA-SWEEP] INFO -   CT offset 222000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:08,231 [MCA-SWEEP] INFO -   CT offset 224000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:10,162 [MCA-SWEEP] INFO -   CT offset 226000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:13,215 [MCA-SWEEP] INFO -   CT offset 228000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:15,582 [MCA-SWEEP] INFO -   CT offset 230000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:18,572 [MCA-SWEEP] INFO -   CT offset 232000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:21,356 [MCA-SWEEP] INFO -   CT offset 234000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:23,636 [MCA-SWEEP] INFO -   CT offset 236000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:26,373 [MCA-SWEEP] INFO -   CT offset 238000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:28,427 [MCA-SWEEP] INFO -   CT offset 240000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:30,542 [MCA-SWEEP] INFO -   CT offset 242000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:32,603 [MCA-SWEEP] INFO -   CT offset 244000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:34,460 [MCA-SWEEP] INFO -   CT offset 246000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:36,359 [MCA-SWEEP] INFO -   CT offset 248000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:38,991 [MCA-SWEEP] INFO -   CT offset 250000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:40,940 [MCA-SWEEP] INFO -   CT offset 252000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:42,752 [MCA-SWEEP] INFO -   CT offset 254000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:44,609 [MCA-SWEEP] INFO -   CT offset 256000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:46,879 [MCA-SWEEP] INFO -   CT offset 258000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:49,087 [MCA-SWEEP] INFO -   CT offset 260000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:51,223 [MCA-SWEEP] INFO -   CT offset 262000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:53,310 [MCA-SWEEP] INFO -   CT offset 264000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:55,303 [MCA-SWEEP] INFO -   CT offset 266000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:57,325 [MCA-SWEEP] INFO -   CT offset 268000: 2000 records, 0 new MCA leads
+2026-05-01 02:18:59,546 [MCA-SWEEP] INFO -   CT offset 270000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:02,266 [MCA-SWEEP] INFO -   CT offset 272000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:05,050 [MCA-SWEEP] INFO -   CT offset 274000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:07,092 [MCA-SWEEP] INFO -   CT offset 276000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:09,102 [MCA-SWEEP] INFO -   CT offset 278000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:11,109 [MCA-SWEEP] INFO -   CT offset 280000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:13,641 [MCA-SWEEP] INFO -   CT offset 282000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:16,059 [MCA-SWEEP] INFO -   CT offset 284000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:17,826 [MCA-SWEEP] INFO -   CT offset 286000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:19,935 [MCA-SWEEP] INFO -   CT offset 288000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:22,342 [MCA-SWEEP] INFO -   CT offset 290000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:26,953 [MCA-SWEEP] INFO -   CT offset 292000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:28,982 [MCA-SWEEP] INFO -   CT offset 294000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:30,965 [MCA-SWEEP] INFO -   CT offset 296000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:32,630 [MCA-SWEEP] INFO -   CT offset 298000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:34,510 [MCA-SWEEP] INFO -   CT offset 300000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:36,417 [MCA-SWEEP] INFO -   CT offset 302000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:39,136 [MCA-SWEEP] INFO -   CT offset 304000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:41,390 [MCA-SWEEP] INFO -   CT offset 306000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:43,826 [MCA-SWEEP] INFO -   CT offset 308000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:45,667 [MCA-SWEEP] INFO -   CT offset 310000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:48,045 [MCA-SWEEP] INFO -   CT offset 312000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:50,200 [MCA-SWEEP] INFO -   CT offset 314000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:52,707 [MCA-SWEEP] INFO -   CT offset 316000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:54,768 [MCA-SWEEP] INFO -   CT offset 318000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:57,107 [MCA-SWEEP] INFO -   CT offset 320000: 2000 records, 0 new MCA leads
+2026-05-01 02:19:59,119 [MCA-SWEEP] INFO -   CT offset 322000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:01,156 [MCA-SWEEP] INFO -   CT offset 324000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:03,428 [MCA-SWEEP] INFO -   CT offset 326000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:05,757 [MCA-SWEEP] INFO -   CT offset 328000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:08,494 [MCA-SWEEP] INFO -   CT offset 330000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:10,457 [MCA-SWEEP] INFO -   CT offset 332000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:12,983 [MCA-SWEEP] INFO -   CT offset 334000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:16,257 [MCA-SWEEP] INFO -   CT offset 336000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:18,474 [MCA-SWEEP] INFO -   CT offset 338000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:20,678 [MCA-SWEEP] INFO -   CT offset 340000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:22,884 [MCA-SWEEP] INFO -   CT offset 342000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:25,490 [MCA-SWEEP] INFO -   CT offset 344000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:27,290 [MCA-SWEEP] INFO -   CT offset 346000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:29,853 [MCA-SWEEP] INFO -   CT offset 348000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:32,204 [MCA-SWEEP] INFO -   CT offset 350000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:34,293 [MCA-SWEEP] INFO -   CT offset 352000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:36,176 [MCA-SWEEP] INFO -   CT offset 354000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:38,334 [MCA-SWEEP] INFO -   CT offset 356000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:40,589 [MCA-SWEEP] INFO -   CT offset 358000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:42,758 [MCA-SWEEP] INFO -   CT offset 360000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:44,833 [MCA-SWEEP] INFO -   CT offset 362000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:46,803 [MCA-SWEEP] INFO -   CT offset 364000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:49,037 [MCA-SWEEP] INFO -   CT offset 366000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:51,055 [MCA-SWEEP] INFO -   CT offset 368000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:53,317 [MCA-SWEEP] INFO -   CT offset 370000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:55,518 [MCA-SWEEP] INFO -   CT offset 372000: 2000 records, 0 new MCA leads
+2026-05-01 02:20:57,915 [MCA-SWEEP] INFO -   CT offset 374000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:00,736 [MCA-SWEEP] INFO -   CT offset 376000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:03,204 [MCA-SWEEP] INFO -   CT offset 378000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:05,185 [MCA-SWEEP] INFO -   CT offset 380000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:07,151 [MCA-SWEEP] INFO -   CT offset 382000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:09,267 [MCA-SWEEP] INFO -   CT offset 384000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:11,222 [MCA-SWEEP] INFO -   CT offset 386000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:13,016 [MCA-SWEEP] INFO -   CT offset 388000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:15,082 [MCA-SWEEP] INFO -   CT offset 390000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:17,143 [MCA-SWEEP] INFO -   CT offset 392000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:19,701 [MCA-SWEEP] INFO -   CT offset 394000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:21,829 [MCA-SWEEP] INFO -   CT offset 396000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:24,504 [MCA-SWEEP] INFO -   CT offset 398000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:29,922 [MCA-SWEEP] INFO -   CT offset 400000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:32,176 [MCA-SWEEP] INFO -   CT offset 402000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:35,051 [MCA-SWEEP] INFO -   CT offset 404000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:37,359 [MCA-SWEEP] INFO -   CT offset 406000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:39,672 [MCA-SWEEP] INFO -   CT offset 408000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:42,006 [MCA-SWEEP] INFO -   CT offset 410000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:44,570 [MCA-SWEEP] INFO -   CT offset 412000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:46,900 [MCA-SWEEP] INFO -   CT offset 414000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:49,596 [MCA-SWEEP] INFO -   CT offset 416000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:52,050 [MCA-SWEEP] INFO -   CT offset 418000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:54,684 [MCA-SWEEP] INFO -   CT offset 420000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:57,313 [MCA-SWEEP] INFO -   CT offset 422000: 2000 records, 0 new MCA leads
+2026-05-01 02:21:59,995 [MCA-SWEEP] INFO -   CT offset 424000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:02,784 [MCA-SWEEP] INFO -   CT offset 426000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:05,906 [MCA-SWEEP] INFO -   CT offset 428000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:08,329 [MCA-SWEEP] INFO -   CT offset 430000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:10,330 [MCA-SWEEP] INFO -   CT offset 432000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:12,481 [MCA-SWEEP] INFO -   CT offset 434000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:14,952 [MCA-SWEEP] INFO -   CT offset 436000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:17,113 [MCA-SWEEP] INFO -   CT offset 438000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:19,372 [MCA-SWEEP] INFO -   CT offset 440000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:21,450 [MCA-SWEEP] INFO -   CT offset 442000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:23,502 [MCA-SWEEP] INFO -   CT offset 444000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:26,411 [MCA-SWEEP] INFO -   CT offset 446000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:28,560 [MCA-SWEEP] INFO -   CT offset 448000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:30,896 [MCA-SWEEP] INFO -   CT offset 450000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:32,860 [MCA-SWEEP] INFO -   CT offset 452000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:34,810 [MCA-SWEEP] INFO -   CT offset 454000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:37,588 [MCA-SWEEP] INFO -   CT offset 456000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:40,299 [MCA-SWEEP] INFO -   CT offset 458000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:42,233 [MCA-SWEEP] INFO -   CT offset 460000: 2000 records, 3 new MCA leads
+2026-05-01 02:22:44,198 [MCA-SWEEP] INFO -   CT offset 462000: 2000 records, 9 new MCA leads
+2026-05-01 02:22:46,472 [MCA-SWEEP] INFO -   CT offset 464000: 2000 records, 25 new MCA leads
+2026-05-01 02:22:48,619 [MCA-SWEEP] INFO -   CT offset 466000: 2000 records, 0 new MCA leads
+2026-05-01 02:22:50,453 [MCA-SWEEP] INFO -   CT offset 468000: 2000 records, 7 new MCA leads
+2026-05-01 02:22:52,546 [MCA-SWEEP] INFO -   CT offset 470000: 2000 records, 7 new MCA leads
+2026-05-01 02:22:54,053 [MCA-SWEEP] INFO -   CT offset 472000: 2000 records, 1 new MCA leads
+2026-05-01 02:22:55,647 [MCA-SWEEP] INFO -   CT offset 474000: 2000 records, 1 new MCA leads
+2026-05-01 02:22:57,505 [MCA-SWEEP] INFO -   CT offset 476000: 2000 records, 4 new MCA leads
+2026-05-01 02:22:59,392 [MCA-SWEEP] INFO -   CT offset 478000: 2000 records, 7 new MCA leads
+2026-05-01 02:23:01,507 [MCA-SWEEP] INFO -   CT offset 480000: 2000 records, 24 new MCA leads
+2026-05-01 02:23:03,968 [MCA-SWEEP] INFO -   CT offset 482000: 2000 records, 13 new MCA leads
+2026-05-01 02:23:06,170 [MCA-SWEEP] INFO -   CT offset 484000: 2000 records, 10 new MCA leads
+2026-05-01 02:23:08,100 [MCA-SWEEP] INFO -   CT offset 486000: 2000 records, 12 new MCA leads
+2026-05-01 02:23:10,096 [MCA-SWEEP] INFO -   CT offset 488000: 2000 records, 10 new MCA leads
+2026-05-01 02:23:12,479 [MCA-SWEEP] INFO -   CT offset 490000: 2000 records, 11 new MCA leads
+2026-05-01 02:23:15,027 [MCA-SWEEP] INFO -   CT offset 492000: 2000 records, 19 new MCA leads
+2026-05-01 02:23:17,606 [MCA-SWEEP] INFO -   CT offset 494000: 2000 records, 44 new MCA leads
+2026-05-01 02:23:19,905 [MCA-SWEEP] INFO -   CT offset 496000: 2000 records, 33 new MCA leads
+2026-05-01 02:23:22,429 [MCA-SWEEP] INFO -   CT offset 498000: 2000 records, 30 new MCA leads
+2026-05-01 02:23:24,941 [MCA-SWEEP] INFO -   CT offset 500000: 2000 records, 34 new MCA leads
+2026-05-01 02:23:27,439 [MCA-SWEEP] INFO -   CT offset 502000: 2000 records, 24 new MCA leads
+2026-05-01 02:23:29,768 [MCA-SWEEP] INFO -   CT offset 504000: 2000 records, 28 new MCA leads
+2026-05-01 02:23:32,043 [MCA-SWEEP] INFO -   CT offset 506000: 2000 records, 14 new MCA leads
+2026-05-01 02:23:34,066 [MCA-SWEEP] INFO -   CT offset 508000: 2000 records, 11 new MCA leads
+2026-05-01 02:23:36,488 [MCA-SWEEP] INFO -   CT offset 510000: 2000 records, 9 new MCA leads
+2026-05-01 02:23:38,640 [MCA-SWEEP] INFO -   CT offset 512000: 2000 records, 17 new MCA leads
+2026-05-01 02:23:40,685 [MCA-SWEEP] INFO -   CT offset 514000: 2000 records, 14 new MCA leads
+2026-05-01 02:23:43,115 [MCA-SWEEP] INFO -   CT offset 516000: 2000 records, 19 new MCA leads
+2026-05-01 02:23:45,393 [MCA-SWEEP] INFO -   CT offset 518000: 2000 records, 21 new MCA leads
+2026-05-01 02:23:48,298 [MCA-SWEEP] INFO -   CT offset 520000: 2000 records, 16 new MCA leads
+2026-05-01 02:23:50,634 [MCA-SWEEP] INFO -   CT offset 522000: 2000 records, 32 new MCA leads
+2026-05-01 02:23:53,247 [MCA-SWEEP] INFO -   CT offset 524000: 2000 records, 26 new MCA leads
+2026-05-01 02:23:55,439 [MCA-SWEEP] INFO -   CT offset 526000: 2000 records, 19 new MCA leads
+2026-05-01 02:23:57,805 [MCA-SWEEP] INFO -   CT offset 528000: 2000 records, 21 new MCA leads
+2026-05-01 02:24:00,018 [MCA-SWEEP] INFO -   CT offset 530000: 2000 records, 23 new MCA leads
+2026-05-01 02:24:03,037 [MCA-SWEEP] INFO -   CT offset 532000: 2000 records, 27 new MCA leads
+2026-05-01 02:24:05,771 [MCA-SWEEP] INFO -   CT offset 534000: 2000 records, 18 new MCA leads
+2026-05-01 02:24:08,392 [MCA-SWEEP] INFO -   CT offset 536000: 2000 records, 23 new MCA leads
+2026-05-01 02:24:10,693 [MCA-SWEEP] INFO -   CT offset 538000: 2000 records, 33 new MCA leads
+2026-05-01 02:24:13,183 [MCA-SWEEP] INFO -   CT offset 540000: 2000 records, 34 new MCA leads
+2026-05-01 02:24:15,295 [MCA-SWEEP] INFO -   CT offset 542000: 2000 records, 25 new MCA leads
+2026-05-01 02:24:18,444 [MCA-SWEEP] INFO -   CT offset 544000: 2000 records, 39 new MCA leads
+2026-05-01 02:24:20,631 [MCA-SWEEP] INFO -   CT offset 546000: 2000 records, 20 new MCA leads
+2026-05-01 02:24:23,422 [MCA-SWEEP] INFO -   CT offset 548000: 2000 records, 43 new MCA leads
+2026-05-01 02:24:26,620 [MCA-SWEEP] INFO -   CT offset 550000: 2000 records, 26 new MCA leads
+2026-05-01 02:24:28,831 [MCA-SWEEP] INFO -   CT offset 552000: 2000 records, 19 new MCA leads
+2026-05-01 02:24:31,202 [MCA-SWEEP] INFO -   CT offset 554000: 2000 records, 26 new MCA leads
+2026-05-01 02:24:34,294 [MCA-SWEEP] INFO -   CT offset 556000: 2000 records, 29 new MCA leads
+2026-05-01 02:24:36,517 [MCA-SWEEP] INFO -   CT offset 558000: 2000 records, 17 new MCA leads
+2026-05-01 02:24:38,921 [MCA-SWEEP] INFO -   CT offset 560000: 2000 records, 6 new MCA leads
+2026-05-01 02:24:40,889 [MCA-SWEEP] INFO -   CT offset 562000: 2000 records, 7 new MCA leads
+2026-05-01 02:24:42,880 [MCA-SWEEP] INFO -   CT offset 564000: 2000 records, 7 new MCA leads
+2026-05-01 02:24:45,199 [MCA-SWEEP] INFO -   CT offset 566000: 2000 records, 7 new MCA leads
+2026-05-01 02:24:47,350 [MCA-SWEEP] INFO -   CT offset 568000: 2000 records, 2 new MCA leads
+2026-05-01 02:24:49,417 [MCA-SWEEP] INFO -   CT offset 570000: 2000 records, 12 new MCA leads
+2026-05-01 02:24:51,156 [MCA-SWEEP] INFO -   CT offset 572000: 2000 records, 1 new MCA leads
+2026-05-01 02:24:53,305 [MCA-SWEEP] INFO -   CT offset 574000: 2000 records, 2 new MCA leads
+2026-05-01 02:24:55,007 [MCA-SWEEP] INFO -   CT offset 576000: 2000 records, 0 new MCA leads
+2026-05-01 02:24:56,690 [MCA-SWEEP] INFO -   CT offset 578000: 2000 records, 0 new MCA leads
+2026-05-01 02:24:58,527 [MCA-SWEEP] INFO -   CT offset 580000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:00,328 [MCA-SWEEP] INFO -   CT offset 582000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:02,123 [MCA-SWEEP] INFO -   CT offset 584000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:03,843 [MCA-SWEEP] INFO -   CT offset 586000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:05,615 [MCA-SWEEP] INFO -   CT offset 588000: 2000 records, 1 new MCA leads
+2026-05-01 02:25:07,448 [MCA-SWEEP] INFO -   CT offset 590000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:09,198 [MCA-SWEEP] INFO -   CT offset 592000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:10,958 [MCA-SWEEP] INFO -   CT offset 594000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:13,083 [MCA-SWEEP] INFO -   CT offset 596000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:14,755 [MCA-SWEEP] INFO -   CT offset 598000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:16,550 [MCA-SWEEP] INFO -   CT offset 600000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:18,245 [MCA-SWEEP] INFO -   CT offset 602000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:20,143 [MCA-SWEEP] INFO -   CT offset 604000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:22,062 [MCA-SWEEP] INFO -   CT offset 606000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:23,943 [MCA-SWEEP] INFO -   CT offset 608000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:25,690 [MCA-SWEEP] INFO -   CT offset 610000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:27,461 [MCA-SWEEP] INFO -   CT offset 612000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:29,260 [MCA-SWEEP] INFO -   CT offset 614000: 2000 records, 1 new MCA leads
+2026-05-01 02:25:31,481 [MCA-SWEEP] INFO -   CT offset 616000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:33,082 [MCA-SWEEP] INFO -   CT offset 618000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:34,865 [MCA-SWEEP] INFO -   CT offset 620000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:36,634 [MCA-SWEEP] INFO -   CT offset 622000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:38,547 [MCA-SWEEP] INFO -   CT offset 624000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:40,375 [MCA-SWEEP] INFO -   CT offset 626000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:42,176 [MCA-SWEEP] INFO -   CT offset 628000: 2000 records, 1 new MCA leads
+2026-05-01 02:25:44,484 [MCA-SWEEP] INFO -   CT offset 630000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:46,870 [MCA-SWEEP] INFO -   CT offset 632000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:49,245 [MCA-SWEEP] INFO -   CT offset 634000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:51,280 [MCA-SWEEP] INFO -   CT offset 636000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:53,134 [MCA-SWEEP] INFO -   CT offset 638000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:54,867 [MCA-SWEEP] INFO -   CT offset 640000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:56,735 [MCA-SWEEP] INFO -   CT offset 642000: 2000 records, 0 new MCA leads
+2026-05-01 02:25:58,605 [MCA-SWEEP] INFO -   CT offset 644000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:00,440 [MCA-SWEEP] INFO -   CT offset 646000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:02,407 [MCA-SWEEP] INFO -   CT offset 648000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:04,145 [MCA-SWEEP] INFO -   CT offset 650000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:06,052 [MCA-SWEEP] INFO -   CT offset 652000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:07,959 [MCA-SWEEP] INFO -   CT offset 654000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:09,694 [MCA-SWEEP] INFO -   CT offset 656000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:11,749 [MCA-SWEEP] INFO -   CT offset 658000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:13,480 [MCA-SWEEP] INFO -   CT offset 660000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:15,310 [MCA-SWEEP] INFO -   CT offset 662000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:17,342 [MCA-SWEEP] INFO -   CT offset 664000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:19,204 [MCA-SWEEP] INFO -   CT offset 666000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:21,081 [MCA-SWEEP] INFO -   CT offset 668000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:22,791 [MCA-SWEEP] INFO -   CT offset 670000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:24,532 [MCA-SWEEP] INFO -   CT offset 672000: 2000 records, 1 new MCA leads
+2026-05-01 02:26:26,340 [MCA-SWEEP] INFO -   CT offset 674000: 2000 records, 1 new MCA leads
+2026-05-01 02:26:28,135 [MCA-SWEEP] INFO -   CT offset 676000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:29,977 [MCA-SWEEP] INFO -   CT offset 678000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:32,136 [MCA-SWEEP] INFO -   CT offset 680000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:34,050 [MCA-SWEEP] INFO -   CT offset 682000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:35,893 [MCA-SWEEP] INFO -   CT offset 684000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:38,143 [MCA-SWEEP] INFO -   CT offset 686000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:40,324 [MCA-SWEEP] INFO -   CT offset 688000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:42,367 [MCA-SWEEP] INFO -   CT offset 690000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:44,341 [MCA-SWEEP] INFO -   CT offset 692000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:46,474 [MCA-SWEEP] INFO -   CT offset 694000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:48,310 [MCA-SWEEP] INFO -   CT offset 696000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:50,437 [MCA-SWEEP] INFO -   CT offset 698000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:52,348 [MCA-SWEEP] INFO -   CT offset 700000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:54,471 [MCA-SWEEP] INFO -   CT offset 702000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:56,450 [MCA-SWEEP] INFO -   CT offset 704000: 2000 records, 0 new MCA leads
+2026-05-01 02:26:58,374 [MCA-SWEEP] INFO -   CT offset 706000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:00,290 [MCA-SWEEP] INFO -   CT offset 708000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:02,071 [MCA-SWEEP] INFO -   CT offset 710000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:04,155 [MCA-SWEEP] INFO -   CT offset 712000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:05,987 [MCA-SWEEP] INFO -   CT offset 714000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:08,076 [MCA-SWEEP] INFO -   CT offset 716000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:09,982 [MCA-SWEEP] INFO -   CT offset 718000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:11,939 [MCA-SWEEP] INFO -   CT offset 720000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:14,009 [MCA-SWEEP] INFO -   CT offset 722000: 2000 records, 1 new MCA leads
+2026-05-01 02:27:16,120 [MCA-SWEEP] INFO -   CT offset 724000: 2000 records, 15 new MCA leads
+2026-05-01 02:27:18,750 [MCA-SWEEP] INFO -   CT offset 726000: 2000 records, 37 new MCA leads
+2026-05-01 02:27:20,823 [MCA-SWEEP] INFO -   CT offset 728000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:22,997 [MCA-SWEEP] INFO -   CT offset 730000: 2000 records, 2 new MCA leads
+2026-05-01 02:27:24,941 [MCA-SWEEP] INFO -   CT offset 732000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:27,130 [MCA-SWEEP] INFO -   CT offset 734000: 2000 records, 1 new MCA leads
+2026-05-01 02:27:29,064 [MCA-SWEEP] INFO -   CT offset 736000: 2000 records, 1 new MCA leads
+2026-05-01 02:27:31,081 [MCA-SWEEP] INFO -   CT offset 738000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:33,054 [MCA-SWEEP] INFO -   CT offset 740000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:35,364 [MCA-SWEEP] INFO -   CT offset 742000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:37,500 [MCA-SWEEP] INFO -   CT offset 744000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:39,762 [MCA-SWEEP] INFO -   CT offset 746000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:41,832 [MCA-SWEEP] INFO -   CT offset 748000: 2000 records, 1 new MCA leads
+2026-05-01 02:27:43,990 [MCA-SWEEP] INFO -   CT offset 750000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:45,941 [MCA-SWEEP] INFO -   CT offset 752000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:47,926 [MCA-SWEEP] INFO -   CT offset 754000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:49,857 [MCA-SWEEP] INFO -   CT offset 756000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:51,948 [MCA-SWEEP] INFO -   CT offset 758000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:54,099 [MCA-SWEEP] INFO -   CT offset 760000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:56,148 [MCA-SWEEP] INFO -   CT offset 762000: 2000 records, 0 new MCA leads
+2026-05-01 02:27:58,152 [MCA-SWEEP] INFO -   CT offset 764000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:00,084 [MCA-SWEEP] INFO -   CT offset 766000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:02,386 [MCA-SWEEP] INFO -   CT offset 768000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:04,643 [MCA-SWEEP] INFO -   CT offset 770000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:06,910 [MCA-SWEEP] INFO -   CT offset 772000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:08,940 [MCA-SWEEP] INFO -   CT offset 774000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:10,957 [MCA-SWEEP] INFO -   CT offset 776000: 2000 records, 1 new MCA leads
+2026-05-01 02:28:13,057 [MCA-SWEEP] INFO -   CT offset 778000: 2000 records, 1 new MCA leads
+2026-05-01 02:28:15,370 [MCA-SWEEP] INFO -   CT offset 780000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:17,363 [MCA-SWEEP] INFO -   CT offset 782000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:19,546 [MCA-SWEEP] INFO -   CT offset 784000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:21,992 [MCA-SWEEP] INFO -   CT offset 786000: 2000 records, 1 new MCA leads
+2026-05-01 02:28:23,952 [MCA-SWEEP] INFO -   CT offset 788000: 2000 records, 1 new MCA leads
+2026-05-01 02:28:25,950 [MCA-SWEEP] INFO -   CT offset 790000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:27,927 [MCA-SWEEP] INFO -   CT offset 792000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:29,931 [MCA-SWEEP] INFO -   CT offset 794000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:32,005 [MCA-SWEEP] INFO -   CT offset 796000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:34,249 [MCA-SWEEP] INFO -   CT offset 798000: 2000 records, 1 new MCA leads
+2026-05-01 02:28:36,279 [MCA-SWEEP] INFO -   CT offset 800000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:38,328 [MCA-SWEEP] INFO -   CT offset 802000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:40,399 [MCA-SWEEP] INFO -   CT offset 804000: 2000 records, 1 new MCA leads
+2026-05-01 02:28:42,651 [MCA-SWEEP] INFO -   CT offset 806000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:44,680 [MCA-SWEEP] INFO -   CT offset 808000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:46,817 [MCA-SWEEP] INFO -   CT offset 810000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:48,772 [MCA-SWEEP] INFO -   CT offset 812000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:50,842 [MCA-SWEEP] INFO -   CT offset 814000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:52,984 [MCA-SWEEP] INFO -   CT offset 816000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:55,023 [MCA-SWEEP] INFO -   CT offset 818000: 2000 records, 1 new MCA leads
+2026-05-01 02:28:57,063 [MCA-SWEEP] INFO -   CT offset 820000: 2000 records, 0 new MCA leads
+2026-05-01 02:28:59,338 [MCA-SWEEP] INFO -   CT offset 822000: 2000 records, 1 new MCA leads
+2026-05-01 02:29:01,815 [MCA-SWEEP] INFO -   CT offset 824000: 2000 records, 0 new MCA leads
+2026-05-01 02:29:03,836 [MCA-SWEEP] INFO -   CT offset 826000: 2000 records, 0 new MCA leads
+2026-05-01 02:29:06,303 [MCA-SWEEP] INFO -   CT offset 828000: 2000 records, 0 new MCA leads
+2026-05-01 02:29:08,745 [MCA-SWEEP] INFO -   CT offset 830000: 2000 records, 0 new MCA leads
+2026-05-01 02:29:10,791 [MCA-SWEEP] INFO -   CT offset 832000: 2000 records, 0 new MCA leads
+2026-05-01 02:29:12,974 [MCA-SWEEP] INFO -   CT offset 834000: 1683 records, 0 new MCA leads
+2026-05-01 02:29:12,974 [MCA-SWEEP] INFO - CT SWEEP: 14079 MCA filings found, 1092 new
+2026-05-01 02:29:12,977 [MCA-SWEEP] INFO - === COLORADO FULL SWEEP ===
+2026-05-01 02:29:14,158 [MCA-SWEEP] INFO -   CO offset 0: 5000 total, 0 MCA so far
+2026-05-01 02:29:15,864 [MCA-SWEEP] INFO -   CO offset 5000: 5000 total, 0 MCA so far
+2026-05-01 02:29:17,492 [MCA-SWEEP] INFO -   CO offset 10000: 5000 total, 0 MCA so far
+2026-05-01 02:29:19,063 [MCA-SWEEP] INFO -   CO offset 15000: 5000 total, 1 MCA so far
+2026-05-01 02:29:21,042 [MCA-SWEEP] INFO -   CO offset 20000: 5000 total, 2 MCA so far
+2026-05-01 02:29:22,706 [MCA-SWEEP] INFO -   CO offset 25000: 5000 total, 11 MCA so far
+2026-05-01 02:29:24,427 [MCA-SWEEP] INFO -   CO offset 30000: 5000 total, 13 MCA so far
+2026-05-01 02:29:26,591 [MCA-SWEEP] INFO -   CO offset 35000: 5000 total, 22 MCA so far
+2026-05-01 02:29:28,233 [MCA-SWEEP] INFO -   CO offset 40000: 5000 total, 46 MCA so far
+2026-05-01 02:29:30,592 [MCA-SWEEP] INFO -   CO offset 45000: 5000 total, 83 MCA so far
+2026-05-01 02:29:32,267 [MCA-SWEEP] INFO -   CO offset 50000: 5000 total, 108 MCA so far
+2026-05-01 02:29:33,974 [MCA-SWEEP] INFO -   CO offset 55000: 5000 total, 142 MCA so far
+2026-05-01 02:29:35,916 [MCA-SWEEP] INFO -   CO offset 60000: 5000 total, 198 MCA so far
+2026-05-01 02:29:37,591 [MCA-SWEEP] INFO -   CO offset 65000: 5000 total, 250 MCA so far
+2026-05-01 02:29:39,252 [MCA-SWEEP] INFO -   CO offset 70000: 5000 total, 262 MCA so far
+2026-05-01 02:29:41,028 [MCA-SWEEP] INFO -   CO offset 75000: 5000 total, 264 MCA so far
+2026-05-01 02:29:42,788 [MCA-SWEEP] INFO -   CO offset 80000: 5000 total, 292 MCA so far
+2026-05-01 02:29:44,558 [MCA-SWEEP] INFO -   CO offset 85000: 5000 total, 358 MCA so far
+2026-05-01 02:29:46,621 [MCA-SWEEP] INFO -   CO offset 90000: 5000 total, 417 MCA so far
+2026-05-01 02:29:48,468 [MCA-SWEEP] INFO -   CO offset 95000: 5000 total, 466 MCA so far
+2026-05-01 02:29:50,219 [MCA-SWEEP] INFO -   CO offset 100000: 5000 total, 515 MCA so far
+2026-05-01 02:29:52,057 [MCA-SWEEP] INFO -   CO offset 105000: 5000 total, 571 MCA so far
+2026-05-01 02:29:53,688 [MCA-SWEEP] INFO -   CO offset 110000: 5000 total, 614 MCA so far
+2026-05-01 02:29:55,532 [MCA-SWEEP] INFO -   CO offset 115000: 5000 total, 695 MCA so far
+2026-05-01 02:29:57,582 [MCA-SWEEP] INFO -   CO offset 120000: 5000 total, 762 MCA so far
+2026-05-01 02:29:59,463 [MCA-SWEEP] INFO -   CO offset 125000: 5000 total, 763 MCA so far
+2026-05-01 02:30:01,243 [MCA-SWEEP] INFO -   CO offset 130000: 5000 total, 781 MCA so far
+2026-05-01 02:30:02,937 [MCA-SWEEP] INFO -   CO offset 135000: 5000 total, 844 MCA so far
+2026-05-01 02:30:05,415 [MCA-SWEEP] INFO -   CO offset 140000: 5000 total, 970 MCA so far
+2026-05-01 02:30:07,400 [MCA-SWEEP] INFO -   CO offset 145000: 5000 total, 1070 MCA so far
+2026-05-01 02:30:09,113 [MCA-SWEEP] INFO -   CO offset 150000: 5000 total, 1147 MCA so far
+2026-05-01 02:30:10,892 [MCA-SWEEP] INFO -   CO offset 155000: 5000 total, 1170 MCA so far
+2026-05-01 02:30:12,710 [MCA-SWEEP] INFO -   CO offset 160000: 5000 total, 1180 MCA so far
+2026-05-01 02:30:14,694 [MCA-SWEEP] INFO -   CO offset 165000: 5000 total, 1215 MCA so far
+2026-05-01 02:30:16,430 [MCA-SWEEP] INFO -   CO offset 170000: 5000 total, 1235 MCA so far
+2026-05-01 02:30:18,110 [MCA-SWEEP] INFO -   CO offset 175000: 5000 total, 1319 MCA so far
+2026-05-01 02:30:19,833 [MCA-SWEEP] INFO -   CO offset 180000: 5000 total, 1373 MCA so far
+2026-05-01 02:30:21,510 [MCA-SWEEP] INFO -   CO offset 185000: 5000 total, 1418 MCA so far
+2026-05-01 02:30:23,481 [MCA-SWEEP] INFO -   CO offset 190000: 5000 total, 1438 MCA so far
+2026-05-01 02:30:25,239 [MCA-SWEEP] INFO -   CO offset 195000: 5000 total, 1489 MCA so far
+2026-05-01 02:30:26,909 [MCA-SWEEP] INFO -   CO offset 200000: 5000 total, 1513 MCA so far
+2026-05-01 02:30:28,808 [MCA-SWEEP] INFO -   CO offset 205000: 5000 total, 1570 MCA so far
+2026-05-01 02:30:30,646 [MCA-SWEEP] INFO -   CO offset 210000: 5000 total, 1621 MCA so far
+2026-05-01 02:30:32,489 [MCA-SWEEP] INFO -   CO offset 215000: 5000 total, 1712 MCA so far
+2026-05-01 02:30:34,129 [MCA-SWEEP] INFO -   CO offset 220000: 5000 total, 1788 MCA so far
+2026-05-01 02:30:36,105 [MCA-SWEEP] INFO -   CO offset 225000: 5000 total, 1885 MCA so far
+2026-05-01 02:30:38,022 [MCA-SWEEP] INFO -   CO offset 230000: 5000 total, 1938 MCA so far
+2026-05-01 02:30:39,710 [MCA-SWEEP] INFO -   CO offset 235000: 5000 total, 2003 MCA so far
+2026-05-01 02:30:41,378 [MCA-SWEEP] INFO -   CO offset 240000: 5000 total, 2019 MCA so far
+2026-05-01 02:30:43,560 [MCA-SWEEP] INFO -   CO offset 245000: 5000 total, 2098 MCA so far
+2026-05-01 02:30:45,297 [MCA-SWEEP] INFO -   CO offset 250000: 5000 total, 2168 MCA so far
+2026-05-01 02:30:47,245 [MCA-SWEEP] INFO -   CO offset 255000: 5000 total, 2236 MCA so far
+2026-05-01 02:30:49,189 [MCA-SWEEP] INFO -   CO offset 260000: 5000 total, 2328 MCA so far
+2026-05-01 02:30:51,054 [MCA-SWEEP] INFO -   CO offset 265000: 5000 total, 2412 MCA so far
+2026-05-01 02:30:52,912 [MCA-SWEEP] INFO -   CO offset 270000: 5000 total, 2495 MCA so far
+2026-05-01 02:30:54,598 [MCA-SWEEP] INFO -   CO offset 275000: 5000 total, 2594 MCA so far
+2026-05-01 02:30:56,965 [MCA-SWEEP] INFO -   CO offset 280000: 5000 total, 2654 MCA so far
+2026-05-01 02:30:58,603 [MCA-SWEEP] INFO -   CO offset 285000: 5000 total, 2708 MCA so far
+2026-05-01 02:31:00,454 [MCA-SWEEP] INFO -   CO offset 290000: 5000 total, 2780 MCA so far
+2026-05-01 02:31:02,500 [MCA-SWEEP] INFO -   CO offset 295000: 5000 total, 2808 MCA so far
+2026-05-01 02:31:04,558 [MCA-SWEEP] INFO -   CO offset 300000: 5000 total, 2855 MCA so far
+2026-05-01 02:31:06,277 [MCA-SWEEP] INFO -   CO offset 305000: 5000 total, 2880 MCA so far
+2026-05-01 02:31:08,090 [MCA-SWEEP] INFO -   CO offset 310000: 5000 total, 2939 MCA so far
+2026-05-01 02:31:09,759 [MCA-SWEEP] INFO -   CO offset 315000: 5000 total, 2994 MCA so far
+2026-05-01 02:31:11,786 [MCA-SWEEP] INFO -   CO offset 320000: 5000 total, 3058 MCA so far
+2026-05-01 02:31:13,674 [MCA-SWEEP] INFO -   CO offset 325000: 5000 total, 3114 MCA so far
+2026-05-01 02:31:15,455 [MCA-SWEEP] INFO -   CO offset 330000: 5000 total, 3161 MCA so far
+2026-05-01 02:31:17,123 [MCA-SWEEP] INFO -   CO offset 335000: 5000 total, 3213 MCA so far
+2026-05-01 02:31:18,799 [MCA-SWEEP] INFO -   CO offset 340000: 5000 total, 3254 MCA so far
+2026-05-01 02:31:20,702 [MCA-SWEEP] INFO -   CO offset 345000: 5000 total, 3314 MCA so far
+2026-05-01 02:31:22,765 [MCA-SWEEP] INFO -   CO offset 350000: 5000 total, 3387 MCA so far
+2026-05-01 02:31:25,122 [MCA-SWEEP] INFO -   CO offset 355000: 5000 total, 3447 MCA so far
+2026-05-01 02:31:26,810 [MCA-SWEEP] INFO -   CO offset 360000: 5000 total, 3493 MCA so far
+2026-05-01 02:31:28,807 [MCA-SWEEP] INFO -   CO offset 365000: 5000 total, 3539 MCA so far
+2026-05-01 02:31:30,494 [MCA-SWEEP] INFO -   CO offset 370000: 5000 total, 3604 MCA so far
+2026-05-01 02:31:32,244 [MCA-SWEEP] INFO -   CO offset 375000: 5000 total, 3648 MCA so far
+2026-05-01 02:31:34,769 [MCA-SWEEP] INFO -   CO offset 380000: 5000 total, 3716 MCA so far
+2026-05-01 02:31:36,479 [MCA-SWEEP] INFO -   CO offset 385000: 5000 total, 3787 MCA so far
+2026-05-01 02:31:38,330 [MCA-SWEEP] INFO -   CO offset 390000: 5000 total, 3858 MCA so far
+2026-05-01 02:31:40,497 [MCA-SWEEP] INFO -   CO offset 395000: 5000 total, 3921 MCA so far
+2026-05-01 02:31:42,215 [MCA-SWEEP] INFO -   CO offset 400000: 5000 total, 4004 MCA so far
+2026-05-01 02:31:43,902 [MCA-SWEEP] INFO -   CO offset 405000: 5000 total, 4066 MCA so far
+2026-05-01 02:31:45,832 [MCA-SWEEP] INFO -   CO offset 410000: 5000 total, 4157 MCA so far
+2026-05-01 02:31:47,866 [MCA-SWEEP] INFO -   CO offset 415000: 5000 total, 4209 MCA so far
+2026-05-01 02:31:49,698 [MCA-SWEEP] INFO -   CO offset 420000: 5000 total, 4269 MCA so far
+2026-05-01 02:31:51,560 [MCA-SWEEP] INFO -   CO offset 425000: 5000 total, 4320 MCA so far
+2026-05-01 02:31:53,361 [MCA-SWEEP] INFO -   CO offset 430000: 5000 total, 4399 MCA so far
+2026-05-01 02:31:55,351 [MCA-SWEEP] INFO -   CO offset 435000: 5000 total, 4449 MCA so far
+2026-05-01 02:31:57,053 [MCA-SWEEP] INFO -   CO offset 440000: 5000 total, 4526 MCA so far
+2026-05-01 02:31:58,920 [MCA-SWEEP] INFO -   CO offset 445000: 5000 total, 4631 MCA so far
+2026-05-01 02:32:00,612 [MCA-SWEEP] INFO -   CO offset 450000: 5000 total, 4704 MCA so far
+2026-05-01 02:32:02,345 [MCA-SWEEP] INFO -   CO offset 455000: 5000 total, 4789 MCA so far
+2026-05-01 02:32:04,338 [MCA-SWEEP] INFO -   CO offset 460000: 5000 total, 4920 MCA so far
+2026-05-01 02:32:06,187 [MCA-SWEEP] INFO -   CO offset 465000: 5000 total, 4993 MCA so far
+2026-05-01 02:32:08,152 [MCA-SWEEP] INFO -   CO offset 470000: 5000 total, 5062 MCA so far
+2026-05-01 02:32:10,491 [MCA-SWEEP] INFO -   CO offset 475000: 5000 total, 5139 MCA so far
+2026-05-01 02:32:12,266 [MCA-SWEEP] INFO -   CO offset 480000: 5000 total, 5201 MCA so far
+2026-05-01 02:32:14,059 [MCA-SWEEP] INFO -   CO offset 485000: 5000 total, 5277 MCA so far
+2026-05-01 02:32:16,253 [MCA-SWEEP] INFO -   CO offset 490000: 5000 total, 5348 MCA so far
+2026-05-01 02:32:18,147 [MCA-SWEEP] INFO -   CO offset 495000: 5000 total, 5421 MCA so far
+2026-05-01 02:32:19,879 [MCA-SWEEP] INFO -   CO offset 500000: 5000 total, 5485 MCA so far
+2026-05-01 02:32:22,168 [MCA-SWEEP] INFO -   CO offset 505000: 5000 total, 5547 MCA so far
+2026-05-01 02:32:24,110 [MCA-SWEEP] INFO -   CO offset 510000: 5000 total, 5645 MCA so far
+2026-05-01 02:32:26,162 [MCA-SWEEP] INFO -   CO offset 515000: 5000 total, 5707 MCA so far
+2026-05-01 02:32:28,098 [MCA-SWEEP] INFO -   CO offset 520000: 5000 total, 5763 MCA so far
+2026-05-01 02:32:30,260 [MCA-SWEEP] INFO -   CO offset 525000: 5000 total, 5821 MCA so far
+2026-05-01 02:32:32,104 [MCA-SWEEP] INFO -   CO offset 530000: 5000 total, 5888 MCA so far
+2026-05-01 02:32:33,843 [MCA-SWEEP] INFO -   CO offset 535000: 5000 total, 5969 MCA so far
+2026-05-01 02:32:35,690 [MCA-SWEEP] INFO -   CO offset 540000: 5000 total, 6066 MCA so far
+2026-05-01 02:32:37,697 [MCA-SWEEP] INFO -   CO offset 545000: 5000 total, 6176 MCA so far
+2026-05-01 02:32:39,524 [MCA-SWEEP] INFO -   CO offset 550000: 5000 total, 6276 MCA so far
+2026-05-01 02:32:41,361 [MCA-SWEEP] INFO -   CO offset 555000: 5000 total, 6343 MCA so far
+2026-05-01 02:32:43,052 [MCA-SWEEP] INFO -   CO offset 560000: 5000 total, 6428 MCA so far
+2026-05-01 02:32:44,754 [MCA-SWEEP] INFO -   CO offset 565000: 5000 total, 6478 MCA so far
+2026-05-01 02:32:46,438 [MCA-SWEEP] INFO -   CO offset 570000: 5000 total, 6537 MCA so far
+2026-05-01 02:32:48,170 [MCA-SWEEP] INFO -   CO offset 575000: 5000 total, 6590 MCA so far
+2026-05-01 02:32:51,950 [MCA-SWEEP] INFO -   CO offset 580000: 5000 total, 6655 MCA so far
+2026-05-01 02:32:54,183 [MCA-SWEEP] INFO -   CO offset 585000: 5000 total, 6730 MCA so far
+2026-05-01 02:32:56,245 [MCA-SWEEP] INFO -   CO offset 590000: 5000 total, 6787 MCA so far
+2026-05-01 02:32:58,307 [MCA-SWEEP] INFO -   CO offset 595000: 5000 total, 6870 MCA so far
+2026-05-01 02:33:00,058 [MCA-SWEEP] INFO -   CO offset 600000: 5000 total, 6990 MCA so far
+2026-05-01 02:33:02,005 [MCA-SWEEP] INFO -   CO offset 605000: 5000 total, 7087 MCA so far
+2026-05-01 02:33:03,934 [MCA-SWEEP] INFO -   CO offset 610000: 5000 total, 7157 MCA so far
+2026-05-01 02:33:05,644 [MCA-SWEEP] INFO -   CO offset 615000: 5000 total, 7230 MCA so far
+2026-05-01 02:33:07,709 [MCA-SWEEP] INFO -   CO offset 620000: 5000 total, 7303 MCA so far
+2026-05-01 02:33:09,401 [MCA-SWEEP] INFO -   CO offset 625000: 5000 total, 7371 MCA so far
+2026-05-01 02:33:11,728 [MCA-SWEEP] INFO -   CO offset 630000: 5000 total, 7461 MCA so far
+2026-05-01 02:33:13,601 [MCA-SWEEP] INFO -   CO offset 635000: 5000 total, 7557 MCA so far
+2026-05-01 02:33:15,287 [MCA-SWEEP] INFO -   CO offset 640000: 5000 total, 7631 MCA so far
+2026-05-01 02:33:17,473 [MCA-SWEEP] INFO -   CO offset 645000: 5000 total, 7701 MCA so far
+2026-05-01 02:33:19,315 [MCA-SWEEP] INFO -   CO offset 650000: 5000 total, 7780 MCA so far
+2026-05-01 02:33:21,141 [MCA-SWEEP] INFO -   CO offset 655000: 5000 total, 7821 MCA so far
+2026-05-01 02:33:22,832 [MCA-SWEEP] INFO -   CO offset 660000: 5000 total, 7845 MCA so far
+2026-05-01 02:33:24,971 [MCA-SWEEP] INFO -   CO offset 665000: 5000 total, 7903 MCA so far
+2026-05-01 02:33:26,775 [MCA-SWEEP] INFO -   CO offset 670000: 5000 total, 7935 MCA so far
+2026-05-01 02:33:28,652 [MCA-SWEEP] INFO -   CO offset 675000: 5000 total, 7981 MCA so far
+2026-05-01 02:33:30,588 [MCA-SWEEP] INFO -   CO offset 680000: 5000 total, 8032 MCA so far
+2026-05-01 02:33:32,513 [MCA-SWEEP] INFO -   CO offset 685000: 5000 total, 8092 MCA so far
+2026-05-01 02:33:34,189 [MCA-SWEEP] INFO -   CO offset 690000: 5000 total, 8195 MCA so far
+2026-05-01 02:33:36,071 [MCA-SWEEP] INFO -   CO offset 695000: 5000 total, 8285 MCA so far
+2026-05-01 02:33:37,756 [MCA-SWEEP] INFO -   CO offset 700000: 5000 total, 8382 MCA so far
+2026-05-01 02:33:39,562 [MCA-SWEEP] INFO -   CO offset 705000: 5000 total, 8469 MCA so far
+2026-05-01 02:33:41,415 [MCA-SWEEP] INFO -   CO offset 710000: 5000 total, 8554 MCA so far
+2026-05-01 02:33:43,233 [MCA-SWEEP] INFO -   CO offset 715000: 5000 total, 8626 MCA so far
+2026-05-01 02:33:45,135 [MCA-SWEEP] INFO -   CO offset 720000: 5000 total, 8718 MCA so far
+2026-05-01 02:33:47,158 [MCA-SWEEP] INFO -   CO offset 725000: 5000 total, 8826 MCA so far
+2026-05-01 02:33:49,049 [MCA-SWEEP] INFO -   CO offset 730000: 5000 total, 8929 MCA so far
+2026-05-01 02:33:50,878 [MCA-SWEEP] INFO -   CO offset 735000: 5000 total, 8988 MCA so far
+2026-05-01 02:33:52,761 [MCA-SWEEP] INFO -   CO offset 740000: 5000 total, 9061 MCA so far
+2026-05-01 02:33:54,547 [MCA-SWEEP] INFO -   CO offset 745000: 5000 total, 9127 MCA so far
+2026-05-01 02:33:56,461 [MCA-SWEEP] INFO -   CO offset 750000: 5000 total, 9179 MCA so far
+2026-05-01 02:33:58,308 [MCA-SWEEP] INFO -   CO offset 755000: 5000 total, 9240 MCA so far
+2026-05-01 02:34:00,124 [MCA-SWEEP] INFO -   CO offset 760000: 5000 total, 9315 MCA so far
+2026-05-01 02:34:02,010 [MCA-SWEEP] INFO -   CO offset 765000: 5000 total, 9406 MCA so far
+2026-05-01 02:34:04,079 [MCA-SWEEP] INFO -   CO offset 770000: 5000 total, 9493 MCA so far
+2026-05-01 02:34:05,979 [MCA-SWEEP] INFO -   CO offset 775000: 5000 total, 9574 MCA so far
+2026-05-01 02:34:07,744 [MCA-SWEEP] INFO -   CO offset 780000: 5000 total, 9661 MCA so far
+2026-05-01 02:34:09,784 [MCA-SWEEP] INFO -   CO offset 785000: 5000 total, 9744 MCA so far
+2026-05-01 02:34:11,640 [MCA-SWEEP] INFO -   CO offset 790000: 5000 total, 9853 MCA so far
+2026-05-01 02:34:13,371 [MCA-SWEEP] INFO -   CO offset 795000: 5000 total, 9939 MCA so far
+2026-05-01 02:34:15,118 [MCA-SWEEP] INFO -   CO offset 800000: 5000 total, 10029 MCA so far
+2026-05-01 02:34:16,869 [MCA-SWEEP] INFO -   CO offset 805000: 5000 total, 10134 MCA so far
+2026-05-01 02:34:19,057 [MCA-SWEEP] INFO -   CO offset 810000: 5000 total, 10217 MCA so far
+2026-05-01 02:34:21,142 [MCA-SWEEP] INFO -   CO offset 815000: 5000 total, 10286 MCA so far
+2026-05-01 02:34:22,974 [MCA-SWEEP] INFO -   CO offset 820000: 5000 total, 10323 MCA so far
+2026-05-01 02:34:24,846 [MCA-SWEEP] INFO -   CO offset 825000: 5000 total, 10375 MCA so far
+2026-05-01 02:34:27,501 [MCA-SWEEP] INFO -   CO offset 830000: 5000 total, 10415 MCA so far
+2026-05-01 02:34:29,220 [MCA-SWEEP] INFO -   CO offset 835000: 5000 total, 10495 MCA so far
+2026-05-01 02:34:31,198 [MCA-SWEEP] INFO -   CO offset 840000: 5000 total, 10560 MCA so far
+2026-05-01 02:34:32,919 [MCA-SWEEP] INFO -   CO offset 845000: 5000 total, 10653 MCA so far
+2026-05-01 02:34:35,085 [MCA-SWEEP] INFO -   CO offset 850000: 5000 total, 10727 MCA so far
+2026-05-01 02:34:36,923 [MCA-SWEEP] INFO -   CO offset 855000: 5000 total, 10805 MCA so far
+2026-05-01 02:34:38,772 [MCA-SWEEP] INFO -   CO offset 860000: 5000 total, 10891 MCA so far
+2026-05-01 02:34:40,720 [MCA-SWEEP] INFO -   CO offset 865000: 5000 total, 10975 MCA so far
+2026-05-01 02:34:42,551 [MCA-SWEEP] INFO -   CO offset 870000: 5000 total, 11048 MCA so far
+2026-05-01 02:34:44,509 [MCA-SWEEP] INFO -   CO offset 875000: 5000 total, 11154 MCA so far
+2026-05-01 02:34:46,493 [MCA-SWEEP] INFO -   CO offset 880000: 5000 total, 11236 MCA so far
+2026-05-01 02:34:48,264 [MCA-SWEEP] INFO -   CO offset 885000: 5000 total, 11298 MCA so far
+2026-05-01 02:34:50,417 [MCA-SWEEP] INFO -   CO offset 890000: 5000 total, 11411 MCA so far
+2026-05-01 02:34:52,205 [MCA-SWEEP] INFO -   CO offset 895000: 5000 total, 11562 MCA so far
+2026-05-01 02:34:54,186 [MCA-SWEEP] INFO -   CO offset 900000: 5000 total, 11687 MCA so far
+2026-05-01 02:34:56,283 [MCA-SWEEP] INFO -   CO offset 905000: 5000 total, 11785 MCA so far
+2026-05-01 02:34:58,405 [MCA-SWEEP] INFO -   CO offset 910000: 5000 total, 11879 MCA so far
+2026-05-01 02:35:00,585 [MCA-SWEEP] INFO -   CO offset 915000: 5000 total, 12017 MCA so far
+2026-05-01 02:35:02,631 [MCA-SWEEP] INFO -   CO offset 920000: 5000 total, 12133 MCA so far
+2026-05-01 02:35:04,473 [MCA-SWEEP] INFO -   CO offset 925000: 5000 total, 12169 MCA so far
+2026-05-01 02:35:06,318 [MCA-SWEEP] INFO -   CO offset 930000: 5000 total, 12208 MCA so far
+2026-05-01 02:35:08,231 [MCA-SWEEP] INFO -   CO offset 935000: 5000 total, 12263 MCA so far
+2026-05-01 02:35:10,106 [MCA-SWEEP] INFO -   CO offset 940000: 5000 total, 12376 MCA so far
+2026-05-01 02:35:11,945 [MCA-SWEEP] INFO -   CO offset 945000: 5000 total, 12423 MCA so far
+2026-05-01 02:35:13,855 [MCA-SWEEP] INFO -   CO offset 950000: 5000 total, 12476 MCA so far
+2026-05-01 02:35:15,714 [MCA-SWEEP] INFO -   CO offset 955000: 5000 total, 12529 MCA so far
+2026-05-01 02:35:17,506 [MCA-SWEEP] INFO -   CO offset 960000: 5000 total, 12604 MCA so far
+2026-05-01 02:35:19,728 [MCA-SWEEP] INFO -   CO offset 965000: 5000 total, 12669 MCA so far
+2026-05-01 02:35:21,549 [MCA-SWEEP] INFO -   CO offset 970000: 5000 total, 12723 MCA so far
+2026-05-01 02:35:23,360 [MCA-SWEEP] INFO -   CO offset 975000: 5000 total, 12772 MCA so far
+2026-05-01 02:35:25,359 [MCA-SWEEP] INFO -   CO offset 980000: 5000 total, 12827 MCA so far
+2026-05-01 02:35:27,213 [MCA-SWEEP] INFO -   CO offset 985000: 5000 total, 12889 MCA so far
+2026-05-01 02:35:29,108 [MCA-SWEEP] INFO -   CO offset 990000: 5000 total, 12947 MCA so far
+2026-05-01 02:35:31,069 [MCA-SWEEP] INFO -   CO offset 995000: 5000 total, 13028 MCA so far
+2026-05-01 02:35:32,909 [MCA-SWEEP] INFO -   CO offset 1000000: 5000 total, 13115 MCA so far
+2026-05-01 02:35:34,949 [MCA-SWEEP] INFO -   CO offset 1005000: 5000 total, 13179 MCA so far
+2026-05-01 02:35:37,002 [MCA-SWEEP] INFO -   CO offset 1010000: 5000 total, 13283 MCA so far
+2026-05-01 02:35:39,051 [MCA-SWEEP] INFO -   CO offset 1015000: 5000 total, 13341 MCA so far
+2026-05-01 02:35:41,102 [MCA-SWEEP] INFO -   CO offset 1020000: 5000 total, 13420 MCA so far
+2026-05-01 02:35:43,050 [MCA-SWEEP] INFO -   CO offset 1025000: 5000 total, 13539 MCA so far
+2026-05-01 02:35:44,981 [MCA-SWEEP] INFO -   CO offset 1030000: 5000 total, 13619 MCA so far
+2026-05-01 02:35:46,942 [MCA-SWEEP] INFO -   CO offset 1035000: 5000 total, 13695 MCA so far
+2026-05-01 02:35:48,819 [MCA-SWEEP] INFO -   CO offset 1040000: 5000 total, 13780 MCA so far
+2026-05-01 02:35:50,777 [MCA-SWEEP] INFO -   CO offset 1045000: 5000 total, 13869 MCA so far
+2026-05-01 02:35:52,730 [MCA-SWEEP] INFO -   CO offset 1050000: 5000 total, 13921 MCA so far
+2026-05-01 02:35:54,749 [MCA-SWEEP] INFO -   CO offset 1055000: 5000 total, 13996 MCA so far
+2026-05-01 02:35:56,697 [MCA-SWEEP] INFO -   CO offset 1060000: 5000 total, 14072 MCA so far
+2026-05-01 02:35:58,817 [MCA-SWEEP] INFO -   CO offset 1065000: 5000 total, 14130 MCA so far
+2026-05-01 02:36:00,793 [MCA-SWEEP] INFO -   CO offset 1070000: 5000 total, 14190 MCA so far
+2026-05-01 02:36:02,891 [MCA-SWEEP] INFO -   CO offset 1075000: 5000 total, 14237 MCA so far
+2026-05-01 02:36:04,963 [MCA-SWEEP] INFO -   CO offset 1080000: 5000 total, 14307 MCA so far
+2026-05-01 02:36:07,002 [MCA-SWEEP] INFO -   CO offset 1085000: 5000 total, 14371 MCA so far
+2026-05-01 02:36:08,984 [MCA-SWEEP] INFO -   CO offset 1090000: 5000 total, 14437 MCA so far
+2026-05-01 02:36:10,901 [MCA-SWEEP] INFO -   CO offset 1095000: 5000 total, 14508 MCA so far
+2026-05-01 02:36:12,882 [MCA-SWEEP] INFO -   CO offset 1100000: 5000 total, 14568 MCA so far
+2026-05-01 02:36:14,863 [MCA-SWEEP] INFO -   CO offset 1105000: 5000 total, 14662 MCA so far
+2026-05-01 02:36:16,737 [MCA-SWEEP] INFO -   CO offset 1110000: 5000 total, 14711 MCA so far
+2026-05-01 02:36:18,851 [MCA-SWEEP] INFO -   CO offset 1115000: 5000 total, 14785 MCA so far
+2026-05-01 02:36:20,762 [MCA-SWEEP] INFO -   CO offset 1120000: 5000 total, 14866 MCA so far
+2026-05-01 02:36:22,595 [MCA-SWEEP] INFO -   CO offset 1125000: 5000 total, 14932 MCA so far
+2026-05-01 02:36:24,451 [MCA-SWEEP] INFO -   CO offset 1130000: 5000 total, 15005 MCA so far
+2026-05-01 02:36:26,422 [MCA-SWEEP] INFO -   CO offset 1135000: 5000 total, 15078 MCA so far
+2026-05-01 02:36:28,419 [MCA-SWEEP] INFO -   CO offset 1140000: 5000 total, 15139 MCA so far
+2026-05-01 02:36:30,304 [MCA-SWEEP] INFO -   CO offset 1145000: 5000 total, 15206 MCA so far
+2026-05-01 02:36:32,394 [MCA-SWEEP] INFO -   CO offset 1150000: 5000 total, 15274 MCA so far
+2026-05-01 02:36:34,406 [MCA-SWEEP] INFO -   CO offset 1155000: 5000 total, 15336 MCA so far
+2026-05-01 02:36:36,347 [MCA-SWEEP] INFO -   CO offset 1160000: 5000 total, 15391 MCA so far
+2026-05-01 02:36:38,426 [MCA-SWEEP] INFO -   CO offset 1165000: 5000 total, 15455 MCA so far
+2026-05-01 02:36:40,325 [MCA-SWEEP] INFO -   CO offset 1170000: 5000 total, 15547 MCA so far
+2026-05-01 02:36:42,465 [MCA-SWEEP] INFO -   CO offset 1175000: 5000 total, 15639 MCA so far
+2026-05-01 02:36:44,708 [MCA-SWEEP] INFO -   CO offset 1180000: 5000 total, 15704 MCA so far
+2026-05-01 02:36:46,946 [MCA-SWEEP] INFO -   CO offset 1185000: 5000 total, 15779 MCA so far
+2026-05-01 02:36:48,997 [MCA-SWEEP] INFO -   CO offset 1190000: 5000 total, 15851 MCA so far
+2026-05-01 02:36:51,213 [MCA-SWEEP] INFO -   CO offset 1195000: 5000 total, 15937 MCA so far
+2026-05-01 02:36:53,300 [MCA-SWEEP] INFO -   CO offset 1200000: 5000 total, 16029 MCA so far
+2026-05-01 02:36:55,231 [MCA-SWEEP] INFO -   CO offset 1205000: 5000 total, 16098 MCA so far
+2026-05-01 02:36:57,400 [MCA-SWEEP] INFO -   CO offset 1210000: 5000 total, 16162 MCA so far
+2026-05-01 02:36:59,278 [MCA-SWEEP] INFO -   CO offset 1215000: 5000 total, 16229 MCA so far
+2026-05-01 02:37:01,280 [MCA-SWEEP] INFO -   CO offset 1220000: 5000 total, 16310 MCA so far
+2026-05-01 02:37:03,335 [MCA-SWEEP] INFO -   CO offset 1225000: 5000 total, 16389 MCA so far
+2026-05-01 02:37:05,239 [MCA-SWEEP] INFO -   CO offset 1230000: 5000 total, 16467 MCA so far
+2026-05-01 02:37:07,444 [MCA-SWEEP] INFO -   CO offset 1235000: 5000 total, 16565 MCA so far
+2026-05-01 02:37:09,398 [MCA-SWEEP] INFO -   CO offset 1240000: 5000 total, 16650 MCA so far
+2026-05-01 02:37:11,317 [MCA-SWEEP] INFO -   CO offset 1245000: 5000 total, 16727 MCA so far
+2026-05-01 02:37:13,599 [MCA-SWEEP] INFO -   CO offset 1250000: 5000 total, 16806 MCA so far
+2026-05-01 02:37:15,499 [MCA-SWEEP] INFO -   CO offset 1255000: 5000 total, 16909 MCA so far
+2026-05-01 02:37:17,692 [MCA-SWEEP] INFO -   CO offset 1260000: 5000 total, 17010 MCA so far
+2026-05-01 02:37:19,817 [MCA-SWEEP] INFO -   CO offset 1265000: 5000 total, 17080 MCA so far
+2026-05-01 02:37:21,878 [MCA-SWEEP] INFO -   CO offset 1270000: 5000 total, 17138 MCA so far
+2026-05-01 02:37:23,892 [MCA-SWEEP] INFO -   CO offset 1275000: 5000 total, 17209 MCA so far
+2026-05-01 02:37:26,171 [MCA-SWEEP] INFO -   CO offset 1280000: 5000 total, 17291 MCA so far
+2026-05-01 02:37:28,954 [MCA-SWEEP] INFO -   CO offset 1285000: 5000 total, 17356 MCA so far
+2026-05-01 02:37:30,924 [MCA-SWEEP] INFO -   CO offset 1290000: 5000 total, 17438 MCA so far
+2026-05-01 02:37:33,140 [MCA-SWEEP] INFO -   CO offset 1295000: 5000 total, 17519 MCA so far
+2026-05-01 02:37:35,322 [MCA-SWEEP] INFO -   CO offset 1300000: 5000 total, 17590 MCA so far
+2026-05-01 02:37:37,883 [MCA-SWEEP] INFO -   CO offset 1305000: 5000 total, 17656 MCA so far
+2026-05-01 02:37:39,739 [MCA-SWEEP] INFO -   CO offset 1310000: 5000 total, 17724 MCA so far
+2026-05-01 02:37:41,559 [MCA-SWEEP] INFO -   CO offset 1315000: 5000 total, 17785 MCA so far
+2026-05-01 02:37:43,405 [MCA-SWEEP] INFO -   CO offset 1320000: 5000 total, 17870 MCA so far
+2026-05-01 02:37:45,399 [MCA-SWEEP] INFO -   CO offset 1325000: 5000 total, 17927 MCA so far
+2026-05-01 02:37:47,249 [MCA-SWEEP] INFO -   CO offset 1330000: 5000 total, 17996 MCA so far
+2026-05-01 02:37:49,256 [MCA-SWEEP] INFO -   CO offset 1335000: 5000 total, 18063 MCA so far
+2026-05-01 02:37:51,131 [MCA-SWEEP] INFO -   CO offset 1340000: 5000 total, 18125 MCA so far
+2026-05-01 02:37:53,750 [MCA-SWEEP] INFO -   CO offset 1345000: 5000 total, 18206 MCA so far
+2026-05-01 02:37:55,969 [MCA-SWEEP] INFO -   CO offset 1350000: 5000 total, 18288 MCA so far
+2026-05-01 02:37:57,890 [MCA-SWEEP] INFO -   CO offset 1355000: 5000 total, 18358 MCA so far
+2026-05-01 02:37:59,780 [MCA-SWEEP] INFO -   CO offset 1360000: 5000 total, 18449 MCA so far
+2026-05-01 02:38:01,710 [MCA-SWEEP] INFO -   CO offset 1365000: 5000 total, 18547 MCA so far
+2026-05-01 02:38:03,952 [MCA-SWEEP] INFO -   CO offset 1370000: 5000 total, 18641 MCA so far
+2026-05-01 02:38:06,077 [MCA-SWEEP] INFO -   CO offset 1375000: 5000 total, 18717 MCA so far
+2026-05-01 02:38:07,991 [MCA-SWEEP] INFO -   CO offset 1380000: 5000 total, 18822 MCA so far
+2026-05-01 02:38:10,301 [MCA-SWEEP] INFO -   CO offset 1385000: 5000 total, 18914 MCA so far
+2026-05-01 02:38:12,199 [MCA-SWEEP] INFO -   CO offset 1390000: 5000 total, 19028 MCA so far
+2026-05-01 02:38:14,336 [MCA-SWEEP] INFO -   CO offset 1395000: 5000 total, 19119 MCA so far
+2026-05-01 02:38:16,248 [MCA-SWEEP] INFO -   CO offset 1400000: 5000 total, 19194 MCA so far
+2026-05-01 02:38:18,230 [MCA-SWEEP] INFO -   CO offset 1405000: 5000 total, 19289 MCA so far
+2026-05-01 02:38:20,240 [MCA-SWEEP] INFO -   CO offset 1410000: 5000 total, 19393 MCA so far
+2026-05-01 02:38:22,091 [MCA-SWEEP] INFO -   CO offset 1415000: 5000 total, 19505 MCA so far
+2026-05-01 02:38:23,982 [MCA-SWEEP] INFO -   CO offset 1420000: 5000 total, 19593 MCA so far
+2026-05-01 02:38:26,000 [MCA-SWEEP] INFO -   CO offset 1425000: 5000 total, 19708 MCA so far
+2026-05-01 02:38:28,014 [MCA-SWEEP] INFO -   CO offset 1430000: 5000 total, 19781 MCA so far
+2026-05-01 02:38:29,952 [MCA-SWEEP] INFO -   CO offset 1435000: 5000 total, 19879 MCA so far
+2026-05-01 02:38:32,003 [MCA-SWEEP] INFO -   CO offset 1440000: 5000 total, 19948 MCA so far
+2026-05-01 02:38:34,218 [MCA-SWEEP] INFO -   CO offset 1445000: 5000 total, 20015 MCA so far
+2026-05-01 02:38:36,184 [MCA-SWEEP] INFO -   CO offset 1450000: 5000 total, 20097 MCA so far
+2026-05-01 02:38:38,173 [MCA-SWEEP] INFO -   CO offset 1455000: 5000 total, 20184 MCA so far
+2026-05-01 02:38:40,039 [MCA-SWEEP] INFO -   CO offset 1460000: 5000 total, 20264 MCA so far
+2026-05-01 02:38:42,013 [MCA-SWEEP] INFO -   CO offset 1465000: 5000 total, 20299 MCA so far
+2026-05-01 02:38:43,923 [MCA-SWEEP] INFO -   CO offset 1470000: 5000 total, 20365 MCA so far
+2026-05-01 02:38:45,884 [MCA-SWEEP] INFO -   CO offset 1475000: 5000 total, 20470 MCA so far
+2026-05-01 02:38:47,876 [MCA-SWEEP] INFO -   CO offset 1480000: 5000 total, 20587 MCA so far
+2026-05-01 02:38:49,969 [MCA-SWEEP] INFO -   CO offset 1485000: 5000 total, 20695 MCA so far
+2026-05-01 02:38:51,918 [MCA-SWEEP] INFO -   CO offset 1490000: 5000 total, 20809 MCA so far
+2026-05-01 02:38:53,814 [MCA-SWEEP] INFO -   CO offset 1495000: 5000 total, 20902 MCA so far
+2026-05-01 02:38:55,793 [MCA-SWEEP] INFO -   CO offset 1500000: 5000 total, 21036 MCA so far
+2026-05-01 02:38:57,908 [MCA-SWEEP] INFO -   CO offset 1505000: 5000 total, 21187 MCA so far
+2026-05-01 02:38:59,889 [MCA-SWEEP] INFO -   CO offset 1510000: 5000 total, 21367 MCA so far
+2026-05-01 02:39:01,988 [MCA-SWEEP] INFO -   CO offset 1515000: 5000 total, 21421 MCA so far
+2026-05-01 02:39:03,888 [MCA-SWEEP] INFO -   CO offset 1520000: 5000 total, 21475 MCA so far
+2026-05-01 02:39:05,727 [MCA-SWEEP] INFO -   CO offset 1525000: 5000 total, 21500 MCA so far
+2026-05-01 02:39:07,778 [MCA-SWEEP] INFO -   CO offset 1530000: 5000 total, 21530 MCA so far
+2026-05-01 02:39:09,651 [MCA-SWEEP] INFO -   CO offset 1535000: 5000 total, 21558 MCA so far
+2026-05-01 02:39:11,491 [MCA-SWEEP] INFO -   CO offset 1540000: 5000 total, 21588 MCA so far
+2026-05-01 02:39:13,311 [MCA-SWEEP] INFO -   CO offset 1545000: 5000 total, 21605 MCA so far
+2026-05-01 02:39:15,111 [MCA-SWEEP] INFO -   CO offset 1550000: 5000 total, 21632 MCA so far
+2026-05-01 02:39:17,302 [MCA-SWEEP] INFO -   CO offset 1555000: 5000 total, 21678 MCA so far
+2026-05-01 02:39:19,354 [MCA-SWEEP] INFO -   CO offset 1560000: 5000 total, 21747 MCA so far
+2026-05-01 02:39:21,396 [MCA-SWEEP] INFO -   CO offset 1565000: 5000 total, 21808 MCA so far
+2026-05-01 02:39:23,262 [MCA-SWEEP] INFO -   CO offset 1570000: 5000 total, 21904 MCA so far
+2026-05-01 02:39:25,492 [MCA-SWEEP] INFO -   CO offset 1575000: 5000 total, 21973 MCA so far
+2026-05-01 02:39:27,539 [MCA-SWEEP] INFO -   CO offset 1580000: 5000 total, 22053 MCA so far
+2026-05-01 02:39:29,622 [MCA-SWEEP] INFO -   CO offset 1585000: 5000 total, 22137 MCA so far
+2026-05-01 02:39:31,558 [MCA-SWEEP] INFO -   CO offset 1590000: 5000 total, 22204 MCA so far
+2026-05-01 02:39:33,596 [MCA-SWEEP] INFO -   CO offset 1595000: 5000 total, 22283 MCA so far
+2026-05-01 02:39:35,493 [MCA-SWEEP] INFO -   CO offset 1600000: 5000 total, 22380 MCA so far
+2026-05-01 02:39:37,378 [MCA-SWEEP] INFO -   CO offset 1605000: 5000 total, 22482 MCA so far
+2026-05-01 02:39:39,520 [MCA-SWEEP] INFO -   CO offset 1610000: 5000 total, 22552 MCA so far
+2026-05-01 02:39:41,345 [MCA-SWEEP] INFO -   CO offset 1615000: 5000 total, 22672 MCA so far
+2026-05-01 02:39:43,410 [MCA-SWEEP] INFO -   CO offset 1620000: 5000 total, 22737 MCA so far
+2026-05-01 02:39:45,294 [MCA-SWEEP] INFO -   CO offset 1625000: 5000 total, 22809 MCA so far
+2026-05-01 02:39:47,373 [MCA-SWEEP] INFO -   CO offset 1630000: 5000 total, 22882 MCA so far
+2026-05-01 02:39:49,354 [MCA-SWEEP] INFO -   CO offset 1635000: 5000 total, 22977 MCA so far
+2026-05-01 02:39:51,397 [MCA-SWEEP] INFO -   CO offset 1640000: 5000 total, 23085 MCA so far
+2026-05-01 02:39:53,247 [MCA-SWEEP] INFO -   CO offset 1645000: 5000 total, 23215 MCA so far
+2026-05-01 02:39:55,108 [MCA-SWEEP] INFO -   CO offset 1650000: 5000 total, 23340 MCA so far
+2026-05-01 02:39:57,147 [MCA-SWEEP] INFO -   CO offset 1655000: 5000 total, 23428 MCA so far
+2026-05-01 02:39:59,244 [MCA-SWEEP] INFO -   CO offset 1660000: 5000 total, 23570 MCA so far
+2026-05-01 02:40:01,108 [MCA-SWEEP] INFO -   CO offset 1665000: 5000 total, 23695 MCA so far
+2026-05-01 02:40:02,978 [MCA-SWEEP] INFO -   CO offset 1670000: 5000 total, 23855 MCA so far
+2026-05-01 02:40:05,059 [MCA-SWEEP] INFO -   CO offset 1675000: 5000 total, 23993 MCA so far
+2026-05-01 02:40:07,068 [MCA-SWEEP] INFO -   CO offset 1680000: 5000 total, 24157 MCA so far
+2026-05-01 02:40:09,118 [MCA-SWEEP] INFO -   CO offset 1685000: 5000 total, 24285 MCA so far
+2026-05-01 02:40:11,165 [MCA-SWEEP] INFO -   CO offset 1690000: 5000 total, 24446 MCA so far
+2026-05-01 02:40:13,234 [MCA-SWEEP] INFO -   CO offset 1695000: 5000 total, 24576 MCA so far
+2026-05-01 02:40:15,430 [MCA-SWEEP] INFO -   CO offset 1700000: 5000 total, 24709 MCA so far
+2026-05-01 02:40:17,308 [MCA-SWEEP] INFO -   CO offset 1705000: 5000 total, 24861 MCA so far
+2026-05-01 02:40:19,240 [MCA-SWEEP] INFO -   CO offset 1710000: 5000 total, 24990 MCA so far
+2026-05-01 02:40:21,285 [MCA-SWEEP] INFO -   CO offset 1715000: 5000 total, 25095 MCA so far
+2026-05-01 02:40:23,249 [MCA-SWEEP] INFO -   CO offset 1720000: 5000 total, 25257 MCA so far
+2026-05-01 02:40:25,257 [MCA-SWEEP] INFO -   CO offset 1725000: 5000 total, 25393 MCA so far
+2026-05-01 02:40:27,141 [MCA-SWEEP] INFO -   CO offset 1730000: 5000 total, 25543 MCA so far
+2026-05-01 02:40:29,041 [MCA-SWEEP] INFO -   CO offset 1735000: 5000 total, 25706 MCA so far
+2026-05-01 02:40:31,275 [MCA-SWEEP] INFO -   CO offset 1740000: 5000 total, 25842 MCA so far
+2026-05-01 02:40:33,386 [MCA-SWEEP] INFO -   CO offset 1745000: 5000 total, 26008 MCA so far
+2026-05-01 02:40:35,295 [MCA-SWEEP] INFO -   CO offset 1750000: 5000 total, 26192 MCA so far
+2026-05-01 02:40:37,282 [MCA-SWEEP] INFO -   CO offset 1755000: 5000 total, 26362 MCA so far
+2026-05-01 02:40:39,536 [MCA-SWEEP] INFO -   CO offset 1760000: 5000 total, 26551 MCA so far
+2026-05-01 02:40:41,393 [MCA-SWEEP] INFO -   CO offset 1765000: 5000 total, 26703 MCA so far
+2026-05-01 02:40:43,425 [MCA-SWEEP] INFO -   CO offset 1770000: 5000 total, 26875 MCA so far
+2026-05-01 02:40:46,444 [MCA-SWEEP] INFO -   CO offset 1775000: 5000 total, 27044 MCA so far
+2026-05-01 02:40:48,489 [MCA-SWEEP] INFO -   CO offset 1780000: 5000 total, 27221 MCA so far
+2026-05-01 02:40:50,406 [MCA-SWEEP] INFO -   CO offset 1785000: 5000 total, 27381 MCA so far
+2026-05-01 02:40:52,508 [MCA-SWEEP] INFO -   CO offset 1790000: 5000 total, 27575 MCA so far
+2026-05-01 02:40:54,657 [MCA-SWEEP] INFO -   CO offset 1795000: 5000 total, 27761 MCA so far
+2026-05-01 02:40:56,732 [MCA-SWEEP] INFO -   CO offset 1800000: 5000 total, 27929 MCA so far
+2026-05-01 02:40:58,991 [MCA-SWEEP] INFO -   CO offset 1805000: 5000 total, 28066 MCA so far
+2026-05-01 02:41:00,983 [MCA-SWEEP] INFO -   CO offset 1810000: 5000 total, 28236 MCA so far
+2026-05-01 02:41:02,823 [MCA-SWEEP] INFO -   CO offset 1815000: 5000 total, 28380 MCA so far
+2026-05-01 02:41:04,830 [MCA-SWEEP] INFO -   CO offset 1820000: 5000 total, 28529 MCA so far
+2026-05-01 02:41:06,866 [MCA-SWEEP] INFO -   CO offset 1825000: 5000 total, 28671 MCA so far
+2026-05-01 02:41:08,834 [MCA-SWEEP] INFO -   CO offset 1830000: 5000 total, 28851 MCA so far
+2026-05-01 02:41:10,778 [MCA-SWEEP] INFO -   CO offset 1835000: 5000 total, 29040 MCA so far
+2026-05-01 02:41:13,224 [MCA-SWEEP] INFO -   CO offset 1840000: 5000 total, 29223 MCA so far
+2026-05-01 02:41:15,177 [MCA-SWEEP] INFO -   CO offset 1845000: 5000 total, 29416 MCA so far
+2026-05-01 02:41:17,070 [MCA-SWEEP] INFO -   CO offset 1850000: 5000 total, 29620 MCA so far
+2026-05-01 02:41:19,574 [MCA-SWEEP] INFO -   CO offset 1855000: 5000 total, 29820 MCA so far
+2026-05-01 02:41:21,822 [MCA-SWEEP] INFO -   CO offset 1860000: 5000 total, 29983 MCA so far
+2026-05-01 02:41:23,860 [MCA-SWEEP] INFO -   CO offset 1865000: 5000 total, 30178 MCA so far
+2026-05-01 02:41:25,744 [MCA-SWEEP] INFO -   CO offset 1870000: 5000 total, 30389 MCA so far
+2026-05-01 02:41:27,757 [MCA-SWEEP] INFO -   CO offset 1875000: 5000 total, 30565 MCA so far
+2026-05-01 02:41:29,886 [MCA-SWEEP] INFO -   CO offset 1880000: 5000 total, 30731 MCA so far
+2026-05-01 02:41:31,957 [MCA-SWEEP] INFO -   CO offset 1885000: 5000 total, 30888 MCA so far
+2026-05-01 02:41:34,002 [MCA-SWEEP] INFO -   CO offset 1890000: 5000 total, 31046 MCA so far
+2026-05-01 02:41:35,862 [MCA-SWEEP] INFO -   CO offset 1895000: 5000 total, 31190 MCA so far
+2026-05-01 02:41:37,935 [MCA-SWEEP] INFO -   CO offset 1900000: 5000 total, 31359 MCA so far
+2026-05-01 02:41:40,168 [MCA-SWEEP] INFO -   CO offset 1905000: 5000 total, 31519 MCA so far
+2026-05-01 02:41:42,596 [MCA-SWEEP] INFO -   CO offset 1910000: 5000 total, 31692 MCA so far
+2026-05-01 02:41:44,660 [MCA-SWEEP] INFO -   CO offset 1915000: 5000 total, 31863 MCA so far
+2026-05-01 02:41:46,604 [MCA-SWEEP] INFO -   CO offset 1920000: 5000 total, 32021 MCA so far
+2026-05-01 02:41:48,558 [MCA-SWEEP] INFO -   CO offset 1925000: 5000 total, 32258 MCA so far
+2026-05-01 02:41:50,518 [MCA-SWEEP] INFO -   CO offset 1930000: 5000 total, 32428 MCA so far
+2026-05-01 02:41:52,569 [MCA-SWEEP] INFO -   CO offset 1935000: 5000 total, 32620 MCA so far
+2026-05-01 02:41:54,490 [MCA-SWEEP] INFO -   CO offset 1940000: 5000 total, 32806 MCA so far
+2026-05-01 02:41:56,667 [MCA-SWEEP] INFO -   CO offset 1945000: 5000 total, 32970 MCA so far
+2026-05-01 02:41:58,997 [MCA-SWEEP] INFO -   CO offset 1950000: 5000 total, 33118 MCA so far
+2026-05-01 02:42:01,046 [MCA-SWEEP] INFO -   CO offset 1955000: 5000 total, 33289 MCA so far
+2026-05-01 02:42:02,931 [MCA-SWEEP] INFO -   CO offset 1960000: 5000 total, 33513 MCA so far
+2026-05-01 02:42:05,257 [MCA-SWEEP] INFO -   CO offset 1965000: 5000 total, 33677 MCA so far
+2026-05-01 02:42:07,285 [MCA-SWEEP] INFO -   CO offset 1970000: 5000 total, 33824 MCA so far
+2026-05-01 02:42:09,745 [MCA-SWEEP] INFO -   CO offset 1975000: 5000 total, 33992 MCA so far
+2026-05-01 02:42:11,998 [MCA-SWEEP] INFO -   CO offset 1980000: 5000 total, 34175 MCA so far
+2026-05-01 02:42:13,817 [MCA-SWEEP] INFO -   CO offset 1985000: 5000 total, 34364 MCA so far
+2026-05-01 02:42:15,810 [MCA-SWEEP] INFO -   CO offset 1990000: 5000 total, 34560 MCA so far
+2026-05-01 02:42:17,935 [MCA-SWEEP] INFO -   CO offset 1995000: 5000 total, 34747 MCA so far
+2026-05-01 02:42:19,983 [MCA-SWEEP] INFO -   CO offset 2000000: 5000 total, 34953 MCA so far
+2026-05-01 02:42:21,959 [MCA-SWEEP] INFO -   CO offset 2005000: 5000 total, 35125 MCA so far
+2026-05-01 02:42:23,785 [MCA-SWEEP] INFO -   CO offset 2010000: 5000 total, 35318 MCA so far
+2026-05-01 02:42:25,720 [MCA-SWEEP] INFO -   CO offset 2015000: 5000 total, 35494 MCA so far
+2026-05-01 02:42:27,972 [MCA-SWEEP] INFO -   CO offset 2020000: 5000 total, 35696 MCA so far
+2026-05-01 02:42:30,027 [MCA-SWEEP] INFO -   CO offset 2025000: 5000 total, 35853 MCA so far
+2026-05-01 02:42:32,174 [MCA-SWEEP] INFO -   CO offset 2030000: 5000 total, 36030 MCA so far
+2026-05-01 02:42:35,034 [MCA-SWEEP] INFO -   CO offset 2035000: 5000 total, 36227 MCA so far
+2026-05-01 02:42:37,521 [MCA-SWEEP] INFO -   CO offset 2040000: 5000 total, 36417 MCA so far
+2026-05-01 02:42:39,394 [MCA-SWEEP] INFO -   CO offset 2045000: 5000 total, 36559 MCA so far
+2026-05-01 02:42:41,396 [MCA-SWEEP] INFO -   CO offset 2050000: 3794 total, 36660 MCA so far
+2026-05-01 02:42:41,396 [MCA-SWEEP] INFO - CO: Found 36660 MCA secured party records
+2026-05-01 02:42:41,433 [MCA-SWEEP] INFO - CO: 36041 unique file IDs to process
+2026-05-01 02:42:41,969 [MCA-SWEEP] INFO -   CO debtors: 0/36041 processed, 30 found
+2026-05-01 02:42:45,282 [MCA-SWEEP] INFO -   CO debtors: 200/36041 processed, 149 found
+2026-05-01 02:42:48,432 [MCA-SWEEP] INFO -   CO debtors: 400/36041 processed, 277 found
+2026-05-01 02:42:51,613 [MCA-SWEEP] INFO -   CO debtors: 600/36041 processed, 395 found
+2026-05-01 02:42:54,667 [MCA-SWEEP] INFO -   CO debtors: 800/36041 processed, 507 found
+2026-05-01 02:42:57,670 [MCA-SWEEP] INFO -   CO debtors: 1000/36041 processed, 626 found
+2026-05-01 02:43:01,077 [MCA-SWEEP] INFO -   CO debtors: 1200/36041 processed, 745 found
+2026-05-01 02:43:04,586 [MCA-SWEEP] INFO -   CO debtors: 1400/36041 processed, 874 found
+2026-05-01 02:43:07,639 [MCA-SWEEP] INFO -   CO debtors: 1600/36041 processed, 988 found
+2026-05-01 02:43:10,683 [MCA-SWEEP] INFO -   CO debtors: 1800/36041 processed, 1116 found
+2026-05-01 02:43:13,908 [MCA-SWEEP] INFO -   CO debtors: 2000/36041 processed, 1249 found
+2026-05-01 02:43:17,007 [MCA-SWEEP] INFO -   CO debtors: 2200/36041 processed, 1378 found
+2026-05-01 02:43:20,180 [MCA-SWEEP] INFO -   CO debtors: 2400/36041 processed, 1508 found
+2026-05-01 02:43:23,284 [MCA-SWEEP] INFO -   CO debtors: 2600/36041 processed, 1630 found
+2026-05-01 02:43:26,404 [MCA-SWEEP] INFO -   CO debtors: 2800/36041 processed, 1752 found
+2026-05-01 02:43:29,595 [MCA-SWEEP] INFO -   CO debtors: 3000/36041 processed, 1882 found
+2026-05-01 02:43:32,761 [MCA-SWEEP] INFO -   CO debtors: 3200/36041 processed, 2004 found
+2026-05-01 02:43:35,813 [MCA-SWEEP] INFO -   CO debtors: 3400/36041 processed, 2120 found
+2026-05-01 02:43:39,676 [MCA-SWEEP] INFO -   CO debtors: 3600/36041 processed, 2247 found
+2026-05-01 02:43:42,676 [MCA-SWEEP] INFO -   CO debtors: 3800/36041 processed, 2374 found
+2026-05-01 02:43:46,236 [MCA-SWEEP] INFO -   CO debtors: 4000/36041 processed, 2487 found
+2026-05-01 02:43:49,346 [MCA-SWEEP] INFO -   CO debtors: 4200/36041 processed, 2609 found
+2026-05-01 02:43:52,543 [MCA-SWEEP] INFO -   CO debtors: 4400/36041 processed, 2732 found
+2026-05-01 02:43:55,626 [MCA-SWEEP] INFO -   CO debtors: 4600/36041 processed, 2844 found
+2026-05-01 02:43:58,643 [MCA-SWEEP] INFO -   CO debtors: 4800/36041 processed, 2965 found
+2026-05-01 02:44:01,635 [MCA-SWEEP] INFO -   CO debtors: 5000/36041 processed, 3082 found
+2026-05-01 02:44:04,707 [MCA-SWEEP] INFO -   CO debtors: 5200/36041 processed, 3203 found
+2026-05-01 02:44:07,671 [MCA-SWEEP] INFO -   CO debtors: 5400/36041 processed, 3319 found
+2026-05-01 02:44:10,610 [MCA-SWEEP] INFO -   CO debtors: 5600/36041 processed, 3436 found
+2026-05-01 02:44:13,480 [MCA-SWEEP] INFO -   CO debtors: 5800/36041 processed, 3562 found
+2026-05-01 02:44:16,441 [MCA-SWEEP] INFO -   CO debtors: 6000/36041 processed, 3684 found
+2026-05-01 02:44:19,375 [MCA-SWEEP] INFO -   CO debtors: 6200/36041 processed, 3798 found
+2026-05-01 02:44:22,327 [MCA-SWEEP] INFO -   CO debtors: 6400/36041 processed, 3918 found
+2026-05-01 02:44:25,298 [MCA-SWEEP] INFO -   CO debtors: 6600/36041 processed, 4023 found
+2026-05-01 02:44:28,216 [MCA-SWEEP] INFO -   CO debtors: 6800/36041 processed, 4150 found
+2026-05-01 02:44:31,081 [MCA-SWEEP] INFO -   CO debtors: 7000/36041 processed, 4264 found
+2026-05-01 02:44:34,098 [MCA-SWEEP] INFO -   CO debtors: 7200/36041 processed, 4399 found
+2026-05-01 02:44:37,003 [MCA-SWEEP] INFO -   CO debtors: 7400/36041 processed, 4514 found
+2026-05-01 02:44:40,069 [MCA-SWEEP] INFO -   CO debtors: 7600/36041 processed, 4631 found
+2026-05-01 02:44:43,202 [MCA-SWEEP] INFO -   CO debtors: 7800/36041 processed, 4758 found
+2026-05-01 02:44:46,002 [MCA-SWEEP] INFO -   CO debtors: 8000/36041 processed, 4872 found
+2026-05-01 02:44:49,038 [MCA-SWEEP] INFO -   CO debtors: 8200/36041 processed, 4996 found
+2026-05-01 02:44:52,020 [MCA-SWEEP] INFO -   CO debtors: 8400/36041 processed, 5120 found
+2026-05-01 02:44:54,966 [MCA-SWEEP] INFO -   CO debtors: 8600/36041 processed, 5241 found
+2026-05-01 02:44:58,017 [MCA-SWEEP] INFO -   CO debtors: 8800/36041 processed, 5377 found
+2026-05-01 02:45:00,997 [MCA-SWEEP] INFO -   CO debtors: 9000/36041 processed, 5503 found
+2026-05-01 02:45:03,934 [MCA-SWEEP] INFO -   CO debtors: 9200/36041 processed, 5621 found
+2026-05-01 02:45:06,894 [MCA-SWEEP] INFO -   CO debtors: 9400/36041 processed, 5743 found
+2026-05-01 02:45:09,885 [MCA-SWEEP] INFO -   CO debtors: 9600/36041 processed, 5865 found
+2026-05-01 02:45:12,931 [MCA-SWEEP] INFO -   CO debtors: 9800/36041 processed, 5986 found
+2026-05-01 02:45:16,016 [MCA-SWEEP] INFO -   CO debtors: 10000/36041 processed, 6105 found
+2026-05-01 02:45:18,952 [MCA-SWEEP] INFO -   CO debtors: 10200/36041 processed, 6231 found
+2026-05-01 02:45:21,912 [MCA-SWEEP] INFO -   CO debtors: 10400/36041 processed, 6355 found
+2026-05-01 02:45:25,040 [MCA-SWEEP] INFO -   CO debtors: 10600/36041 processed, 6467 found
+2026-05-01 02:45:28,035 [MCA-SWEEP] INFO -   CO debtors: 10800/36041 processed, 6594 found
+2026-05-01 02:45:30,963 [MCA-SWEEP] INFO -   CO debtors: 11000/36041 processed, 6716 found
+2026-05-01 02:45:34,028 [MCA-SWEEP] INFO -   CO debtors: 11200/36041 processed, 6846 found
+2026-05-01 02:45:36,963 [MCA-SWEEP] INFO -   CO debtors: 11400/36041 processed, 6961 found
+2026-05-01 02:45:39,913 [MCA-SWEEP] INFO -   CO debtors: 11600/36041 processed, 7083 found
+2026-05-01 02:45:42,860 [MCA-SWEEP] INFO -   CO debtors: 11800/36041 processed, 7206 found
+2026-05-01 02:45:45,829 [MCA-SWEEP] INFO -   CO debtors: 12000/36041 processed, 7328 found
+2026-05-01 02:45:49,390 [MCA-SWEEP] INFO -   CO debtors: 12200/36041 processed, 7450 found
+2026-05-01 02:45:52,283 [MCA-SWEEP] INFO -   CO debtors: 12400/36041 processed, 7562 found
+2026-05-01 02:45:55,155 [MCA-SWEEP] INFO -   CO debtors: 12600/36041 processed, 7688 found
+2026-05-01 02:45:58,207 [MCA-SWEEP] INFO -   CO debtors: 12800/36041 processed, 7810 found
+2026-05-01 02:46:01,781 [MCA-SWEEP] INFO -   CO debtors: 13000/36041 processed, 7941 found
+2026-05-01 02:46:04,777 [MCA-SWEEP] INFO -   CO debtors: 13200/36041 processed, 8063 found
+2026-05-01 02:46:07,804 [MCA-SWEEP] INFO -   CO debtors: 13400/36041 processed, 8181 found
+2026-05-01 02:46:10,791 [MCA-SWEEP] INFO -   CO debtors: 13600/36041 processed, 8306 found
+2026-05-01 02:46:13,884 [MCA-SWEEP] INFO -   CO debtors: 13800/36041 processed, 8428 found
+2026-05-01 02:46:17,218 [MCA-SWEEP] INFO -   CO debtors: 14000/36041 processed, 8538 found
+2026-05-01 02:46:20,290 [MCA-SWEEP] INFO -   CO debtors: 14200/36041 processed, 8666 found
+2026-05-01 02:46:23,457 [MCA-SWEEP] INFO -   CO debtors: 14400/36041 processed, 8777 found
+2026-05-01 02:46:26,656 [MCA-SWEEP] INFO -   CO debtors: 14600/36041 processed, 8904 found
+2026-05-01 02:46:29,676 [MCA-SWEEP] INFO -   CO debtors: 14800/36041 processed, 9038 found
+2026-05-01 02:46:33,111 [MCA-SWEEP] INFO -   CO debtors: 15000/36041 processed, 9160 found
+2026-05-01 02:46:36,698 [MCA-SWEEP] INFO -   CO debtors: 15200/36041 processed, 9278 found
+2026-05-01 02:46:39,731 [MCA-SWEEP] INFO -   CO debtors: 15400/36041 processed, 9400 found
+2026-05-01 02:46:43,275 [MCA-SWEEP] INFO -   CO debtors: 15600/36041 processed, 9528 found
+2026-05-01 02:46:46,529 [MCA-SWEEP] INFO -   CO debtors: 15800/36041 processed, 9649 found
+2026-05-01 02:46:50,045 [MCA-SWEEP] INFO -   CO debtors: 16000/36041 processed, 9779 found
+2026-05-01 02:46:53,496 [MCA-SWEEP] INFO -   CO debtors: 16200/36041 processed, 9891 found
+2026-05-01 02:46:56,623 [MCA-SWEEP] INFO -   CO debtors: 16400/36041 processed, 10008 found
+2026-05-01 02:46:59,723 [MCA-SWEEP] INFO -   CO debtors: 16600/36041 processed, 10126 found
+2026-05-01 02:47:02,860 [MCA-SWEEP] INFO -   CO debtors: 16800/36041 processed, 10254 found
+2026-05-01 02:47:05,911 [MCA-SWEEP] INFO -   CO debtors: 17000/36041 processed, 10375 found
+2026-05-01 02:47:08,985 [MCA-SWEEP] INFO -   CO debtors: 17200/36041 processed, 10497 found
+2026-05-01 02:47:12,930 [MCA-SWEEP] INFO -   CO debtors: 17400/36041 processed, 10616 found
+2026-05-01 02:47:16,101 [MCA-SWEEP] INFO -   CO debtors: 17600/36041 processed, 10748 found
+2026-05-01 02:47:19,108 [MCA-SWEEP] INFO -   CO debtors: 17800/36041 processed, 10874 found
+2026-05-01 02:47:22,327 [MCA-SWEEP] INFO -   CO debtors: 18000/36041 processed, 10984 found
+2026-05-01 02:47:26,258 [MCA-SWEEP] INFO -   CO debtors: 18200/36041 processed, 11107 found
+2026-05-01 02:47:30,061 [MCA-SWEEP] INFO -   CO debtors: 18400/36041 processed, 11237 found
+2026-05-01 02:47:33,416 [MCA-SWEEP] INFO -   CO debtors: 18600/36041 processed, 11351 found
+2026-05-01 02:47:37,155 [MCA-SWEEP] INFO -   CO debtors: 18800/36041 processed, 11479 found
+2026-05-01 02:47:40,555 [MCA-SWEEP] INFO -   CO debtors: 19000/36041 processed, 11609 found
+2026-05-01 02:47:43,755 [MCA-SWEEP] INFO -   CO debtors: 19200/36041 processed, 11732 found
+2026-05-01 02:47:46,709 [MCA-SWEEP] INFO -   CO debtors: 19400/36041 processed, 11843 found
+2026-05-01 02:47:50,160 [MCA-SWEEP] INFO -   CO debtors: 19600/36041 processed, 11954 found
+2026-05-01 02:47:53,502 [MCA-SWEEP] INFO -   CO debtors: 19800/36041 processed, 12079 found
+2026-05-01 02:47:56,672 [MCA-SWEEP] INFO -   CO debtors: 20000/36041 processed, 12203 found
+2026-05-01 02:47:59,708 [MCA-SWEEP] INFO -   CO debtors: 20200/36041 processed, 12318 found
+2026-05-01 02:48:02,863 [MCA-SWEEP] INFO -   CO debtors: 20400/36041 processed, 12443 found
+2026-05-01 02:48:06,110 [MCA-SWEEP] INFO -   CO debtors: 20600/36041 processed, 12561 found
+2026-05-01 02:48:09,187 [MCA-SWEEP] INFO -   CO debtors: 20800/36041 processed, 12688 found
+2026-05-01 02:48:12,179 [MCA-SWEEP] INFO -   CO debtors: 21000/36041 processed, 12811 found
+2026-05-01 02:48:15,286 [MCA-SWEEP] INFO -   CO debtors: 21200/36041 processed, 12935 found
+2026-05-01 02:48:18,389 [MCA-SWEEP] INFO -   CO debtors: 21400/36041 processed, 13065 found
+2026-05-01 02:48:21,365 [MCA-SWEEP] INFO -   CO debtors: 21600/36041 processed, 13187 found
+2026-05-01 02:48:24,376 [MCA-SWEEP] INFO -   CO debtors: 21800/36041 processed, 13308 found
+2026-05-01 02:48:27,962 [MCA-SWEEP] INFO -   CO debtors: 22000/36041 processed, 13419 found
+2026-05-01 02:48:31,088 [MCA-SWEEP] INFO -   CO debtors: 22200/36041 processed, 13536 found
+2026-05-01 02:48:34,274 [MCA-SWEEP] INFO -   CO debtors: 22400/36041 processed, 13659 found
+2026-05-01 02:48:37,189 [MCA-SWEEP] INFO -   CO debtors: 22600/36041 processed, 13790 found
+2026-05-01 02:48:40,810 [MCA-SWEEP] INFO -   CO debtors: 22800/36041 processed, 13922 found
+2026-05-01 02:48:44,525 [MCA-SWEEP] INFO -   CO debtors: 23000/36041 processed, 14037 found
+2026-05-01 02:48:47,774 [MCA-SWEEP] INFO -   CO debtors: 23200/36041 processed, 14153 found
+2026-05-01 02:48:50,989 [MCA-SWEEP] INFO -   CO debtors: 23400/36041 processed, 14290 found
+2026-05-01 02:48:54,221 [MCA-SWEEP] INFO -   CO debtors: 23600/36041 processed, 14412 found
+2026-05-01 02:48:57,399 [MCA-SWEEP] INFO -   CO debtors: 23800/36041 processed, 14541 found
+2026-05-01 02:49:00,510 [MCA-SWEEP] INFO -   CO debtors: 24000/36041 processed, 14658 found
+2026-05-01 02:49:03,531 [MCA-SWEEP] INFO -   CO debtors: 24200/36041 processed, 14786 found
+2026-05-01 02:49:06,827 [MCA-SWEEP] INFO -   CO debtors: 24400/36041 processed, 14913 found
+2026-05-01 02:49:10,091 [MCA-SWEEP] INFO -   CO debtors: 24600/36041 processed, 15030 found
+2026-05-01 02:49:13,256 [MCA-SWEEP] INFO -   CO debtors: 24800/36041 processed, 15151 found
+2026-05-01 02:49:16,429 [MCA-SWEEP] INFO -   CO debtors: 25000/36041 processed, 15277 found
+2026-05-01 02:49:19,414 [MCA-SWEEP] INFO -   CO debtors: 25200/36041 processed, 15404 found
+2026-05-01 02:49:22,481 [MCA-SWEEP] INFO -   CO debtors: 25400/36041 processed, 15526 found
+2026-05-01 02:49:25,686 [MCA-SWEEP] INFO -   CO debtors: 25600/36041 processed, 15653 found
+2026-05-01 02:49:28,884 [MCA-SWEEP] INFO -   CO debtors: 25800/36041 processed, 15768 found
+2026-05-01 02:49:32,232 [MCA-SWEEP] INFO -   CO debtors: 26000/36041 processed, 15896 found
+2026-05-01 02:49:35,438 [MCA-SWEEP] INFO -   CO debtors: 26200/36041 processed, 15998 found
+2026-05-01 02:49:38,794 [MCA-SWEEP] INFO -   CO debtors: 26400/36041 processed, 16109 found
+2026-05-01 02:49:42,042 [MCA-SWEEP] INFO -   CO debtors: 26600/36041 processed, 16238 found
+2026-05-01 02:49:45,086 [MCA-SWEEP] INFO -   CO debtors: 26800/36041 processed, 16348 found
+2026-05-01 02:49:49,357 [MCA-SWEEP] INFO -   CO debtors: 27000/36041 processed, 16469 found
+2026-05-01 02:49:53,039 [MCA-SWEEP] INFO -   CO debtors: 27200/36041 processed, 16600 found
+2026-05-01 02:49:56,418 [MCA-SWEEP] INFO -   CO debtors: 27400/36041 processed, 16720 found
+2026-05-01 02:49:59,869 [MCA-SWEEP] INFO -   CO debtors: 27600/36041 processed, 16835 found
+2026-05-01 02:50:03,206 [MCA-SWEEP] INFO -   CO debtors: 27800/36041 processed, 16940 found
+2026-05-01 02:50:07,812 [MCA-SWEEP] INFO -   CO debtors: 28000/36041 processed, 17067 found
+2026-05-01 02:50:11,312 [MCA-SWEEP] INFO -   CO debtors: 28200/36041 processed, 17193 found
+2026-05-01 02:50:14,456 [MCA-SWEEP] INFO -   CO debtors: 28400/36041 processed, 17303 found
+2026-05-01 02:50:17,648 [MCA-SWEEP] INFO -   CO debtors: 28600/36041 processed, 17415 found
+2026-05-01 02:50:21,054 [MCA-SWEEP] INFO -   CO debtors: 28800/36041 processed, 17534 found
+2026-05-01 02:50:24,537 [MCA-SWEEP] INFO -   CO debtors: 29000/36041 processed, 17664 found
+2026-05-01 02:50:28,712 [MCA-SWEEP] INFO -   CO debtors: 29200/36041 processed, 17778 found
+2026-05-01 02:50:31,965 [MCA-SWEEP] INFO -   CO debtors: 29400/36041 processed, 17898 found
+2026-05-01 02:50:35,259 [MCA-SWEEP] INFO -   CO debtors: 29600/36041 processed, 18022 found
+2026-05-01 02:50:38,382 [MCA-SWEEP] INFO -   CO debtors: 29800/36041 processed, 18146 found
+2026-05-01 02:50:41,504 [MCA-SWEEP] INFO -   CO debtors: 30000/36041 processed, 18263 found
+2026-05-01 02:50:44,517 [MCA-SWEEP] INFO -   CO debtors: 30200/36041 processed, 18397 found
+2026-05-01 02:50:47,701 [MCA-SWEEP] INFO -   CO debtors: 30400/36041 processed, 18520 found
+2026-05-01 02:50:50,882 [MCA-SWEEP] INFO -   CO debtors: 30600/36041 processed, 18645 found
+2026-05-01 02:50:54,270 [MCA-SWEEP] INFO -   CO debtors: 30800/36041 processed, 18773 found
+2026-05-01 02:50:57,321 [MCA-SWEEP] INFO -   CO debtors: 31000/36041 processed, 18892 found
+2026-05-01 02:51:01,005 [MCA-SWEEP] INFO -   CO debtors: 31200/36041 processed, 19019 found
+2026-05-01 02:51:04,211 [MCA-SWEEP] INFO -   CO debtors: 31400/36041 processed, 19140 found
+2026-05-01 02:51:07,571 [MCA-SWEEP] INFO -   CO debtors: 31600/36041 processed, 19267 found
+2026-05-01 02:51:10,592 [MCA-SWEEP] INFO -   CO debtors: 31800/36041 processed, 19386 found
+2026-05-01 02:51:13,910 [MCA-SWEEP] INFO -   CO debtors: 32000/36041 processed, 19505 found
+2026-05-01 02:51:17,468 [MCA-SWEEP] INFO -   CO debtors: 32200/36041 processed, 19643 found
+2026-05-01 02:51:20,534 [MCA-SWEEP] INFO -   CO debtors: 32400/36041 processed, 19768 found
+2026-05-01 02:51:23,972 [MCA-SWEEP] INFO -   CO debtors: 32600/36041 processed, 19875 found
+2026-05-01 02:51:26,994 [MCA-SWEEP] INFO -   CO debtors: 32800/36041 processed, 20006 found
+2026-05-01 02:51:30,083 [MCA-SWEEP] INFO -   CO debtors: 33000/36041 processed, 20128 found
+2026-05-01 02:51:33,172 [MCA-SWEEP] INFO -   CO debtors: 33200/36041 processed, 20258 found
+2026-05-01 02:51:36,820 [MCA-SWEEP] INFO -   CO debtors: 33400/36041 processed, 20383 found
+2026-05-01 02:51:39,970 [MCA-SWEEP] INFO -   CO debtors: 33600/36041 processed, 20506 found
+2026-05-01 02:51:43,104 [MCA-SWEEP] INFO -   CO debtors: 33800/36041 processed, 20629 found
+2026-05-01 02:51:46,184 [MCA-SWEEP] INFO -   CO debtors: 34000/36041 processed, 20763 found
+2026-05-01 02:51:49,371 [MCA-SWEEP] INFO -   CO debtors: 34200/36041 processed, 20883 found
+2026-05-01 02:51:52,795 [MCA-SWEEP] INFO -   CO debtors: 34400/36041 processed, 21016 found
+2026-05-01 02:51:56,067 [MCA-SWEEP] INFO -   CO debtors: 34600/36041 processed, 21135 found
+2026-05-01 02:51:59,263 [MCA-SWEEP] INFO -   CO debtors: 34800/36041 processed, 21257 found
+2026-05-01 02:52:02,444 [MCA-SWEEP] INFO -   CO debtors: 35000/36041 processed, 21372 found
+2026-05-01 02:52:05,569 [MCA-SWEEP] INFO -   CO debtors: 35200/36041 processed, 21492 found
+2026-05-01 02:52:08,968 [MCA-SWEEP] INFO -   CO debtors: 35400/36041 processed, 21616 found
+2026-05-01 02:52:12,378 [MCA-SWEEP] INFO -   CO debtors: 35600/36041 processed, 21724 found
+2026-05-01 02:52:15,573 [MCA-SWEEP] INFO -   CO debtors: 35800/36041 processed, 21846 found
+2026-05-01 02:52:18,724 [MCA-SWEEP] INFO -   CO debtors: 36000/36041 processed, 21971 found
+2026-05-01 02:52:20,161 [MCA-SWEEP] INFO -   CO filings: 0/36041 processed
+2026-05-01 02:52:24,870 [MCA-SWEEP] INFO -   CO filings: 200/36041 processed
+2026-05-01 02:52:28,808 [MCA-SWEEP] INFO -   CO filings: 400/36041 processed
+2026-05-01 02:52:33,361 [MCA-SWEEP] INFO -   CO filings: 600/36041 processed
+2026-05-01 02:52:37,670 [MCA-SWEEP] INFO -   CO filings: 800/36041 processed
+2026-05-01 02:52:41,600 [MCA-SWEEP] INFO -   CO filings: 1000/36041 processed
+2026-05-01 02:52:45,316 [MCA-SWEEP] INFO -   CO filings: 1200/36041 processed
+2026-05-01 02:52:49,068 [MCA-SWEEP] INFO -   CO filings: 1400/36041 processed
+2026-05-01 02:52:53,030 [MCA-SWEEP] INFO -   CO filings: 1600/36041 processed
+2026-05-01 02:52:56,701 [MCA-SWEEP] INFO -   CO filings: 1800/36041 processed
+2026-05-01 02:53:00,684 [MCA-SWEEP] INFO -   CO filings: 2000/36041 processed
+2026-05-01 02:53:04,647 [MCA-SWEEP] INFO -   CO filings: 2200/36041 processed
+2026-05-01 02:53:08,620 [MCA-SWEEP] INFO -   CO filings: 2400/36041 processed
+2026-05-01 02:53:12,699 [MCA-SWEEP] INFO -   CO filings: 2600/36041 processed
+2026-05-01 02:53:16,970 [MCA-SWEEP] INFO -   CO filings: 2800/36041 processed
+2026-05-01 02:53:20,780 [MCA-SWEEP] INFO -   CO filings: 3000/36041 processed
+2026-05-01 02:53:24,713 [MCA-SWEEP] INFO -   CO filings: 3200/36041 processed
+2026-05-01 02:53:28,448 [MCA-SWEEP] INFO -   CO filings: 3400/36041 processed
+2026-05-01 02:53:31,903 [MCA-SWEEP] INFO -   CO filings: 3600/36041 processed
+2026-05-01 02:53:35,174 [MCA-SWEEP] INFO -   CO filings: 3800/36041 processed
+2026-05-01 02:53:38,590 [MCA-SWEEP] INFO -   CO filings: 4000/36041 processed
+2026-05-01 02:53:42,181 [MCA-SWEEP] INFO -   CO filings: 4200/36041 processed
+2026-05-01 02:53:46,020 [MCA-SWEEP] INFO -   CO filings: 4400/36041 processed
+2026-05-01 02:53:49,768 [MCA-SWEEP] INFO -   CO filings: 4600/36041 processed
+2026-05-01 02:53:53,274 [MCA-SWEEP] INFO -   CO filings: 4800/36041 processed
+2026-05-01 02:53:56,550 [MCA-SWEEP] INFO -   CO filings: 5000/36041 processed
+2026-05-01 02:54:00,268 [MCA-SWEEP] INFO -   CO filings: 5200/36041 processed
+2026-05-01 02:54:03,986 [MCA-SWEEP] INFO -   CO filings: 5400/36041 processed
+2026-05-01 02:54:07,588 [MCA-SWEEP] INFO -   CO filings: 5600/36041 processed
+2026-05-01 02:54:11,340 [MCA-SWEEP] INFO -   CO filings: 5800/36041 processed
+2026-05-01 02:54:14,849 [MCA-SWEEP] INFO -   CO filings: 6000/36041 processed
+2026-05-01 02:54:18,397 [MCA-SWEEP] INFO -   CO filings: 6200/36041 processed
+2026-05-01 02:54:21,808 [MCA-SWEEP] INFO -   CO filings: 6400/36041 processed
+2026-05-01 02:54:25,703 [MCA-SWEEP] INFO -   CO filings: 6600/36041 processed
+2026-05-01 02:54:29,339 [MCA-SWEEP] INFO -   CO filings: 6800/36041 processed
+2026-05-01 02:54:33,484 [MCA-SWEEP] INFO -   CO filings: 7000/36041 processed
+2026-05-01 02:54:37,581 [MCA-SWEEP] INFO -   CO filings: 7200/36041 processed
+2026-05-01 02:54:41,157 [MCA-SWEEP] INFO -   CO filings: 7400/36041 processed
+2026-05-01 02:54:45,056 [MCA-SWEEP] INFO -   CO filings: 7600/36041 processed
+2026-05-01 02:54:49,561 [MCA-SWEEP] INFO -   CO filings: 7800/36041 processed
+2026-05-01 02:54:53,069 [MCA-SWEEP] INFO -   CO filings: 8000/36041 processed
+2026-05-01 02:54:56,487 [MCA-SWEEP] INFO -   CO filings: 8200/36041 processed
+2026-05-01 02:55:00,672 [MCA-SWEEP] INFO -   CO filings: 8400/36041 processed
+2026-05-01 02:55:04,569 [MCA-SWEEP] INFO -   CO filings: 8600/36041 processed
+2026-05-01 02:55:08,663 [MCA-SWEEP] INFO -   CO filings: 8800/36041 processed
+2026-05-01 02:55:12,970 [MCA-SWEEP] INFO -   CO filings: 9000/36041 processed
+2026-05-01 02:55:17,131 [MCA-SWEEP] INFO -   CO filings: 9200/36041 processed
+2026-05-01 02:55:21,510 [MCA-SWEEP] INFO -   CO filings: 9400/36041 processed
+2026-05-01 02:55:25,299 [MCA-SWEEP] INFO -   CO filings: 9600/36041 processed
+2026-05-01 02:55:29,612 [MCA-SWEEP] INFO -   CO filings: 9800/36041 processed
+2026-05-01 02:55:33,080 [MCA-SWEEP] INFO -   CO filings: 10000/36041 processed
+2026-05-01 02:55:36,587 [MCA-SWEEP] INFO -   CO filings: 10200/36041 processed
+2026-05-01 02:55:40,550 [MCA-SWEEP] INFO -   CO filings: 10400/36041 processed
+2026-05-01 02:55:44,317 [MCA-SWEEP] INFO -   CO filings: 10600/36041 processed
+2026-05-01 02:55:48,955 [MCA-SWEEP] INFO -   CO filings: 10800/36041 processed
+2026-05-01 02:55:52,640 [MCA-SWEEP] INFO -   CO filings: 11000/36041 processed
+2026-05-01 02:55:56,079 [MCA-SWEEP] INFO -   CO filings: 11200/36041 processed
+2026-05-01 02:55:59,526 [MCA-SWEEP] INFO -   CO filings: 11400/36041 processed
+2026-05-01 02:56:03,411 [MCA-SWEEP] INFO -   CO filings: 11600/36041 processed
+2026-05-01 02:56:07,150 [MCA-SWEEP] INFO -   CO filings: 11800/36041 processed
+2026-05-01 02:56:11,145 [MCA-SWEEP] INFO -   CO filings: 12000/36041 processed
+2026-05-01 02:56:15,026 [MCA-SWEEP] INFO -   CO filings: 12200/36041 processed
+2026-05-01 02:56:19,032 [MCA-SWEEP] INFO -   CO filings: 12400/36041 processed
+2026-05-01 02:56:23,069 [MCA-SWEEP] INFO -   CO filings: 12600/36041 processed
+2026-05-01 02:56:27,328 [MCA-SWEEP] INFO -   CO filings: 12800/36041 processed
+2026-05-01 02:56:30,597 [MCA-SWEEP] INFO -   CO filings: 13000/36041 processed
+2026-05-01 02:56:34,209 [MCA-SWEEP] INFO -   CO filings: 13200/36041 processed
+2026-05-01 02:56:37,906 [MCA-SWEEP] INFO -   CO filings: 13400/36041 processed
+2026-05-01 02:56:41,068 [MCA-SWEEP] INFO -   CO filings: 13600/36041 processed
+2026-05-01 02:56:45,224 [MCA-SWEEP] INFO -   CO filings: 13800/36041 processed
+2026-05-01 02:56:49,095 [MCA-SWEEP] INFO -   CO filings: 14000/36041 processed
+2026-05-01 02:56:52,240 [MCA-SWEEP] INFO -   CO filings: 14200/36041 processed
+2026-05-01 02:56:55,814 [MCA-SWEEP] INFO -   CO filings: 14400/36041 processed
+2026-05-01 02:56:59,222 [MCA-SWEEP] INFO -   CO filings: 14600/36041 processed
+2026-05-01 02:57:02,589 [MCA-SWEEP] INFO -   CO filings: 14800/36041 processed
+2026-05-01 02:57:06,034 [MCA-SWEEP] INFO -   CO filings: 15000/36041 processed
+2026-05-01 02:57:09,973 [MCA-SWEEP] INFO -   CO filings: 15200/36041 processed
+2026-05-01 02:57:13,638 [MCA-SWEEP] INFO -   CO filings: 15400/36041 processed
+2026-05-01 02:57:17,658 [MCA-SWEEP] INFO -   CO filings: 15600/36041 processed
+2026-05-01 02:57:20,970 [MCA-SWEEP] INFO -   CO filings: 15800/36041 processed
+2026-05-01 02:57:25,047 [MCA-SWEEP] INFO -   CO filings: 16000/36041 processed
+2026-05-01 02:57:28,769 [MCA-SWEEP] INFO -   CO filings: 16200/36041 processed
+2026-05-01 02:57:32,092 [MCA-SWEEP] INFO -   CO filings: 16400/36041 processed
+2026-05-01 02:57:35,319 [MCA-SWEEP] INFO -   CO filings: 16600/36041 processed
+2026-05-01 02:57:39,014 [MCA-SWEEP] INFO -   CO filings: 16800/36041 processed
+2026-05-01 02:57:42,571 [MCA-SWEEP] INFO -   CO filings: 17000/36041 processed
+2026-05-01 02:57:46,099 [MCA-SWEEP] INFO -   CO filings: 17200/36041 processed
+2026-05-01 02:57:50,196 [MCA-SWEEP] INFO -   CO filings: 17400/36041 processed
+2026-05-01 02:57:54,014 [MCA-SWEEP] INFO -   CO filings: 17600/36041 processed
+2026-05-01 02:57:58,049 [MCA-SWEEP] INFO -   CO filings: 17800/36041 processed
+2026-05-01 02:58:02,176 [MCA-SWEEP] INFO -   CO filings: 18000/36041 processed
+2026-05-01 02:58:06,272 [MCA-SWEEP] INFO -   CO filings: 18200/36041 processed
+2026-05-01 02:58:10,164 [MCA-SWEEP] INFO -   CO filings: 18400/36041 processed
+2026-05-01 02:58:14,306 [MCA-SWEEP] INFO -   CO filings: 18600/36041 processed
+2026-05-01 02:58:17,877 [MCA-SWEEP] INFO -   CO filings: 18800/36041 processed
+2026-05-01 02:58:21,760 [MCA-SWEEP] INFO -   CO filings: 19000/36041 processed
+2026-05-01 02:58:25,933 [MCA-SWEEP] INFO -   CO filings: 19200/36041 processed
+2026-05-01 02:58:30,017 [MCA-SWEEP] INFO -   CO filings: 19400/36041 processed
+2026-05-01 02:58:34,638 [MCA-SWEEP] INFO -   CO filings: 19600/36041 processed
+2026-05-01 02:58:38,763 [MCA-SWEEP] INFO -   CO filings: 19800/36041 processed
+2026-05-01 02:58:43,414 [MCA-SWEEP] INFO -   CO filings: 20000/36041 processed
+2026-05-01 02:58:47,745 [MCA-SWEEP] INFO -   CO filings: 20200/36041 processed
+2026-05-01 02:58:52,455 [MCA-SWEEP] INFO -   CO filings: 20400/36041 processed
+2026-05-01 02:58:57,166 [MCA-SWEEP] INFO -   CO filings: 20600/36041 processed
+2026-05-01 02:59:01,263 [MCA-SWEEP] INFO -   CO filings: 20800/36041 processed
+2026-05-01 02:59:05,255 [MCA-SWEEP] INFO -   CO filings: 21000/36041 processed
+2026-05-01 02:59:09,410 [MCA-SWEEP] INFO -   CO filings: 21200/36041 processed
+2026-05-01 02:59:13,605 [MCA-SWEEP] INFO -   CO filings: 21400/36041 processed
+2026-05-01 02:59:17,416 [MCA-SWEEP] INFO -   CO filings: 21600/36041 processed
+2026-05-01 02:59:21,435 [MCA-SWEEP] INFO -   CO filings: 21800/36041 processed
+2026-05-01 02:59:25,438 [MCA-SWEEP] INFO -   CO filings: 22000/36041 processed
+2026-05-01 02:59:29,708 [MCA-SWEEP] INFO -   CO filings: 22200/36041 processed
+2026-05-01 02:59:33,690 [MCA-SWEEP] INFO -   CO filings: 22400/36041 processed
+2026-05-01 02:59:37,509 [MCA-SWEEP] INFO -   CO filings: 22600/36041 processed
+2026-05-01 02:59:41,224 [MCA-SWEEP] INFO -   CO filings: 22800/36041 processed
+2026-05-01 02:59:44,773 [MCA-SWEEP] INFO -   CO filings: 23000/36041 processed
+2026-05-01 02:59:47,892 [MCA-SWEEP] INFO -   CO filings: 23200/36041 processed
+2026-05-01 02:59:51,185 [MCA-SWEEP] INFO -   CO filings: 23400/36041 processed
+2026-05-01 02:59:55,328 [MCA-SWEEP] INFO -   CO filings: 23600/36041 processed
+2026-05-01 02:59:59,265 [MCA-SWEEP] INFO -   CO filings: 23800/36041 processed
+2026-05-01 03:00:03,699 [MCA-SWEEP] INFO -   CO filings: 24000/36041 processed
+2026-05-01 03:00:08,334 [MCA-SWEEP] INFO -   CO filings: 24200/36041 processed
+2026-05-01 03:00:13,020 [MCA-SWEEP] INFO -   CO filings: 24400/36041 processed
+2026-05-01 03:00:17,268 [MCA-SWEEP] INFO -   CO filings: 24600/36041 processed
+2026-05-01 03:00:21,235 [MCA-SWEEP] INFO -   CO filings: 24800/36041 processed
+2026-05-01 03:00:25,126 [MCA-SWEEP] INFO -   CO filings: 25000/36041 processed
+2026-05-01 03:00:28,843 [MCA-SWEEP] INFO -   CO filings: 25200/36041 processed
+2026-05-01 03:00:32,807 [MCA-SWEEP] INFO -   CO filings: 25400/36041 processed
+2026-05-01 03:00:36,335 [MCA-SWEEP] INFO -   CO filings: 25600/36041 processed
+2026-05-01 03:00:40,180 [MCA-SWEEP] INFO -   CO filings: 25800/36041 processed
+2026-05-01 03:00:44,111 [MCA-SWEEP] INFO -   CO filings: 26000/36041 processed
+2026-05-01 03:00:48,287 [MCA-SWEEP] INFO -   CO filings: 26200/36041 processed
+2026-05-01 03:00:52,776 [MCA-SWEEP] INFO -   CO filings: 26400/36041 processed
+2026-05-01 03:00:56,427 [MCA-SWEEP] INFO -   CO filings: 26600/36041 processed
+2026-05-01 03:01:00,559 [MCA-SWEEP] INFO -   CO filings: 26800/36041 processed
+2026-05-01 03:01:05,374 [MCA-SWEEP] INFO -   CO filings: 27000/36041 processed
+2026-05-01 03:01:09,057 [MCA-SWEEP] INFO -   CO filings: 27200/36041 processed
+2026-05-01 03:01:13,126 [MCA-SWEEP] INFO -   CO filings: 27400/36041 processed
+2026-05-01 03:01:16,971 [MCA-SWEEP] INFO -   CO filings: 27600/36041 processed
+2026-05-01 03:01:20,426 [MCA-SWEEP] INFO -   CO filings: 27800/36041 processed
+2026-05-01 03:01:24,671 [MCA-SWEEP] INFO -   CO filings: 28000/36041 processed
+2026-05-01 03:01:28,577 [MCA-SWEEP] INFO -   CO filings: 28200/36041 processed
+2026-05-01 03:01:32,371 [MCA-SWEEP] INFO -   CO filings: 28400/36041 processed
+2026-05-01 03:01:36,500 [MCA-SWEEP] INFO -   CO filings: 28600/36041 processed
+2026-05-01 03:01:40,089 [MCA-SWEEP] INFO -   CO filings: 28800/36041 processed
+2026-05-01 03:01:43,669 [MCA-SWEEP] INFO -   CO filings: 29000/36041 processed
+2026-05-01 03:01:47,354 [MCA-SWEEP] INFO -   CO filings: 29200/36041 processed
+2026-05-01 03:01:51,451 [MCA-SWEEP] INFO -   CO filings: 29400/36041 processed
+2026-05-01 03:01:55,856 [MCA-SWEEP] INFO -   CO filings: 29600/36041 processed
+2026-05-01 03:02:00,361 [MCA-SWEEP] INFO -   CO filings: 29800/36041 processed
+2026-05-01 03:02:04,454 [MCA-SWEEP] INFO -   CO filings: 30000/36041 processed
+2026-05-01 03:02:08,350 [MCA-SWEEP] INFO -   CO filings: 30200/36041 processed
+2026-05-01 03:02:12,137 [MCA-SWEEP] INFO -   CO filings: 30400/36041 processed
+2026-05-01 03:02:15,725 [MCA-SWEEP] INFO -   CO filings: 30600/36041 processed
+2026-05-01 03:02:19,814 [MCA-SWEEP] INFO -   CO filings: 30800/36041 processed
+2026-05-01 03:02:24,013 [MCA-SWEEP] INFO -   CO filings: 31000/36041 processed
+2026-05-01 03:02:28,110 [MCA-SWEEP] INFO -   CO filings: 31200/36041 processed
+2026-05-01 03:02:32,821 [MCA-SWEEP] INFO -   CO filings: 31400/36041 processed
+2026-05-01 03:02:36,929 [MCA-SWEEP] INFO -   CO filings: 31600/36041 processed
+2026-05-01 03:02:40,896 [MCA-SWEEP] INFO -   CO filings: 31800/36041 processed
+2026-05-01 03:02:44,697 [MCA-SWEEP] INFO -   CO filings: 32000/36041 processed
+2026-05-01 03:02:48,272 [MCA-SWEEP] INFO -   CO filings: 32200/36041 processed
+2026-05-01 03:02:52,175 [MCA-SWEEP] INFO -   CO filings: 32400/36041 processed
+2026-05-01 03:02:56,682 [MCA-SWEEP] INFO -   CO filings: 32600/36041 processed
+2026-05-01 03:03:00,370 [MCA-SWEEP] INFO -   CO filings: 32800/36041 processed
+2026-05-01 03:03:04,667 [MCA-SWEEP] INFO -   CO filings: 33000/36041 processed
+2026-05-01 03:03:08,559 [MCA-SWEEP] INFO -   CO filings: 33200/36041 processed
+2026-05-01 03:03:12,215 [MCA-SWEEP] INFO -   CO filings: 33400/36041 processed
+2026-05-01 03:03:16,645 [MCA-SWEEP] INFO -   CO filings: 33600/36041 processed
+2026-05-01 03:03:20,641 [MCA-SWEEP] INFO -   CO filings: 33800/36041 processed
+2026-05-01 03:03:24,119 [MCA-SWEEP] INFO -   CO filings: 34000/36041 processed
+2026-05-01 03:03:27,905 [MCA-SWEEP] INFO -   CO filings: 34200/36041 processed
+2026-05-01 03:03:32,214 [MCA-SWEEP] INFO -   CO filings: 34400/36041 processed
+2026-05-01 03:03:36,103 [MCA-SWEEP] INFO -   CO filings: 34600/36041 processed
+2026-05-01 03:03:40,199 [MCA-SWEEP] INFO -   CO filings: 34800/36041 processed
+2026-05-01 03:03:43,570 [MCA-SWEEP] INFO -   CO filings: 35000/36041 processed
+2026-05-01 03:03:47,383 [MCA-SWEEP] INFO -   CO filings: 35200/36041 processed
+2026-05-01 03:03:50,849 [MCA-SWEEP] INFO -   CO filings: 35400/36041 processed
+2026-05-01 03:03:54,774 [MCA-SWEEP] INFO -   CO filings: 35600/36041 processed
+2026-05-01 03:03:59,135 [MCA-SWEEP] INFO -   CO filings: 35800/36041 processed
+2026-05-01 03:04:02,424 [MCA-SWEEP] INFO -   CO filings: 36000/36041 processed
+2026-05-01 03:07:47,562 [MCA-SWEEP] INFO - CO SWEEP: 21971 MCA filings found, 7 new
+╔═══════════════════════════════════════════════════════════╗
+║  TOMCAT MCA — FULL DATABASE SWEEP                         ║
+║  Pulling ALL MCA lender UCC filings from CT + CO           ║
+╚═══════════════════════════════════════════════════════════╝
+
+  CT: 14079 filings found, 1092 new
+
+  CO: 21971 filings found, 7 new
+
+============================================================
+  FULL SWEEP COMPLETE
+============================================================
+  Total in MCA DB  : 25848
+  Hot leads        : 1935
+
+  BY STATE:
+    Colorado            : 18242
+    Connecticut         : 7606
+
+  TOP LENDERS:
+      860  FUNDING METRICS, LLC
+      729  LEAF Capital Funding, LLC
+      549  The LCF Group, Inc.
+      497  CFG MERCHANT SOLUTIONS LLC
+      473  NEWTEK BANK, NATIONAL ASSOCIATION
+      471  Forward Financing LLC
+      468  STAR CAPITAL GROUP, L.P.
+      465  LEAF Capital Funding, LLC and/or Its Assigns
+      330  First Data Merchant Services, LLC
+      317  LEAF CAPITAL FUNDING, LLC
+      273  NU-KO CAPITAL LLC
+      271  Star Capital Group, L.P.
+      270  LEAF CAPITAL FUNDING, LLC AND/OR ITS ASSIGNS
+      267  Commercial Credit Group Inc. on behalf of itself and on behalf of all Affiliates of CCI
+      264  Eastern Funding LLC
+      228  RETAIL CAPITAL LLC DBA CREDIBLY
+      226  EASTERN FUNDING LLC
+      226  CIT SMALL BUSINESS LENDING CORPORATION
+      219  THE LCF GROUP, INC.
+      187  CREDIBLY OF ARIZONA LLC

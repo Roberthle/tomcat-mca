@@ -1,0 +1,317 @@
+2026-05-01 02:19:08,626 [MCA-Signal] INFO - ============================================================
+2026-05-01 02:19:08,626 [MCA-Signal] INFO -   MCA Signal Engine v2 — 100 leads | hot_only=True
+2026-05-01 02:19:08,626 [MCA-Signal] INFO -   Sources: Google News RSS + Indeed + BBB + Yelp
+2026-05-01 02:19:08,626 [MCA-Signal] INFO - ============================================================
+2026-05-01 02:19:08,626 [MCA-Signal] INFO - [1/100] PHOENIX PRODUCTS COMPANY | TERRYVILLE, CT | -74d | stack=1
+2026-05-01 02:19:12,479 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:19:20,873 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:19:24,603 [MCA-Signal] INFO - [2/100] LANDMARK INTERIORS OF NEW YORK | MILFORD, CT | -74d | stack=1
+2026-05-01 02:19:28,528 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:19:36,416 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:19:40,250 [MCA-Signal] INFO - [3/100] 257-259 CAROLINE STREET, LLC | SCARSDALE, NY | -74d | stack=1
+2026-05-01 02:19:44,555 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:19:52,523 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:19:56,102 [MCA-Signal] INFO - [4/100] CJ INTERIOR DRYWALL, LLC | EAST HAVEN, CT | -74d | stack=1
+2026-05-01 02:20:00,196 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:20:08,059 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:20:10,700 [MCA-Signal] INFO - [5/100] DISABILITY MANAGEMENT SERVICES, INC. | SPRINGFIELD, MA | -73d | stack=1
+2026-05-01 02:20:15,580 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:20:23,289 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:20:27,136 [MCA-Signal] INFO - [6/100] AVALANCHE LANDSCAPING LLC | NEW HAVEN, CT | -73d | stack=1
+2026-05-01 02:20:32,553 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:20:41,127 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:20:44,298 [MCA-Signal] INFO - [7/100] SMEDLEY AERIAL LIFTS, LLC | BRANFORD, CT | -73d | stack=1
+2026-05-01 02:20:48,483 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:20:56,724 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:21:00,618 [MCA-Signal] INFO - [8/100] TDH TRANSPORT LLC | NEW BRITAIN, CT | -73d | stack=1
+2026-05-01 02:21:05,330 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:21:13,045 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:21:16,455 [MCA-Signal] INFO - [9/100] Alpine C.M., Inc. | Grand Junction, CO | -73d | stack=1
+2026-05-01 02:21:21,182 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:21:28,834 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:21:32,328 [MCA-Signal] INFO - [10/100] GRANDVIEW INVESTMENTS LLC | DENVER, CO | -73d | stack=1
+2026-05-01 02:21:36,573 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:21:44,091 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:21:46,908 [MCA-Signal] INFO - [11/100] Affordable Services 24/7, LLC | Ft. Lupton, CO | -73d | stack=1
+2026-05-01 02:21:52,079 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:21:59,560 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:22:03,308 [MCA-Signal] INFO - [12/100] SPECTRUM MANCHESTER REALTY, LLC | MANCHESTER, CT | -72d | stack=1
+2026-05-01 02:22:08,326 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:22:15,615 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:22:18,405 [MCA-Signal] INFO - [13/100] SPECTRUM MANCHESTER REALTY, LLC | MANCHESTER, CT | -72d | stack=1
+2026-05-01 02:22:22,230 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:22:29,573 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:22:32,162 [MCA-Signal] INFO - [14/100] SPECTRUM MANCHESTER REALTY, LLC | MANCHESTER, CT | -72d | stack=1
+2026-05-01 02:22:36,148 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:22:43,474 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:22:46,530 [MCA-Signal] INFO - [15/100] SPECTRUM MANCHESTER REALTY, LLC | MANCHESTER, CT | -72d | stack=1
+2026-05-01 02:22:50,151 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:22:56,955 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:23:00,345 [MCA-Signal] INFO - [16/100] MICHAELS MAINTENANCE SERVICE | SHELTON, CT | -72d | stack=1
+2026-05-01 02:23:05,841 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:23:13,783 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:23:17,769 [MCA-Signal] INFO - [17/100] SPECTRUM MANCHESTER REALTY, LLC | MANCHESTER, CT | -72d | stack=1
+2026-05-01 02:23:21,684 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:23:28,708 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:23:31,373 [MCA-Signal] INFO - [18/100] EQUIPMENT RENTAL SOURCE, LLC | Castle Rock, CO | -72d | stack=1
+2026-05-01 02:23:36,468 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:23:45,718 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:23:48,752 [MCA-Signal] INFO - [19/100] TPS TRANSPORT LLC | GREELEY, CO | -72d | stack=1
+2026-05-01 02:23:53,421 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:24:01,878 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:24:05,290 [MCA-Signal] INFO - [20/100] DTR Trucking Inc | Wiggins, CO | -72d | stack=1
+2026-05-01 02:24:08,774 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:24:15,876 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:24:19,373 [MCA-Signal] INFO - [21/100] 296 CRS, LLC | WESTPORT, CT | -71d | stack=1
+2026-05-01 02:24:24,187 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:24:32,591 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:24:35,836 [MCA-Signal] INFO - [22/100] BELL CITY DINER LLC | BRISTOL, CT | -71d | stack=1
+2026-05-01 02:24:40,327 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:24:48,237 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:24:51,950 [MCA-Signal] INFO - [23/100] LICKWAR ELECTRIC, LLC | TERRYVILLE, CT | -71d | stack=1
+2026-05-01 02:24:56,433 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:25:05,618 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:25:08,335 [MCA-Signal] INFO - [24/100] PUNCH BOWL, LLC | Denver, CO | -71d | stack=1
+2026-05-01 02:25:13,210 [MCA-Signal] INFO -   ✅ 📰 Business Expansion: Peregrine Hospitality hires CFO with background at Punch Bowl Social, 
+2026-05-01 02:25:23,698 [MCA-Signal] INFO - [25/100] ZUKIC TRUCKING INC | SOUTH HOUSTON, CT | -70d | stack=1
+2026-05-01 02:25:28,287 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:25:36,446 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:25:39,994 [MCA-Signal] INFO - [26/100] TOWN OF WINDSOR | WINDSOR, CT | -68d | stack=1
+2026-05-01 02:25:45,092 [MCA-Signal] INFO -   ✅ 📰 Business Expansion: Windsor Museums to host grand opening of Eaton House - Greeley Tribune
+2026-05-01 02:25:51,699 [MCA-Signal] INFO -   ✅ ⚖ Court Judgment / Lawsuit: Town of Windsor: The PI Who Served Me, Hired Me, and Sued th
+2026-05-01 02:25:56,639 [MCA-Signal] INFO - [27/100] RESTAURANT CONSULTANTS, INC. | OLD LYME, CT | -68d | stack=1
+2026-05-01 02:26:01,135 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:26:08,781 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:26:11,576 [MCA-Signal] INFO - [28/100] ALL COUNTY APPRAISALS OF CONNECTICUT, LLC | BRIDGEPORT, CT | -68d | stack=1
+2026-05-01 02:26:39,334 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:27:05,180 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:27:08,865 [MCA-Signal] INFO - [29/100] SODERQUIST PLUMBING & HEATING | SANDY HOOK, CT | -68d | stack=1
+2026-05-01 02:27:33,868 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:27:59,464 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:28:02,556 [MCA-Signal] INFO - [30/100] MANMADE MEDIA LLC | Aurora, CO | -68d | stack=1
+2026-05-01 02:28:26,817 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:28:59,186 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:29:02,174 [MCA-Signal] INFO - [31/100] PRECISE MECHANICAL & ENGINEERING LLC | PARKER, CO | -68d | stack=1
+2026-05-01 02:29:27,629 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:29:53,206 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:29:56,301 [MCA-Signal] INFO - [32/100] KEY HEDGE FUND DELEGATION SPC | STAMFORD, CT | -67d | stack=1
+2026-05-01 02:30:22,699 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:30:51,510 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:30:55,013 [MCA-Signal] INFO - [33/100] KEY HEDGE FUND DELEGATION SPC ACTING ON BEHALF OF AND FOR THE ACCOUNT OF ALTERNATIVE INVESTMENTS SEG | STAMFORD, CT | -67d | stack=1
+2026-05-01 02:31:19,515 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:31:48,852 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:31:51,481 [MCA-Signal] INFO - [34/100] ALTERNATIVE INVESTMENTS SEGREGATED PORTFOLIO | STAMFORD, CT | -67d | stack=1
+2026-05-01 02:32:16,456 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:32:43,675 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:32:46,661 [MCA-Signal] INFO - [35/100] 47-49 ORANGE ST LLC | HARTFORD, CT | -67d | stack=1
+2026-05-01 02:33:08,966 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:33:42,773 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:33:45,719 [MCA-Signal] INFO - [36/100] WEST HAVEN CITY SCHOOL DISTRICT | WEST HAVEN, CT | -67d | stack=1
+2026-05-01 02:34:15,089 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:34:49,377 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:34:52,311 [MCA-Signal] INFO - [37/100] JONESY'S TRUCKING, LLC | COMMERCE CITY, CO | -67d | stack=1
+2026-05-01 02:35:17,137 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:35:46,174 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:35:49,858 [MCA-Signal] INFO - [38/100] Wanna-Bee Trucking | Wellington, CO | -67d | stack=1
+2026-05-01 02:36:14,698 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:36:48,046 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:36:51,639 [MCA-Signal] INFO - [39/100] FIRST TRANSPORTS LLC | AURORA, CO | -67d | stack=1
+2026-05-01 02:37:18,069 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:37:47,203 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:37:50,958 [MCA-Signal] INFO - [40/100] NOIR Towing & Recovery LLC | DENVER, CO | -67d | stack=1
+2026-05-01 02:38:14,862 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:38:40,787 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:38:43,822 [MCA-Signal] INFO - [41/100] YALE UNIVERSITY | NEW HAVEN, CT | -66d | stack=1
+2026-05-01 02:39:10,644 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:39:42,537 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:39:45,255 [MCA-Signal] INFO - [42/100] YALE SCHOOL OF MEDICINE | NEW HAVEN, CT | -66d | stack=1
+2026-05-01 02:40:11,312 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:40:43,073 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:40:46,070 [MCA-Signal] INFO - [43/100] BESSTIES LLC | WESTPORT, CT | -66d | stack=1
+2026-05-01 02:41:15,316 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:41:42,999 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:41:46,828 [MCA-Signal] INFO - [44/100] YALE SCHOOL OF MEDICINE | NEW HAVEN, CT | -66d | stack=1
+2026-05-01 02:42:13,107 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:42:44,919 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:42:47,902 [MCA-Signal] INFO - [45/100] YALE UNIVERSITY | NEW HAVEN, CT | -66d | stack=1
+2026-05-01 02:43:12,208 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:43:44,142 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:43:47,242 [MCA-Signal] INFO - [46/100] WIESE CONSTRUCTION, INC. | NORWICH, CT | -66d | stack=1
+2026-05-01 02:44:11,215 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:44:40,792 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:44:43,680 [MCA-Signal] INFO - [47/100] colorado construction specialists llc | Denver, CO | -66d | stack=1
+2026-05-01 02:45:09,687 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:45:40,456 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:45:44,249 [MCA-Signal] INFO - [48/100] Corcoran Appraisal Service LLC | Wilmington, CO | -66d | stack=1
+2026-05-01 02:46:09,346 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:46:39,334 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:46:42,076 [MCA-Signal] INFO - [49/100] ADVANCED CENTER FOR NURSING & REHABILITATION LLC | NEW HAVEN, CT | -65d | stack=1
+2026-05-01 02:47:06,642 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:47:35,946 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:47:38,809 [MCA-Signal] INFO - [50/100] MALETIN INC. | LOS ALTO, CA | -65d | stack=1
+2026-05-01 02:48:09,599 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:48:40,815 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:48:44,155 [MCA-Signal] INFO - [51/100] BIONICPRO BOX TRUCKING L.L.C. | STAMFORD, CT | -64d | stack=1
+2026-05-01 02:49:11,288 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:49:43,730 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:49:46,676 [MCA-Signal] INFO - [52/100] Continental Freight Services, Inc | Aurora, CO | -64d | stack=1
+2026-05-01 02:50:10,135 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:50:41,472 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:50:45,237 [MCA-Signal] INFO - [53/100] HAVEN DEFENSE GEAR, LLC | Glenwood Springs, CO | -64d | stack=1
+2026-05-01 02:51:10,567 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:51:43,347 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:51:47,032 [MCA-Signal] INFO - [54/100] GILFORD APPRAISALS | DENVER, CO | -64d | stack=1
+2026-05-01 02:52:11,448 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:52:38,364 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:52:41,553 [MCA-Signal] INFO - [55/100] ROYAL MASALA LLC | HARTFORD, CT | -62d | stack=1
+2026-05-01 02:53:08,210 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:53:43,318 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:53:46,010 [MCA-Signal] INFO - [56/100] OM SHANTI LLC | HARTFORD, CT | -62d | stack=1
+2026-05-01 02:54:10,711 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:54:40,759 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:54:44,148 [MCA-Signal] INFO - [57/100] SALVA CONSTRUCTION LLC | MERIDEN, CT | -61d | stack=1
+2026-05-01 02:55:13,509 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:55:43,963 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:55:46,845 [MCA-Signal] INFO - [58/100] PHILLIPSCOR LLC | SOUTH WINDSOR, CT | -61d | stack=1
+2026-05-01 02:56:15,705 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:56:49,151 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:56:52,937 [MCA-Signal] INFO - [59/100] BCRA LLC | BROOKLYN, NY | -61d | stack=1
+2026-05-01 02:57:16,721 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:57:45,712 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:57:48,396 [MCA-Signal] INFO - [60/100] CARPENTER LANDSCAPING & LAWN SERVICE, LLC | ESSEX, CT | -61d | stack=1
+2026-05-01 02:58:11,193 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:58:41,106 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:58:45,039 [MCA-Signal] INFO - [61/100] CARPENTER LANDSCAPING & LAWN SERVICE, LLC | ESSEX, CT | -61d | stack=1
+2026-05-01 02:59:09,603 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 02:59:40,610 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 02:59:43,773 [MCA-Signal] INFO - [62/100] PHJ Heritage Trust DTD | Colorado Springs, CO | -61d | stack=1
+2026-05-01 03:00:07,802 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:00:39,662 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:00:42,765 [MCA-Signal] INFO - [63/100] TAUROS PACKAGING DELIVERY SERVICE LLC | AURORA, CO | -61d | stack=1
+2026-05-01 03:01:03,112 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:01:36,782 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:01:40,678 [MCA-Signal] INFO - [64/100] Clean Solution Holdings LLC | DENVER, CO | -61d | stack=1
+2026-05-01 03:02:09,661 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:02:42,307 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:02:45,972 [MCA-Signal] INFO - [65/100] Monarch Construction and Roofing, LLC | Denver, CO | -61d | stack=1
+2026-05-01 03:03:09,644 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:03:38,387 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:03:41,950 [MCA-Signal] INFO - [66/100] Hill Botanicals LLC | DENVER, CO | -61d | stack=1
+2026-05-01 03:04:06,316 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:04:36,496 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:04:40,151 [MCA-Signal] INFO - [67/100] XDB Systems, Inc. | Pine, CO | -61d | stack=1
+2026-05-01 03:05:05,643 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:05:37,439 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:05:40,501 [MCA-Signal] INFO - [68/100] Western Mechanical Plumbing and Heating Systems, Inc. | Guffey, CO | -61d | stack=1
+2026-05-01 03:06:04,438 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:06:35,424 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:06:38,058 [MCA-Signal] INFO - [69/100] AUNT CHELDA'S CARIBBEAN QUEEN | WATERBURY, CT | -60d | stack=1
+2026-05-01 03:07:07,955 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:07:34,969 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:07:38,126 [MCA-Signal] INFO - [70/100] AUNT CHELDA'S CARIBBEAN QUEEN LLC | WATERBURY, CT | -60d | stack=1
+2026-05-01 03:08:07,415 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:08:39,707 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:08:42,966 [MCA-Signal] INFO - [71/100] MTS CAR SERVICE LLC | NORWALK, CT | -60d | stack=1
+2026-05-01 03:09:07,827 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:09:38,815 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:09:42,149 [MCA-Signal] INFO - [72/100] Argoth Enterprises LLC | Fort Morgan, CO | -60d | stack=1
+2026-05-01 03:10:06,141 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:10:38,119 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:10:41,179 [MCA-Signal] INFO - [73/100] Hany and Associates LLC | Denver, CO | -60d | stack=1
+2026-05-01 03:11:08,885 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:11:36,416 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:11:40,019 [MCA-Signal] INFO - [74/100] J.F.D GENERAL MASON, LLC | DANBURY, CT | -59d | stack=1
+2026-05-01 03:12:08,614 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:12:38,614 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:12:42,377 [MCA-Signal] INFO - [75/100] RODCLIFFE WINT, D.D.S. | ROCKY HILL, CT | -59d | stack=1
+2026-05-01 03:13:11,489 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:13:41,634 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:13:45,502 [MCA-Signal] INFO - [76/100] Colorado service partners | KIOWA, CO | -59d | stack=1
+2026-05-01 03:14:16,183 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:14:46,861 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:14:50,061 [MCA-Signal] INFO - [77/100] CRESPO HAULING INCORPORATED | LONGMONT, CO | -59d | stack=1
+2026-05-01 03:15:14,690 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:15:46,090 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:15:49,917 [MCA-Signal] INFO - [78/100] Valley Wood Care, LLC | Gunnison, CO | -59d | stack=1
+2026-05-01 03:16:15,792 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:16:44,300 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:16:47,538 [MCA-Signal] INFO - [79/100] Crowley County Builders, LLC | Colorado Springs, CO | -59d | stack=1
+2026-05-01 03:17:10,650 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:17:40,960 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:17:44,041 [MCA-Signal] INFO - [80/100] RAJ ENTERPRISES, LLC. | WEST HAVEN, CT | -58d | stack=1
+2026-05-01 03:18:12,185 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:18:41,884 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:18:44,418 [MCA-Signal] INFO - [81/100] SUDHA SPIRIT, LLC | BRANFORD, CT | -58d | stack=1
+2026-05-01 03:19:09,352 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:19:38,045 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:19:41,497 [MCA-Signal] INFO - [82/100] VHR DEVELOPMENT, LLC | FARMINGTON, CT | -58d | stack=1
+2026-05-01 03:20:08,906 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:20:36,163 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:20:39,664 [MCA-Signal] INFO - [83/100] DESIGN X MANUFACTURING, INC. | OLD SAYBROOK, CT | -58d | stack=1
+2026-05-01 03:21:06,550 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:21:36,938 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:21:40,798 [MCA-Signal] INFO - [84/100] Hilton Garden Inn Denver South | Englewood, CO | -58d | stack=1
+2026-05-01 03:22:09,336 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:22:41,898 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:22:45,541 [MCA-Signal] INFO - [85/100] GOTTFRIED & SOMBERG WEALTH MANAGEMENT, LLC | GLASTONBURY, CT | -57d | stack=1
+2026-05-01 03:23:13,024 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:23:43,993 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:23:47,265 [MCA-Signal] INFO - [86/100] HARTFORD 149 BARBOUR LLC | COLUMBIA, IN | -57d | stack=1
+2026-05-01 03:24:14,161 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:24:41,999 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:24:45,435 [MCA-Signal] INFO - [87/100] MICASA HOLDINGS LLC | EASTON, CT | -57d | stack=1
+2026-05-01 03:25:15,898 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:25:49,171 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:25:52,875 [MCA-Signal] INFO - [88/100] Apex Integrated Businesses LLC | Lakewood, CO | -57d | stack=1
+2026-05-01 03:26:14,098 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:26:44,835 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:26:48,783 [MCA-Signal] INFO - [89/100] Apex Emergency Group, Inc. | Canton, OH | -57d | stack=1
+2026-05-01 03:27:11,993 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:27:37,674 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:27:41,054 [MCA-Signal] INFO - [90/100] FUTURUM COMMUNICATIONS CORPORATION | Denver, CO | -57d | stack=1
+2026-05-01 03:28:09,353 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:28:39,133 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:28:42,616 [MCA-Signal] INFO - [91/100] PRP COS I, LLLP | Boulder, CO | -57d | stack=1
+2026-05-01 03:29:10,508 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:29:41,861 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:29:44,521 [MCA-Signal] INFO - [92/100] ATD Resources, LLC | Lakewood, CO | -57d | stack=1
+2026-05-01 03:30:15,370 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:30:41,871 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:30:45,607 [MCA-Signal] INFO - [93/100] OCG, INC | DENVER, CO | -57d | stack=1
+2026-05-01 03:31:11,167 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:31:39,983 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:31:42,961 [MCA-Signal] INFO - [94/100] CTMA TRUCKING LLC | NEW BRITAN, CT | -56d | stack=1
+2026-05-01 03:32:08,113 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:32:37,493 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:32:41,397 [MCA-Signal] INFO - [95/100] IDOCTOR LLC | AVON, CT | -55d | stack=1
+2026-05-01 03:33:04,227 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:33:33,123 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:33:36,440 [MCA-Signal] INFO - [96/100] TORRINGTON 4 WHEEL & OFF ROAD | TORRINGTON, CT | -54d | stack=1
+2026-05-01 03:34:03,955 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:34:33,360 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:34:36,512 [MCA-Signal] INFO - [97/100] PIERIBONI BUILDING AND REMODELING LLC | TORRINGTON, CT | -54d | stack=1
+2026-05-01 03:35:06,566 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:35:36,957 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:35:40,376 [MCA-Signal] INFO - [98/100] ESFitness, LLC | Ridgway, CO | -54d | stack=1
+2026-05-01 03:36:06,879 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:36:35,969 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:36:39,939 [MCA-Signal] INFO - [99/100] Crystal Clear Vision, LLC | Denver, CO | -54d | stack=1
+2026-05-01 03:37:05,886 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:37:38,712 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:37:41,540 [MCA-Signal] INFO - [100/100] Evergreen Home Healthcare, LLC | Atlanta, GA | -54d | stack=1
+2026-05-01 03:38:05,460 [MCA-Signal] INFO -   ⚪ No expansion news
+2026-05-01 03:38:36,735 [MCA-Signal] INFO -   ⚪ S1 — UCC confirmed only (no additional signals)
+2026-05-01 03:38:40,097 [MCA-Signal] INFO - 
+============================================================
+2026-05-01 03:38:40,097 [MCA-Signal] INFO -   MCA Signal Engine v2 — Complete
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   Run processed  : 100
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   Total scanned  : 150
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   ─── Signals found this run ───
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   📰 Expansion   : 2
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   👷 Hiring      : 0
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   ⚠  Tax Lien   : 0
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   ⚖  Judgment   : 1
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   🚨 Distress   : 0
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   📞 Phones      : 0
+2026-05-01 03:38:40,098 [MCA-Signal] INFO -   ❌ Errors      : 0
+2026-05-01 03:38:40,098 [MCA-Signal] INFO - ============================================================

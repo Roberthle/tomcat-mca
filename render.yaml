@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tomcat-mca-api
+    env: python
+    buildCommand: pip install -r portal/requirements.txt
+    startCommand: cd portal && gunicorn app:app --workers 2 --bind 0.0.0.0:$PORT
+    envVars:
+      - key: STRIPE_SECRET_KEY
+        sync: false
