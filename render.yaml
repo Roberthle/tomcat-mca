@@ -6,5 +6,7 @@ services:
     buildCommand: pip install -r portal/requirements.txt
     startCommand: cd portal && gunicorn app:app --workers 2 --bind 0.0.0.0:$PORT
     envVars:
+      - key: PYTHON_VERSION
+        value: "3.10.12"
       - key: STRIPE_SECRET_KEY
         sync: false
