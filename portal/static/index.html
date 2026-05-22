@@ -716,7 +716,7 @@ const filterBtnConfig = {
     defaultBg: 'var(--surface)', defaultBorder: 'rgba(167,139,250,.3)', defaultColor: '#a78bfa'},
 };
 
-function toggleSignalFilter(type) {
+async function toggleSignalFilter(type) {
   // Deactivate all
   Object.entries(filterBtnConfig).forEach(([key, cfg]) => {
     const btn = document.getElementById(cfg.id);
