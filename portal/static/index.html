@@ -43,10 +43,10 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --bg:#1a1d24;--surface:rgba(30,35,48,.9);--surface2:rgba(38,44,60,.92);--border:rgba(255,255,255,.09);
+  --bg:#0a0c10;--surface:rgba(18,22,33,.72);--surface2:rgba(26,32,48,.85);--border:rgba(255,255,255,.08);
   --accent:#d4a017;--accent2:#f5c542;--gold:#d4a017;--gold2:#f5c542;
   --hot:#f87171;--warm:#fbbf24;--cold:#34d399;
-  --text:#f0f4ff;--muted:#8892a4;--card:#1a2236;
+  --text:#f0f4ff;--muted:#8892a4;--card:rgba(26,34,54,.65);
   --shadow-sm:0 2px 8px rgba(0,0,0,.3);
   --shadow-md:0 8px 32px rgba(0,0,0,.4),0 2px 8px rgba(0,0,0,.2);
   --shadow-lg:0 20px 60px rgba(0,0,0,.5),0 4px 16px rgba(0,0,0,.3);
@@ -54,12 +54,137 @@
   --glow-hot:0 0 20px rgba(248,113,113,.3);
   --glow-gold:0 0 30px rgba(212,160,23,.2);
 }
-body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;
-  background-image:
-    radial-gradient(ellipse 80% 50% at 20% -10%,rgba(212,160,23,.07) 0%,transparent 60%),
-    radial-gradient(ellipse 60% 40% at 80% 10%,rgba(248,113,113,.05) 0%,transparent 50%),
-    radial-gradient(ellipse 50% 60% at 50% 100%,rgba(52,211,153,.04) 0%,transparent 60%);
-  background-attachment:fixed}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;position:relative;overflow-x:hidden}
+
+/* ── SpaceX Careers Style Hero Section ── */
+.sx-hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.sx-hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('hero.png');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  animation: hero-drift 40s ease-in-out infinite alternate;
+  transform-origin: center;
+  z-index: -2;
+}
+
+@keyframes hero-drift {
+  from { transform: scale(1.0) translateX(0); }
+  to   { transform: scale(1.05) translateX(-1%); }
+}
+
+.sx-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.3) 0%,
+    rgba(0,0,0,0.15) 30%,
+    rgba(0,0,0,0.5) 65%,
+    rgba(10,14,24,0.85) 85%,
+    rgba(10,14,24,1) 100%
+  );
+  z-index: -1;
+}
+
+.sx-hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 48px 72px;
+  max-width: 820px;
+  text-align: left;
+}
+
+.sx-hero-eyebrow {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.sx-hero-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: 24px;
+  font-family: 'Space Grotesk', sans-serif;
+  background: linear-gradient(135deg, #fff 30%, #f87171 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 12px rgba(255,255,255,0.1));
+}
+
+.sx-hero-sub {
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.sx-scroll-indicator {
+  position: absolute;
+  bottom: 32px;
+  right: 48px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  animation: scroll-bob 2s ease-in-out infinite;
+  cursor: pointer;
+  user-select: none;
+}
+
+@keyframes scroll-bob {
+  0%, 100% { transform: translateY(0); opacity: 0.5; }
+  50%       { transform: translateY(6px); opacity: 1; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.15; }
+}
+
+#data-section {
+  position: relative;
+  background: #0a0c10;
+  z-index: 10;
+}
+
+header{background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;
+  border-bottom:1px solid transparent;padding:0 48px;height:72px;display:flex;align-items:center;
+  justify-content:space-between;position:fixed;top:0;left:0;right:0;z-index:1000;
+  transition: background 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease, padding 0.4s ease;
+}
+header.scrolled {
+  background:rgba(10,14,24,.92);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+  box-shadow:0 1px 0 rgba(248,113,113,.1),0 4px 32px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.04);
+}
+
 .stats-grid{perspective:1200px}
 #login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;
   background:radial-gradient(ellipse at 50% 0%,#1e2a4a 0%,#13171f 70%)}
@@ -82,10 +207,10 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .btn-primary:hover{opacity:.9;transform:translateY(-1px)}
 .err{color:var(--hot);font-size:13px;margin-top:12px;text-align:center}
 #app{display:flex;flex-direction:column;min-height:100vh}
-header{background:linear-gradient(180deg,rgba(10,14,24,.97),rgba(13,17,27,.92));backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
-  border-bottom:1px solid transparent;padding:0 32px;height:72px;display:flex;align-items:center;
+header{background:linear-gradient(180deg,rgba(10,14,24,.75),rgba(13,17,27,.65));backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(255,255,255,.05);padding:0 32px;height:72px;display:flex;align-items:center;
   justify-content:space-between;position:sticky;top:0;z-index:100;
-  box-shadow:0 1px 0 rgba(212,160,23,.2),0 4px 32px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.04)}
+  box-shadow:0 1px 0 rgba(212,160,23,.1),0 4px 32px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.04)}
 .header-logo{display:flex;align-items:center;gap:14px}
 .header-logo .brand-mark{font-size:26px;font-weight:900;letter-spacing:6px;font-family:'Space Grotesk',sans-serif;
   background:linear-gradient(135deg,#ffe566 0%,#d4a017 40%,#ff9500 80%,#ffe566 100%);
@@ -327,19 +452,43 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
 <!-- PORTAL APP — No login required -->
 <div id="app">
   <h1 class="seo-heading" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">MCA Leads & Merchant Cash Advance Leads Broker Portal</h1>
-  <header>
+  
+  <header id="main-nav">
     <div class="header-logo">
       <div>
         <div class="brand-mark">TOMCAT MCA</div>
         <div class="brand-sub">MCA Revenue Engine</div>
       </div>
     </div>
-    <div class="header-right">
-      <div class="broker-badge" id="broker-label">Merchant Cash Advance Intelligence</div>
+    <div class="header-right" style="display:flex; align-items:center; gap:16px;">
+      <span class="sx-nav-tag" id="nav-timestamp" style="font-family:monospace; font-size:11px; color:var(--muted); letter-spacing:0.1em;">—</span>
+      <div class="sx-live-indicator" style="display:inline-flex; align-items:center; gap:6px; font-size:11px; color:var(--muted); margin-left:14px;">
+        <span style="width:6px; height:6px; border-radius:50%; background:#f87171; display:inline-block; animation: blink 2.4s ease-in-out infinite;"></span>
+        <span>Live Data</span>
+      </div>
     </div>
   </header>
 
-  <main>
+  <section class="sx-hero" id="hero">
+    <div class="sx-hero-bg"></div>
+    <div class="sx-hero-overlay"></div>
+    <div class="sx-hero-content">
+      <span class="sx-hero-eyebrow">UCC Debt Consolidation Intelligence &mdash; Distress Capital Leads</span>
+      <h1 class="sx-hero-title">Tomcat MCA<br />Distress Cash Flow Portal</h1>
+      <p class="sx-hero-sub">
+        The premier merchant cash advance database for high-intent <strong>mca leads</strong> and <strong>merchant cash advance leads</strong>. We track maturing UCC blanket liens, multi-funder stacked borrowers, IRS tax liens, and consolidation distress signals in real-time, scoring and unmasking premium B2B capital leads daily.
+      </p>
+    </div>
+    <div class="sx-scroll-indicator" onclick="document.getElementById('data-section').scrollIntoView({behavior:'smooth'})">
+      <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+        <polyline points="2,4 7,10 12,4"/>
+      </svg>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <div id="data-section">
+    <main>
     <div class="stats-grid" id="stats-grid">
       <!-- Row 1: Money cards -->
       <div class="stat-card" style="border-color:rgba(212,160,23,.5);background:linear-gradient(135deg,rgba(212,160,23,.12),rgba(212,160,23,.03));box-shadow:var(--shadow-gold);grid-column:span 2">
@@ -589,6 +738,7 @@ tr.selected td{background:rgba(212,160,23,.06)!important}
 
     <div class="pagination" id="pagination"></div>
   </main>
+  </div><!-- /#data-section -->
 </div>
 
 <!-- LEAD DETAIL PANEL -->
@@ -2135,6 +2285,27 @@ async function unlockLeadUI(leadId) {
   loadExpiryChart();
   loadHeatmap();
   loadDealOfDay();
+  
+  // Scrolled navbar transition
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('main-nav');
+    if (window.scrollY > 50) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  });
+
+  // Simple live timestamp display
+  const ts = document.getElementById('nav-timestamp');
+  if (ts) {
+    const updateTime = () => {
+      const d = new Date();
+      ts.textContent = d.toLocaleTimeString() + ' | ' + d.toLocaleDateString();
+    };
+    updateTime();
+    setInterval(updateTime, 1000);
+  }
 })();
 </script>
 </body>
