@@ -1993,6 +1993,7 @@ def mca_create_checkout(lead_id):
         return jsonify({'error': 'Lead already purchased'}), 409
     tier_key, tier = get_mca_lead_tier(lead)
     company = lead.get('company_name', 'Unknown Company')
+    masked_company = _mask_name(company)
     funder  = (lead.get('secured_party') or 'MCA Lender')[:40]
     host    = request.host_url.rstrip('/')
     try:
@@ -2003,13 +2004,13 @@ def mca_create_checkout(lead_id):
                 'unit_amount': tier['price'],
                 'product_data': {
                     'name': f'Tomcat MCA — {tier["label"]} Lead',
-                    'description': f'{company} | {funder} | {tier["desc"]} | Exclusive',
+                    'description': f'{masked_company} | {funder} | {tier["desc"]} | Exclusive',
                 },
             }, 'quantity': 1}],
             mode='payment',
             success_url=f'{host}/purchase-success?session_id={{CHECKOUT_SESSION_ID}}&lead_id={lead_id}',
             cancel_url=f'{host}/',
-            metadata={'lead_id': lead_id, 'tier': tier_key, 'company': company}
+            metadata={'lead_id': lead_id, 'tier': tier_key, 'company': masked_company}
         )
         conn.execute(
             "INSERT INTO lead_purchases (lead_id, tier, price_cents, stripe_session_id, status) VALUES (?, ?, ?, ?, 'pending')",
