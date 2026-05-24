@@ -14,4 +14,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: /sitemap.xml
+Sitemap: https://tomcatmca.com/sitemap.xml
