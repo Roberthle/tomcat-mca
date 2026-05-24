@@ -2158,7 +2158,8 @@ def serve(path):
     return send_from_directory(app.static_folder, 'index.html')
 
 
+init_db()
+init_mca_purchase_tables()
+
 if __name__ == '__main__':
-    init_db()
-    init_mca_purchase_tables()
     app.run(host='0.0.0.0', port=5051, debug=True)
